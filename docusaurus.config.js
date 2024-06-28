@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Monni',
   tagline: 'Monni, perhaps the only pet you need. Keeps you cozy and parasite free.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://monni-docs-f7dj.onrender.com/',
@@ -64,12 +64,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social_card_image.png',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'My Site',
+        title: 'Monni docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Monni logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -101,17 +106,18 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.com/invite/kEKuDRE3Jv',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/MonniDiscordBot/',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UCOJ8K79MuBVpPjsBeHPts2g',
               },
             ],
           },
@@ -128,9 +134,31 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy policy',
+                href: 'https://monni.fyi/privacy',
+              },
+              {
+                label: 'Terms of use',
+                href: 'https://monni.fyi/terms-of-service',
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+
+        copyright: `Copyright © ${new Date().getFullYear()} Monni. Built with Docusaurus.`,
       },
+     announcementBar: {
+       id: 'migrating',
+     content:
+     'We are migrating our docs, you can visit the old docs at <a target="_blank" rel="noopener noreferrer" href="https://docs.monni.fyi/">docs.monni.fyi</a>',
+     backgroundColor: '#fafbfc',
+     textColor: '#091E42',
+     isCloseable: true,
+     },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
