@@ -26,12 +26,12 @@
   --ifm-color-primary-light: #ffa01a;
   --ifm-color-primary-lighter: #ffa526;
   --ifm-color-primary-lightest: #ffb54d;
-  --ifm-background-color: #08090D !important;
-  --ifm-background-surface-color: #0c0d13 !important;
+  --ifm-background-color: #191e21 !important;
+  --ifm-background-surface-color: #212529 !important;
 
 }
 
 .footer--dark {
-    --ifm-footer-background-color: #131620 !important;
+    --ifm-footer-background-color: #212529 !important;
 
 }
