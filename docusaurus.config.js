@@ -150,7 +150,7 @@ const config = {
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} Monni. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Monni.`,
       },
      announcementBar: {
        id: 'migrating',
