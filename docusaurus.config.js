@@ -78,14 +78,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {to: '/commands', label: 'Commands', position: 'left'},
+          {to: '/modules', label: 'Modules', position: 'left'},
+          {to: '/guides', label: 'Guides', position: 'left'},
           {to: '/simpukka', label: 'Simpukka', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/developer', label: 'Developer', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/ElusiveMonni/monni_docs',
             label: 'GitHub',
@@ -96,15 +94,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
