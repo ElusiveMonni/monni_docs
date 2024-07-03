@@ -1,0 +1,12 @@
+{
+  "label": "Modules",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "modules",
+    "slug": "/modules",
+    "description": "Check out all the possible monni modules"
+  }
+}

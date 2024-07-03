@@ -78,8 +78,8 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {to: '/commands', label: 'Commands', position: 'left'},
           {to: '/modules', label: 'Modules', position: 'left'},
+          {to: '/commands', label: 'Commands', position: 'left'},
           {to: '/guides', label: 'Guides', position: 'left'},
           {to: '/simpukka', label: 'Simpukka', position: 'left'},
           {to: '/developer', label: 'Developer', position: 'left'},

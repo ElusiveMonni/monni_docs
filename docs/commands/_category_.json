@@ -1,0 +1,12 @@
+{
+  "label": "Commands",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "commands",
+    "slug": "/commands",
+    "description": "Check out all the possible monni commands"
+  }
+}

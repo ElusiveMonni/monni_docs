@@ -1,0 +1,12 @@
+{
+  "label": "Slash commands",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "slash",
+    "slug": "/slash",
+    "description": "Check out all the possible monni slash commands"
+  }
+}
