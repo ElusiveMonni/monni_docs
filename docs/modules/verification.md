@@ -48,9 +48,9 @@ If you would like to have a channel that members would use to verify, you might 
 :::note
 This is a well built Embed which you can send to a channel that people can verify through. This can be simpler than using a command for some members.
 :::
-***
+
 :::info
-**Need help verifying? Check out our easy to follow verification guide here:** (**OLD LINK - [Setting up verification](https://docs.monni.fyi/tutorials/setting-up-verification)**)
+**Need help verifying? Check out our easy to follow verification guide here:** (**[Setting up verification](https://monni-docs-f7dj.onrender.com/guides/setting-up-verification)**)
 :::
 ***
 
