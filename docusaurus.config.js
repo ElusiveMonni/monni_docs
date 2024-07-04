@@ -66,6 +66,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/social_card_image.png',
+      metadata: [{name: "theme-color", content: "#e48404"}, {property: "og:site_name", content: "Monni"}],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
