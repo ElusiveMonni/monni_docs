@@ -53,6 +53,7 @@ const sidebars = {
         },
         items: [
           'commands/slash/test',
+          'commands/slash/point-module-commands',
 
         ],
       },

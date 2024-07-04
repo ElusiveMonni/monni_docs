@@ -1,5 +1,6 @@
 ---
 slug: /commands/slash
+sidebar_position: 1
 ---
 
 
