@@ -66,7 +66,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/social_card_image.png',
-      metadata: [{name: "theme-color": content: "#e48404"}, {property: "og:site_name", content: "Monni"}]
+      metadata: [{name: "theme-color", content: "#e48404"}, {property: "og:site_name", content: "Monni"}],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -156,6 +156,13 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    plugins: [
+      [
+        "@gracefullight/docusaurus-plugin-microsoft-clarity",
+        { projectId: "n20v3lv79z" },
+      ],
+    ],
+
 };
 
 export default config;
