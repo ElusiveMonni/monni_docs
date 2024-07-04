@@ -1,0 +1,34 @@
+---
+title: Building Your Logging System!
+sidebar_position: 3
+---
+##### Build your Logging System so those pesky rule breakers can't escape.
+***
+### Logging
+***
+With Logging, you can store things like **Deleted Messages** and **Role Changes** in channels you choose. There is tons of loggable events you can enable so you can make sure nothing gets passed your eyes!
+
+**Video:** [https://youtu.be/DPayadIep6c](https://youtu.be/DPayadIep6c)
+***
+### Where do I find Logging?
+---
+You can find the Logging Panel at the dashboard, at **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**  
+It can be found in the **sidebar on the left** under **modules**.
+
+(PLACEHOLDER FOR IMAGE (refer to old doc))
+***
+### How to use Logging
+---
+
+You’ll find it easy to get used to our simple Logging interface.
+
+1. **First notice panels on the right.** These are groups of similar events. You can check the boxes in the panel to enable or disable the group’s events!
+
+2. **Now you need to select where you want those events to be logged.** Just click on the drop down button above the event checkboxes. All your server’s channels are there, choose one!
+
+3. **Want to reset everything?** Press that clear button!
+
+***
+
+Old Doc - 
+https://docs.monni.fyi/tutorials/logging_tutorial
