@@ -156,13 +156,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-    plugins: [
-      [
-        "@gracefullight/docusaurus-plugin-microsoft-clarity",
-        { projectId: "n20v3lv79z" },
-      ],
-    ],
-
 };
 
 export default config;
