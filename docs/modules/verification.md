@@ -54,6 +54,3 @@ This is a well built Embed which you can send to a channel that people can verif
 :::
 ***
 
-
-Old Page -
-https://docs.monni.fyi/en/modules/verification

@@ -8,14 +8,14 @@ sidebar_position: 3
 ***
 With Logging, you can store things like **Deleted Messages** and **Role Changes** in channels you choose. There is tons of loggable events you can enable so you can make sure nothing gets passed your eyes!
 
-**Video:** [https://youtu.be/DPayadIep6c](https://youtu.be/DPayadIep6c)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPayadIep6c?si=elyRGJZ7my5qqRfc&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ***
 ### Where do I find Logging?
 ---
 You can find the Logging Panel at the dashboard, at **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**  
 It can be found in the **sidebar on the left** under **modules**.
 
-(PLACEHOLDER FOR IMAGE (refer to old doc))
+![building-your-logging-system-guide](guide-assets/building-your-logging-system-guide.png)
 ***
 ### How to use Logging
 ---
@@ -29,6 +29,3 @@ You’ll find it easy to get used to our simple Logging interface.
 3. **Want to reset everything?** Press that clear button!
 
 ***
-
-Old Doc - 
-https://docs.monni.fyi/tutorials/logging_tutorial

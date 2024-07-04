@@ -9,7 +9,7 @@ The Logging Module allows you to keep track of all server related events such as
 It boasts over 50+ events that can be logged and configured!
 :::
 :::note
-Looking for help setting up some logging? See our Tutorial with full details: OLD DOC REPLACE **[Building Your Logging System!](https://monni-docs-f7dj.onrender.com/guides/building-your-logging-system)**.
+Looking for help setting up some logging? See our Tutorial with full details: **[Building Your Logging System!](https://monni-docs-f7dj.onrender.com/guides/building-your-logging-system)**.
 :::
 ***
 ### Advanced Mode
@@ -44,6 +44,3 @@ You can read more about Templates, [**HERE**](https://monni-docs-f7dj.onrender.c
 There are currently no ready made templates available. However you can create your own by using our custom template engine.
 :::
 ***
-
-Old Doc -
-https://docs.monni.fyi/en/modules/logging
