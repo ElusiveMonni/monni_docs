@@ -49,7 +49,7 @@ See the list below for a description on each tool:
 1. **Spam and Repeat Spam**
 - The Spam tool allows you to punish members for spamming messages.
 - When you want to use this tool you have to decide when you want to punish the member.
-2. Link Spam
+2. **Link Spam**
 - The Link Spam tool allows you to punish members for spamming links.
 - **WHITELIST MODE**  
 All links will be detected by default. Any links you add to the list will be exempt from detection.
@@ -68,10 +68,10 @@ To set the strictness of the spam filter:
 Actions are what you want Monni to do to when a member triggers a filter or spam tool.
 
 Currently available actions are:
-- Verbal Warn - Sends a condemnation message
-- Warn - Warns the member
-- Mute - Mutes the member
-- Timeout - Times the member out
-- Kick - Kicks the member
-- Ban - Bans the member
-- Log - Logs the event
+- **Verbal Warn** - Sends a condemnation message
+- **Warn** - Warns the member
+- **Mute** - Mutes the member
+- **Timeout** - Times the member out
+- **Kick** - Kicks the member
+- **Ban** - Bans the member
+- **Log** - Logs the event

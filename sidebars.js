@@ -31,6 +31,7 @@ const sidebars = {
       "modules/roles",
       "modules/automod",
       "modules/moderation",
+      "modules/anti-bot",
 
 
     ],
