@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 This step by step guide will allow you to quickly set up secure and efficient verification for your discord server.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m6QLpJv8UhQ?si=J9pCrFpffAFJvRJw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6QLpJv8UhQ?si=GYgSU2xD9SCVi13m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ***
 
 ### Setting up Discord-Roblox verification
