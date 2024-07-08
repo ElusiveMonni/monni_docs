@@ -2,6 +2,7 @@
 sidebar_position: 6
 title: Auto Mod
 ---
+###### Module for anti-spam and filtering
 ***
 The Auto Mod Module is designed to automatically protect your server.  
 It contains Anti-Spam tools as well as a customizable chat filter.

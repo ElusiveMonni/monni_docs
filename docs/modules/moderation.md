@@ -2,6 +2,7 @@
 sidebar_position: 7
 title: Moderation
 ---
+###### Module for simple punishments for rulebreakers
 ***
 The Moderation Module is a module designed to keep members from breaking the rules. It comes with an array of commands which can be used to mute, ban, and warn members. You’ll also be able to use purge commands to clear spam or NSFW from the chat.
 

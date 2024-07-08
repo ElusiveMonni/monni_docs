@@ -2,6 +2,7 @@
 sidebar_position: 5
 title: Roles
 ---
+###### Module for managing member roles
 ***
 The roles module contains different types of tools which you can use to manage member roles in your server.
 

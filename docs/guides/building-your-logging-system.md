@@ -6,7 +6,7 @@ sidebar_position: 3
 ***
 ### Logging
 ***
-With Logging, you can store things like **Deleted Messages** and **Role Changes** in channels you choose. There is tons of loggable events you can enable so you can make sure nothing gets passed your eyes!
+With Logging, you can store things like **Deleted Messages** and **Role Changes** in channels you choose. There are tons of log-able events you can enable so you can make sure nothing gets passed your eyes!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DPayadIep6c?si=XTaz2UWTPGmJp0_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ***

@@ -2,6 +2,8 @@
 sidebar_position: 3
 title: Points
 ---
+###### Module for building currency systems
+---
 Our Points Module is a highly configurable section of Monni, which is designed for building currency based systems around Points.
 
 This module allows you to create your own Shops and Point Based systems, where people can earn things like **Roles**, **Badges**, and **Items**.

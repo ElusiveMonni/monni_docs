@@ -2,6 +2,7 @@
 sidebar_position: 4
 title: Rewards
 ---
+###### Module for creating a points shop
 ***
 The Rewards System works in sync with the Points System. Together this makes up the bulk of the Point Shop.
 :::info

@@ -2,6 +2,8 @@
 sidebar_position: 8
 title: Anti Bot
 ---
+###### Module for preventing bot spamming and raiding
+***
 The Anti Bot Module is a module designed to prevent bots from spamming within a server. It comes with an array of options to punish bots and prevent false positives.
 ### General Settings
 ---
