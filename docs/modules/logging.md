@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Logging
 ---
-##### Module for overseeing everything happening in your server
+###### Module for overseeing everything happening in your server
 ***
 The Logging Module allows you to keep track of all server related events such as moderation, channel and member events.
 :::info
