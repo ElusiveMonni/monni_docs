@@ -1,5 +1,10 @@
 ---
+slug: /guides
 title: Guides
 sidebar_position: 1
 ---
-# COOL PAGE
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
