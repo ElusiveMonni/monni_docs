@@ -5,11 +5,15 @@ title: Update
 
 A command for updating the nickname of a server member. The nickname is based on the nickname setting of the [**Verification module**](https://docs.monni.fyi/modules/verification).
 
-> **Update** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
+
+---
 
 ## Arguments
 
-1. **Member**  
+- 1 **Member**  
     Member of the server whose nickname should be updated. Takes Discord name or ID.
 
 ## 🔒 Required permissions

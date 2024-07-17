@@ -6,15 +6,21 @@ slug: commands/slash/invite/invite-info
 
 A command for displaying information about a guild’s invites.
 
-> **Invite Info** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Invite Info** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Invite Info** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ## Arguments
 
-1. **invite_id:**  
+- 1 **invite_id:**  
     ID of a invite or it’s URL. If not chosen it will list all current invites.
 
 ## 🔒 Required permissions

@@ -7,6 +7,8 @@ The Purge Command allows you to delete a set amount of messages from a channel.
 
 Very useful for removing mass NSFW or spam.
 
+---
+
 ## REQUIRE 2FA
 
 If activated, your Moderators will need to use Two Factor Authentication every hour to use the command.

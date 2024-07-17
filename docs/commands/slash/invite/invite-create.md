@@ -6,21 +6,27 @@ slug: commands/slash/invite/invite-create
 
 A command for creating a new invite.
 
-> **Invite Create** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Invite Create** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Invite Create** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ## Arguments
 
-1. **Reason:**  
+- 1 **Reason:**  
     The reason for creating the invite. It’s shown in your server’s **Audit logs**. Defaults to an empty paragraph.
     
-2. **Max_uses:**  
+- 2 **Max_uses:**  
     The max uses of an invite. Has to be a number between 0 and 100. Zero being infinite. Defaults to infinite.
     
-3. **Max_age:**  
+- 3 **Max_age:**  
     The expiration time of an invite as seconds. Has to be a number between 0 and 604800. Defaults to infinite.
     
 

@@ -7,6 +7,8 @@ The Ban command allows you to ban a member from your server for a set amount of 
 
 Banning a member means they can NOT rejoin your server.
 
+---
+
 ## Default Duration
 
 This section allows you to set a duration for how long the ban lasts.  
@@ -19,6 +21,8 @@ You can set it to minutes or hours.
 When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
 ![message.png](https://docs.monni.fyi/message.png)
+
+---
 
 ### Message Details
 
@@ -33,6 +37,8 @@ The action committed, the server it was committed, and the reason provided by th
 
 **Server, Action, Reason and Moderator**:  
 The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
+
+---
 
 ## REQUIRE 2FA
 

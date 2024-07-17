@@ -5,11 +5,17 @@ title: Heart-beat
 
 A command for identifying potential issues while also attempting to automatically fix them.
 
-> **Heartbeat** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Heartbeat** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Heartbeat** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ### Arguments
 

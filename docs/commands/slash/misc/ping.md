@@ -5,9 +5,9 @@ title: Ping
 
 Command for getting the current latency of the bot.
 
-> **Ping** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
-
-> **Ping** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
 ## Arguments
 

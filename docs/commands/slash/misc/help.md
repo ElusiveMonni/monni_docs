@@ -5,7 +5,9 @@ title: Help
 
 A command which displays helpful links, such as ones that support your server and dashboard.
 
-> **Help** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
 ## Arguments
 

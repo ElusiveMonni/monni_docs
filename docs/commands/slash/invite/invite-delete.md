@@ -6,15 +6,21 @@ slug: commands/slash/invite/invite-delete
 
 A command for deleting existing invites.
 
-> **Invite Delete** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Invite Delete** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Invite Delete** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ## Arguments
 
-1. **invite_id:**  
+- 1 **invite_id:**  
     ID of an invite or it’s URL. Required in order to run the command.
 
 ## 🔒 Required permissions

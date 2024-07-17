@@ -1,3 +1,4 @@
+
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
@@ -40,6 +41,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          admonitions: {
+            keywords: ['slash', 'ephemeral', 'admin'],
+            extendDefaults: true,
+          },
+
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
           // Please change this to your repo.

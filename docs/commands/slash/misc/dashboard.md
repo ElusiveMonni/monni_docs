@@ -5,11 +5,17 @@ title: Dashboard
 
 Command for bringing up a link to the Monni dashboard.
 
-> **Invite Create** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Invite Create** is an [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Invite Create** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ## Arguments
 

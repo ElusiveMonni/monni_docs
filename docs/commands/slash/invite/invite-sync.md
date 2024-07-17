@@ -6,11 +6,17 @@ slug: commands/slash/invite/invite-sync
 
 A command for syncing invites between the bot and the guild. If the bot fails to track what invites have been used, running this can fix the issue.
 
-> **Invite Sync** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Invite Sync** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+:::ephemeral
+**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+:::
 
-> **Invite Sync** is an [administrator command](https://docs.monni.fyi/tutorials/administrator-commands)!
+:::admin
+**Dashboard** is an [administrator command](/misc/info/admin)!
+:::
 
 ## Arguments
 

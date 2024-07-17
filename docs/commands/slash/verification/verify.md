@@ -5,9 +5,11 @@ title: Verify
 
 The verify command brings up a link to the verification page where you can connect your third party accounts, such as a Roblox account, to your Discord account.
 
-> **Verify** is a [slash command](https://docs.monni.fyi/tutorials/slash-commands)!
+:::slash
+**Dashboard** is a [slash command](/misc/info/slash/)!
+:::
 
-> **Verify** is a [ephemeral command](https://docs.monni.fyi/tutorials/ephemeral-commands)!
+---
 
 ## Arguments
 

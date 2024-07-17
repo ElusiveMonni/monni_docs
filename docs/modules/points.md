@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Points
+slug: /modules/points
 ---
 ###### Module for building currency systems
 ---
