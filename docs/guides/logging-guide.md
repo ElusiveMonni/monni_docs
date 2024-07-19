@@ -2,7 +2,7 @@
 title: Building Your Logging System!
 sidebar_position: 3
 ---
-##### Build your Logging System so those pesky rule breakers can't escape.
+##### Guide to building your own event logging system!
 ***
 ### Logging
 ***
@@ -15,7 +15,7 @@ With Logging, you can store things like **Deleted Messages** and **Role Changes*
 You can find the Logging Panel at the dashboard, at **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**  
 It can be found in the **sidebar on the left** under **modules**.
 
-![building-your-logging-system-guide](guide-assets/building-your-logging-system-guide.png)
+![building-your-logging-system-guide](assets/building-your-logging-system-guide.png)
 ***
 ### How to use Logging
 ---

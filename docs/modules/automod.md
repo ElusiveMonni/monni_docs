@@ -25,6 +25,9 @@ Channels you add will not be affected by Auto-Moderation tools.
 ---
 The chat filter allows you to automatically detect blacklisted words and delete, censor, or replace them.
 
+![modules](assets/modes.png)
+
+
 You can set your Chat Filter to different modes depending on what you want it to do.
 - **DELETE** will cause Monni to delete messages once a blacklisted word is detected
 - **CENSOR** will cause Monni to delete the blacklisted word and keep the rest
