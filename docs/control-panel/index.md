@@ -1,5 +1,5 @@
 ---
-slug: /misc/control-panel/index
+slug: /control-panel/
 sidebar_position: 1
 title: Control Panel
 ---

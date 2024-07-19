@@ -236,11 +236,10 @@ const sidebars = {
 
   {
     type: 'category',
-    label: 'control-panel',
+    label: 'Control panel',
     link: {
-      type: 'generated-index',
-      title: "Control Panel",
-      slug: "/control-panel",
+      type: 'doc',
+      id: 'control-panel/index',
     },
     collapsed: true,
     items: [
