@@ -212,7 +212,7 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-        'misc/developer/placehold',
+        'misc/developer/colored-text-on-discord',
     ],
   },
 
