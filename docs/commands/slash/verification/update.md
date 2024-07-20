@@ -3,7 +3,7 @@ title: Update
 ---
 # Update Command
 
-A command for updating the nickname of a server member. The nickname is based on the nickname setting of the [**Verification module**](https://docs.monni.fyi/modules/verification).
+A command for updating the nickname of a server member. The nickname is based on the nickname setting of the [**Verification module**](/modules/verification).
 
 :::slash
 **Dashboard** is a [slash command](/misc/info/slash/)!

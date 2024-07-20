@@ -13,7 +13,7 @@ function Slash(props) {
     'margin-left': -2
     }}>
       <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <h5 style={{color: 'white', fontSize: 32, 'margin-right': '5px'}}>{'{/}'}</h5>
+      <h5 style={{color: 'white', fontSize: 16, 'margin-right': '5px'}}>{'{/}'}</h5>
       <h5 style={{color: 'white', fontSize: 17, 'margin-top': '10px'}}>{props.title}</h5>
       </div>
       <div>{props.children}</div>
@@ -33,7 +33,7 @@ function Ephemeral(props) {
     'margin-left': -2
     }}>
       <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <img src="/img/ghost.png/" alt="admin_shield"></img>
+      <img src="/img/ghost.png/" alt="ghost"></img>
       <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '10px'}}>{props.title}</h5>
       </div>
       <div>{props.children}</div>

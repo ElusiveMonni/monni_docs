@@ -1,6 +1,7 @@
 ---
 slug: /modules
 title: Modules
+sidebar_position: 2
 ---
 
 

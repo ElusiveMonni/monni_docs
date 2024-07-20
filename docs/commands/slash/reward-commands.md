@@ -1,7 +1,7 @@
 ---
 title: Reward Commands
 ---
-All the Monni [**Rewards module**](modules/rewards) related commands.
+All the Monni [**Rewards module**](/modules/rewards) related commands.
 
 ---
 ## Command Categories
