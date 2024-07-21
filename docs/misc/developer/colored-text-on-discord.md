@@ -80,6 +80,7 @@ There is over **100** supported [languages](https://discord-syntax-highlighting.
 
 ![bash-example](developer-images/colored-text-doc/bash-example.png)
 
+````none
 ```bash
 'Light blue' or "Light blue" #Supports most characters. Works as long as it's inside either '' or "".
 $Blue #Only the word starting with $. No special characters.
@@ -88,7 +89,7 @@ echo exit break test # Colors most linux commands orange.
 if elif then # Colors some reserved keywords red.
 purple(){ # Colors words before (){ purple.
 ```
-
+````
 
 #### Diff
 ---
@@ -96,6 +97,7 @@ purple(){ # Colors words before (){ purple.
 
 ![diff-example](developer-images/colored-text-doc/diff-example.png)
 
+````none
 ```diff
 *** Gray # All text after ***
 --- Gray # All text after ###
@@ -105,6 +107,7 @@ purple(){ # Colors words before (){ purple.
 - Text with red background. # Everything after a hyphen.
 + Text with green background. # Everything after a plus sign or exclamation mark.
 ```
+````
 
 #### Toml
 ---
@@ -112,12 +115,14 @@ purple(){ # Colors words before (){ purple.
 
 ![toml-example](developer-images/colored-text-doc/toml-example.png)
 
+````none
 ```toml
 [Dark blue text] # All text inside square brackets
 ; Gray # All text after a semi colon.
 Blue = "Light blue" no true false yes 100 31.212
 # ^^^ Word before equals sign will be blue any reserved words and numbers after it will be blue too. All text inside quotation marks will be light blue.
 ```
+````
 
 #### Json
 ---
@@ -125,10 +130,12 @@ Blue = "Light blue" no true false yes 100 31.212
 
 ![json-example](developer-images/colored-text-doc/json-example.png)
 
+````none
 ```json
 "Light blue" # All text inside quotation marks.
 234 # Numbers blue
 ```
+````
 
 #### Fix
 ---
@@ -136,9 +143,11 @@ Blue = "Light blue" no true false yes 100 31.212
 
 ![fix-example](developer-images/colored-text-doc/fix-example.png)
 
+````none
 ```fix
 All text blue
 ```
+````
 
 #### Markdown
 ---
@@ -146,6 +155,7 @@ All text blue
 
 ![markdown-example](developer-images/colored-text-doc/md-example.png)
 
+````none
 ```md
 # Dark Blue. All text after hashtag letter.
 Text above equal signs are Dark Blue.
@@ -159,6 +169,7 @@ Text above dashes are Dark Blue
 1. Yellow ordered list.
 [light blue][orange]
 ```
+````
 
 #### YAML
 ---
@@ -166,6 +177,7 @@ Text above dashes are Dark Blue
 
 ![yaml-example](developer-images/colored-text-doc/yaml-example.png)
 
+````none
 ```yaml
 - Unordered lists with light blue text and yellow hyphen.
 1. Ordered list with a blue number and light blue text.
@@ -173,6 +185,7 @@ Text above dashes are Dark Blue
 # Gray after hashtag
 Blue text before a Colon:
 ```
+````
 
 #### SML (Standard ML)
 --- 
@@ -180,11 +193,13 @@ Blue text before a Colon:
 
 ![sml-example](developer-images/colored-text-doc/sml-example.png)
 
+````none
 ```sml
 Capital Words Red
 [] empty square brackets blue
 list orange
 ```
+````
 
 #### Prolog
 ---
@@ -192,9 +207,11 @@ list orange
 
 ![prolog-example](developer-images/colored-text-doc/prolog-example.png)
 
+````none
 ```prolog
 Capital Words Orange
 ```
+````
 
 ***
 ### Useful Resources

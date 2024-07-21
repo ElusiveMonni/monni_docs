@@ -29,7 +29,7 @@ Example message with the `\u001b` character unescaped.
 ```
 ````
 
-![ansi-example](developer-images/colored-text-doc/ansi-example.png)
+![ansi-example](colored-text-doc/ansi-example.png)
 #### ANSI Codes
 ---
 Codes are split into 3 different categories. **Format**, _text colors_*, and **background colors**. You can set them in any order and set as many of them as you want. The **last code** will **overwrite** the ones before it.
@@ -40,9 +40,9 @@ Codes are split into 3 different categories. **Format**, _text colors_*, and **b
 - `1`. **Bold**
 - `4`. Underline
 
-![bold-example](developer-images/colored-text-doc/ansi-bold-example.png)
+![bold-example](colored-text-doc/ansi-bold-example.png)
 
-![underline-example](developer-images/colored-text-doc/ansi-underline-example.png)
+![underline-example](colored-text-doc/ansi-underline-example.png)
 
 ##### Text Colors
 ---
@@ -55,7 +55,7 @@ Codes are split into 3 different categories. **Format**, _text colors_*, and **b
 - `36`. Cyan
 - `37`. White
 
-![color-example](developer-images/colored-text-doc/ansi-color-example.png)
+![color-example](colored-text-doc/ansi-color-example.png)
 
 ##### Backgrounds
 ---
@@ -68,7 +68,7 @@ Codes are split into 3 different categories. **Format**, _text colors_*, and **b
 - `46`. Light gray
 - `47`. White
 
-![backgrounds-example](developer-images/colored-text-doc/ansi-background-example.png)
+![backgrounds-example](colored-text-doc/ansi-background-example.png)
 
 ### Syntax Highlighting
 ---
@@ -81,7 +81,7 @@ There is over **100** supported [languages](https://discord-syntax-highlighting.
 ---
 `bash`, `sh`
 
-![bash-example](developer-images/colored-text-doc/bash-example.png)
+![bash-example](colored-text-doc/bash-example.png)
 
 ```bash
 'Light blue' or "Light blue" #Supports most characters. Works as long as it's inside either '' or "".
@@ -97,7 +97,7 @@ purple(){ # Colors words before (){ purple.
 ---
 `diff`, `patch`
 
-![diff-example](developer-images/colored-text-doc/diff-example.png)
+![diff-example](colored-text-doc/diff-example.png)
 
 ```diff
 *** Gray # All text after ***
@@ -113,7 +113,7 @@ purple(){ # Colors words before (){ purple.
 ---
 `toml`, `ini`
 
-![toml-example](developer-images/colored-text-doc/toml-example.png)
+![toml-example](colored-text-doc/toml-example.png)
 
 ```toml
 [Dark blue text] # All text inside square brackets
@@ -126,7 +126,7 @@ Blue = "Light blue" no true false yes 100 31.212
 ---
 `json`
 
-![json-example](developer-images/colored-text-doc/json-example.png)
+![json-example](colored-text-doc/json-example.png)
 
 ```json
 "Light blue" # All text inside quotation marks.
@@ -137,7 +137,7 @@ Blue = "Light blue" no true false yes 100 31.212
 ---
 `fix`
 
-![fix-example](developer-images/colored-text-doc/fix-example.png)
+![fix-example](colored-text-doc/fix-example.png)
 
 ```fix
 All text blue
@@ -147,7 +147,7 @@ All text blue
 ---
 `markdown`, `md`, `mkdown`, `mkd`
 
-![markdown-example](developer-images/colored-text-doc/md-example.png)
+![markdown-example](colored-text-doc/md-example.png)
 
 ```md
 # Dark Blue. All text after hashtag letter.
@@ -167,7 +167,7 @@ Text above dashes are Dark Blue
 ---
 `yaml`, `yml`
 
-![yaml-example](developer-images/colored-text-doc/yaml-example.png)
+![yaml-example](colored-text-doc/yaml-example.png)
 
 ```yaml
 - Unordered lists with light blue text and yellow hyphen.
@@ -181,7 +181,7 @@ Blue text before a Colon:
 ---
 `sml`, `ml`
 
-![sml-example](developer-images/colored-text-doc/sml-example.png)
+![sml-example](colored-text-doc/sml-example.png)
 
 ```sml
 Capital Words Red
@@ -193,7 +193,7 @@ list orange
 ---
 `prolog`
 
-![prolog-example](developer-images/colored-text-doc/prolog-example.png)
+![prolog-example](colored-text-doc/prolog-example.png)
 
 ```prolog
 Capital Words Orange
