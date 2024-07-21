@@ -149,11 +149,12 @@ const sidebars = {
         items: [
           {
           type: 'category',
-          label: 'general-commands',
+          label: 'General Commands',
           link: {
             type: 'doc',
-            id: 'commands/prefix/index',
+            id: 'commands/prefix/prefix-index',
           },
+          collapsed: true,
           items: [
               'commands/prefix/general-commands/pets',
           ],
@@ -161,90 +162,6 @@ const sidebars = {
 
         ],
       },
-    ],
-  },
-
-  {
-    type: 'category',
-    label: 'Misc',
-    link: {
-      type: 'doc',
-      id: 'misc/index',
-    },
-    collapsed: true,
-    items: [
-
-  {
-    type: 'category',
-    label: 'Faq',
-    link: {
-      type: 'generated-index',
-      title: "Faq",
-      slug: "/misc/faq",
-    },
-    collapsed: true,
-    items: [
-        'misc/faq/placehold',
-    ]
-  },
-
-  {
-    type: 'category',
-    label: 'Simpukka',
-    link: {
-      type: 'generated-index',
-      title: "Simpukka",
-      slug: "/misc/simpukka",
-    },
-    collapsed: true,
-    items: [
-        'misc/simpukka/placehold',
-    ],
-  },
-
-  {
-    type: 'category',
-    label: 'Developer',
-    link: {
-      type: 'generated-index',
-      title: "Developer",
-      slug: "/misc/developer",
-    },
-    collapsed: true,
-    items: [
-        'misc/developer/colored-text-on-discord',
-    ],
-  },
-
-  {
-    type: 'category',
-    label: 'Info',
-    link: {
-      type: 'generated-index',
-      title: "Developer",
-      slug: "/misc/info",
-    },
-    collapsed: true,
-    items: [
-        'misc/info/slash',
-        'misc/info/admin',
-        'misc/info/ephemeral',
-    ],
-  },
-  ],
- },
-
-  {
-    type: 'category',
-    label: 'Control panel',
-    link: {
-      type: 'doc',
-      id: 'control-panel/index',
-    },
-    collapsed: true,
-    items: [
-        'control-panel/mass-actions',
-        'control-panel/timestamp-tool',
     ],
   },
 
@@ -269,6 +186,61 @@ const sidebars = {
 
   {
     type: 'category',
+    label: 'Control Panel',
+    link: {
+      type: 'doc',
+      id: 'control-panel/index'
+    },
+    collapsed: true,
+    items: [
+        'control-panel/mass-actions',
+        'control-panel/timestamp-tool',
+    ],
+  },
+
+  {
+    type: 'category',
+    label: 'Misc',
+    link: {
+      type: 'doc',
+      id: 'misc/index',
+    },
+    collapsed: true,
+    items: [
+
+  {
+    type: 'category',
+    label: 'Faq',
+    link: {
+      type: 'doc',
+      id: "misc/faq/index",
+    },
+    collapsed: true,
+    items: [
+        'misc/faq/tokens',
+    ]
+  },
+
+  {
+    type: 'category',
+    label: 'Info',
+    link: {
+      type: 'generated-index',
+      title: "Developer",
+      slug: "/misc/info",
+    },
+    collapsed: true,
+    items: [
+        'misc/info/slash',
+        'misc/info/admin',
+        'misc/info/ephemeral',
+    ],
+  },
+  ],
+ },
+
+ {
+    type: 'category',
     label: 'Guides',
     link: {
       type: 'doc',
@@ -278,6 +250,32 @@ const sidebars = {
     items: [
       "guides/verification-guide",
       "guides/logging-guide",
+    ],
+  },
+
+  {
+    type: 'category',
+    label: 'Simpukka',
+    link: {
+      type: 'doc',
+      id: 'simpukka/index',
+    },
+    collapsed: true,
+    items: [
+        'simpukka/placehold',
+    ],
+  },
+
+  {
+    type: 'category',
+    label: 'Developer',
+    link: {
+      type: 'doc',
+      id: 'developer/index',
+    },
+    collapsed: true,
+    items: [
+        'developer/placehold',
     ],
   },
  "localisation",
