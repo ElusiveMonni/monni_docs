@@ -6,7 +6,7 @@ title: Mass Actions
 
 Mass actions is a tool which can be used to do things such as add roles to many people at once, or ban multiple users at the same time.
 
-> **Members are selected through [FILTERS](https://docs.monni.fyi/modules/control-panel/actions-and-filters). Some Filters include:**  
+> **Members are selected through [FILTERS](/control-panel/mass-actions-info/filters). Some Filters include:**  
 > _-Members with specific roles._  
 > _-Days since members joined._
 

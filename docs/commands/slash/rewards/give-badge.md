@@ -3,7 +3,7 @@ title: Give Badge
 ---
 # Give Badge
 
-A command for giving members guild badges. For more info on badges and how to create them refer to the [**Rewards module**](https://docs.monni.fyi/modules/rewards).
+A command for giving members guild badges. For more info on badges and how to create them refer to the [**Rewards module**](/modules/rewards).
 
 :::slash
 **Dashboard** is a [slash command](/misc/info/slash/)!

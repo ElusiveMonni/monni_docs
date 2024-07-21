@@ -3,6 +3,7 @@ slug: /commands
 title: Monni commands
 tags:
   - commands
+sidebar_position: 1
 ---
 
 Commands are one of the main ways you can interact with Monni. There are a few command types such as Slash, Prefix, and Context menu commands.

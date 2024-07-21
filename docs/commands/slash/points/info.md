@@ -9,7 +9,7 @@ Displays basic information about a point system.
 **Dashboard** is a [slash command](/misc/info/slash/)!
 :::
 
-> This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](https://docs.monni.fyi/modules/points) settings.
+> This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](/modules/points) settings.
 
 ---
 
