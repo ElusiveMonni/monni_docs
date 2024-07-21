@@ -32,14 +32,24 @@ Once a member verifies, the unverified role will be removed from them.
 ---
 We offer a few quality of life settings you can use to improve the verification experience for you and your members. These include:
 
+---
+
 1. **VERIFICATION MESSAGE**  
 Sends a verification message to new members who join your server.
+
+---
+
 2. **DISCORD ACCOUNT SELECTION**  
 This allows members to automatically verify with previously verified accounts.  
 (*Keep in mind this is less secure from automated raids.*)
+
+---
+
 3. **NICKNAME**  
 Change the nickname of a member on verify. For example their Roblox name.  
 (*Supports* [**simpukka**](https://monni-docs-f7dj.onrender.com/simpukka/).)
+
+---
 
 ### Other
 ---
