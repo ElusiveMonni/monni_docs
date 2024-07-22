@@ -1,11 +1,11 @@
 ---
-slug: /control-panel/
 sidebar_position: 1
 title: Control Panel
+slug: control-panel/index
 ---
 # Control Panel
 
-The Control Panel allows you to manage all of your servers via its **tools**, such as [**Mass actions**](https://docs.monni.fyi/modules/control-panel/mass-actions).
+The Control Panel allows you to manage all of your servers via its **tools**, such as [**Mass actions**](/guides/mass-actions).
 
 It also boasts the ability to _Import_ and _Export_ your bot’s settings to other servers. See the **HOME section** below for more information on importing and exporting settings.
 

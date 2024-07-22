@@ -3,7 +3,7 @@ title: Inventory
 ---
 # Inventory
 
-A command for displaying what items a member has. For more info on items and how to create them refer to the [**Rewards module**](https://docs.monni.fyi/modules/rewards).
+A command for displaying what items a member has. For more info on items and how to create them refer to the [**Rewards module**](/modules/rewards).
 
 :::slash
 **Dashboard** is a [slash command](/misc/info/slash/)!

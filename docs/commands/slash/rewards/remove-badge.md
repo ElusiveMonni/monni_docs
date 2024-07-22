@@ -3,7 +3,7 @@ title: Remove Badge
 ---
 # Remove Badge
 
-A command for taking guild badges from members. For more info on badges refer to [**Rewards module**](https://docs.monni.fyi/modules/rewards).
+A command for taking guild badges from members. For more info on badges refer to [**Rewards module**](/modules/rewards).
 
 :::slash
 **Dashboard** is a [slash command](/misc/info/slash/)!

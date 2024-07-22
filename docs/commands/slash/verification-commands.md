@@ -1,7 +1,7 @@
 ---
 title: Verification Commands
 ---
-All Monni [**Verification module**](modules/verification) related commands.
+All Monni [**Verification module**](/modules/verification) related commands.
 
 ---
 ## Command Categories

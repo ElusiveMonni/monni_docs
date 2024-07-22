@@ -3,7 +3,7 @@ title: Give Item
 ---
 # Give Item
 
-A command for giving items to members. For more info on items and how to create them refer to [**Rewards module**](https://docs.monni.fyi/modules/rewards).
+A command for giving items to members. For more info on items and how to create them refer to [**Rewards module**](/modules/rewards).
 
 :::slash
 **Dashboard** is a [slash command](/misc/info/slash/)!
