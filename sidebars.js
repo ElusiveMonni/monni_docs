@@ -181,6 +181,7 @@ const sidebars = {
       "modules/roles",
       "modules/automod",
       "modules/moderation",
+      "modules/anti-bot",
     ],
   },
 
@@ -276,6 +277,7 @@ const sidebars = {
     collapsed: true,
     items: [
         'developer/placehold',
+        'developer/monni-api',
     ],
   },
  "localisation",
