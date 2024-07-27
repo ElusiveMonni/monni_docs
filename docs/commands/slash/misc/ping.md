@@ -6,7 +6,7 @@ title: Ping
 Command for getting the current latency of the bot.
 
 :::ephemeral
-**Dashboard** is a [ephemeral command](/misc/info/ephemeral)!
+**Dashboard** is a [ephemeral command](/commands/info/ephemeral)!
 :::
 
 ## Arguments

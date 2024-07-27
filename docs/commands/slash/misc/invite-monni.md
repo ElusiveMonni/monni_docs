@@ -6,7 +6,7 @@ title: Invite-monni
 A command for inviting Monni.
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ## Argument

@@ -6,7 +6,7 @@ title: Help
 A command which displays helpful links, such as ones that support your server and dashboard.
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ## Arguments

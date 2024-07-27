@@ -8,7 +8,7 @@ A command for displaying information about the chosen member’s account during 
 > If the user hasn’t verified with their account yet, by default the command will return Discord account information.
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ---

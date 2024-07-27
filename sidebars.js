@@ -1,3 +1,4 @@
+
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
@@ -159,9 +160,23 @@ const sidebars = {
               'commands/prefix/general-commands/pets',
           ],
           },
-
         ],
       },
+      
+       {
+          type: 'category',
+          label: 'types',
+          link: {
+            type: 'doc',
+            id: 'commands/info/index',
+          },
+          collapsed: true,
+          items: [
+             'commands/info/slash',
+             'commands/info/ephemeral',
+             'commands/info/admin',
+          ]
+        }
     ],
   },
 
@@ -220,22 +235,6 @@ const sidebars = {
     items: [
         'misc/faq/tokens',
     ]
-  },
-
-  {
-    type: 'category',
-    label: 'Info',
-    link: {
-      type: 'generated-index',
-      title: "Developer",
-      slug: "/misc/info",
-    },
-    collapsed: true,
-    items: [
-        'misc/info/slash',
-        'misc/info/admin',
-        'misc/info/ephemeral',
-    ],
   },
   ],
  },

@@ -6,7 +6,7 @@ title: Roblox-get-info
 A command for displaying detailed information about a Roblox account.
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ## Arguments

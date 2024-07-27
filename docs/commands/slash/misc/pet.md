@@ -6,7 +6,7 @@ title: Pet
 The most important and useful command in the bot. An absolute must know for any Monni power user. The one and only command that lets you pet Monni. Isn’t that neat?
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ## Arguments

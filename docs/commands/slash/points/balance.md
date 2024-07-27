@@ -6,7 +6,7 @@ title: Balance
 The balance command gives you the ability to check how many points you or your friend has. Guild owners can hide this command either by manually making it locked through discord or disabling currency usage in point settings.
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 :::warning
