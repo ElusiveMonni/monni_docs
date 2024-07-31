@@ -162,7 +162,7 @@ const sidebars = {
           },
         ],
       },
-      
+
        {
           type: 'category',
           label: 'types',
@@ -262,7 +262,7 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-        'simpukka/placehold',
+        'simpukka/index',
     ],
   },
 
@@ -275,7 +275,6 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-        'developer/placehold',
         'developer/monni-api',
     ],
   },
