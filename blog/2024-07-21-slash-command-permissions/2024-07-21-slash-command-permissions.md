@@ -4,7 +4,7 @@ title: Changing slash command permissions
 authors:
   - iraas
 tags:
-  - discord
+  - release-note
 ---
 Discord has a built-in support for changing who and where slash commands and context menus can be used.
 

@@ -3,3 +3,7 @@ discord:
   permalink: /discord
   description: Blog posts related to discord
 
+release-note:
+  label: Release note
+  permalink: release-note
+  description: Blog post for release
