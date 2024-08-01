@@ -36,12 +36,12 @@ Did you know that text formatting works in headers?
 
 
 ### Subtext
-Almost like headers but instead of making text larger it makes it smaller. To use it add \#- before your message
+Almost like headers but instead of making text larger it makes it smaller. To use it add \-# before your message
 
 ![subtext-example](images/subtext-example.png)
 
 :::info
-With subtext same rules apply as headers. The sentence must start with \#-, otherwise it's invalid.
+With subtext same rules apply as headers. The sentence must start with \-#, otherwise it's invalid.
 :::
 
 

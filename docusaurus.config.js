@@ -152,7 +152,7 @@ const config = {
      announcementBar: {
        id: 'migrating',
      content:
-     'We are migrating our docs, you can visit the old docs at <a target="_blank" rel="noopener noreferrer" href="https://docs.monni.fyi/">docs.monni.fyi</a>',
+     'We are migrating our docs, you can visit the old docs at <a target="_blank" rel="noopener noreferrer" href="https://old.docs.monni.fyi/">docs.monni.fyi</a>',
      backgroundColor: '#fafbfc',
      textColor: '#091E42',
      isCloseable: true,
