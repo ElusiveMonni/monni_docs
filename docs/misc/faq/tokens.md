@@ -1,5 +1,6 @@
 ---
 title: Guild Tokens
+sidebar_position: 3
 ---
 Alternative to cooldowns
 
