@@ -1,8 +1,8 @@
 ---
 title: Faq
-sidebar_position: 2
+sidebar_position: 1
 ---
-# Faq
+# FAQ
 Find answers to frequently asked questions below
 
 ```mdx-code-block
