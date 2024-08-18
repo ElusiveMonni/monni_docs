@@ -262,7 +262,19 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-        'simpukka/index',
+      {
+        type: 'category',
+        label: 'Simpukka API',
+        link: {
+          type: 'doc',
+          id: 'simpukka/api/index',
+        },
+        collapsed: true,
+        items: [
+          'simpukka/api/misc',
+          'simpukka/api/discord'
+        ]
+      }
     ],
   },
 
