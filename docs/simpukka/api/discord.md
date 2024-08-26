@@ -75,6 +75,24 @@ Fetches information about channel from discord
 }
 ```
 
+
+## Send message
+**GET** - `/discord/channel/send/`
+
+Send discord message.
+
+## Rate limits
+1 per second and 10 per runtime
+## Example request
+```python
+{"identifier": runtime identifier, "guild_id" id of the guild, "channel_id": id of the channel, "content": "The message itself."}
+```
+
+### Example return
+```python
+{"data": {"id": "message id"}}
+```
+
 ## Get message
 **GET** - `/discord/message/`
 
