@@ -23,7 +23,7 @@ Different text **formattings** can be **combined**. For example you can combine 
 `*__underline and italics__*`.
 
 ![text-format](images/text-format-example.png)
-
+<!-- truncate -->
 ### Headers
 ---
 Discord supports usage of **headers**. Headers start with a **hashtag** followed by a **space** and then the text itself `# Text here`. There is three different **sizes of headers**. The largest is `#`, then `##`, and the smallest is `###`. A message has to start with a header, so a _header in the middle of a sentence_ isn’t possible.

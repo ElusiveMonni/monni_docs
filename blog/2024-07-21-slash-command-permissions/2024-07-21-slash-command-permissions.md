@@ -16,6 +16,8 @@ In order to change permissions of commands you need to be an administrator of th
 Changing these settings isn't supported in the mobile versions of discord.
 :::
 
+<!-- truncate -->
+
 ## Changing permissions
 To get started head to server settings.
 

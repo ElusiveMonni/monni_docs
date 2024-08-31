@@ -30,6 +30,7 @@ Example message with the `\u001b` character unescaped.
 ````
 
 ![ansi-example](colored-text-doc/ansi-example.png)
+<!-- truncate -->
 #### ANSI Codes
 ---
 Codes are split into 3 different categories. **Format**, _text colors_*, and **background colors**. You can set them in any order and set as many of them as you want. The **last code** will **overwrite** the ones before it.
