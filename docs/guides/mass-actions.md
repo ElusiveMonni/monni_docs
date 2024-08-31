@@ -2,6 +2,7 @@
 title: Guide To Mass Actions
 sidebar_position: 5
 ---
+##### Need to do a lot at once? Here's how!
 ---
 Mass actions is a tool which can be used to do things such as add roles to many people at once, or ban multiple users at the same time.
 

@@ -253,6 +253,9 @@ const sidebars = {
     items: [
       "guides/verification-guide",
       "guides/logging-guide",
+      "guides/setting-up-points",
+      "guides/mass-actions",
+      "guides/monni-role-position",
     ],
   },
 
