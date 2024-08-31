@@ -28,6 +28,21 @@ const sidebars = {
     items: [
       {
         type: 'category',
+        label: 'types',
+        link: {
+          type: 'doc',
+          id: 'commands/info/index',
+        },
+        collapsed: true,
+        items: [
+          'commands/info/slash',
+          'commands/info/ephemeral',
+          'commands/info/admin',
+        ]
+      },
+
+      {
+        type: 'category',
         label: 'Slash',
         link: {
           type: 'doc',
@@ -163,20 +178,7 @@ const sidebars = {
         ],
       },
 
-       {
-          type: 'category',
-          label: 'types',
-          link: {
-            type: 'doc',
-            id: 'commands/info/index',
-          },
-          collapsed: true,
-          items: [
-             'commands/info/slash',
-             'commands/info/ephemeral',
-             'commands/info/admin',
-          ]
-        }
+
     ],
   },
 

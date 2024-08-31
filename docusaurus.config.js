@@ -127,6 +127,10 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'Release notes',
+                to: '/release-notes',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/ElusiveMonni/monni_docs',
               },
@@ -166,6 +170,24 @@ const config = {
       mermaid: true,
     },
     themes: ['@docusaurus/theme-mermaid'],
+    plugins: [
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          id: 'release-note-blog',
+          onUntruncatedBlogPosts: 'ignore',
+          routeBasePath: 'release-notes',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './release-notes',
+        },
+      ],
+    ],
 };
 
 export default config;
