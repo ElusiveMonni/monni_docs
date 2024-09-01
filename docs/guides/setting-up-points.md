@@ -2,7 +2,9 @@
 title: Setting Up A Points System
 sidebar_position: 4
 ---
-**The first thing you’ll want to do to set up your Point System is navigate to the set up Menu.**
+##### A simple guide for using the Point Module!
+---
+The first thing you’ll want to do to set up your Point System is navigate to the set up Menu.
 
 You can do this by following the instructions below:
 ***
