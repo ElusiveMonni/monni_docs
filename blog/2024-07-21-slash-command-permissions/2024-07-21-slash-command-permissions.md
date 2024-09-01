@@ -16,13 +16,12 @@ In order to change permissions of commands you need to be an administrator of th
 Changing these settings isn't supported in the mobile versions of discord.
 :::
 
-<!-- truncate -->
 
 ## Changing permissions
 To get started head to server settings.
 
 ![server-settings-example.png](images/server-settings-example.png)
-
+<!-- truncate -->
 Then scroll down to integrations
 
 ![server-open-example.png](images/server-open-example.png)
