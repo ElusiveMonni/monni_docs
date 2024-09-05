@@ -24,4 +24,4 @@ The Edit command allows you to edit the point amounts of members. You can add an
 
 ## 🔒 Required permissions
 
-No permissions required.
+Administrator permissions required.

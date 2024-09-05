@@ -109,7 +109,7 @@ Fetches information about message from discord
 ```python
 {"status_code": 200, "data": {
 	"id": message id,
-	"channel_id": parent channel id,
+	"channel_id": 765119856403021864,
 	"author": Data of user who sent the message,
 	"content": Content of the message,
 	"created_at": Unix timestamp of message creation,
@@ -127,7 +127,7 @@ Deletes discord message.
 1 per second and 10 per runtime
 ## Example request
 ```python
-{"identifier": runtime identifier, "guild_id" id of the guild, "channel_id": id of the channel, "message_id": id of the message}
+{"identifier": runtime identifier, "guild_id": 9823119856403021, "channel_id": 890219856403021875, "message_id": 765119856403021864}
 ```
 
 ### Example return

@@ -280,7 +280,30 @@ const sidebars = {
           'simpukka/api/misc',
           'simpukka/api/discord'
         ]
-      }
+      },
+      {
+        type: 'category',
+        label: 'Supported languages',
+        link: {
+          type: 'doc',
+          id: 'simpukka/supported-languages/index',
+        },
+        collapsed: true,
+        items: [
+        ]
+      },
+      {
+        type: 'category',
+        label: 'Objects',
+        link: {
+          type: 'doc',
+          id: 'simpukka/objects/index',
+        },
+        collapsed: true,
+        items: [
+          'simpukka/objects/discord/user'
+        ]
+      },
     ],
   },
 

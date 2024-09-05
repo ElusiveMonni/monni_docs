@@ -60,5 +60,5 @@ Returns information about context of the runtime. The example return has example
 
 ### Example return
 ```python
-{"status_code": 200, "context": {"author": author id, "guild": guild id, "message": message id, "channel": channel id}}
+{"status_code": 200, "context": {"author": author data, "guild": guild data, "message": message data, "channel": channel data}}
 ```
