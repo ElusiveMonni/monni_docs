@@ -7,13 +7,15 @@ Monni provides you a way to change language of the software. On guild level the 
 
 
 
-|   | User language | Guild language | Discord language |
-|---|---|---|---|
-| Ephemeral command  | <center>**X**</center> |   |
-| Direct message | <center>**X**</center>  |   |   |
-| Command in guild |   |  <center>**X**</center> |   |
-| Message in guild | | <center>**X**</center>|   |
-| Slash commands | | | <center>**X**</center>|
+|                   | User language          | Guild language         | Discord language       | English                |
+| ----------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
+| Ephemeral command | <center>**X**</center> |                        |                        |                        |
+| Direct message    | <center>**X**</center> |                        |                        |                        |
+| Command in guild  |                        | <center>**X**</center> |                        |                        |
+| Message in guild  |                        | <center>**X**</center> |                        |                        |
+| Slash commands    |                        |                        | <center>**X**</center> |                        |
+| Group chats       |                        |                        |                        | <center>**X**</center> |
+| Third party DMS   |                        |                        |                        | <center>**X**</center> |
 
 
 
