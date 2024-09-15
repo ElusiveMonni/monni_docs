@@ -1,8 +1,10 @@
 ---
 slug: colored-text
-title: Colored text on discord
-authors: iraas
-tags: [discord]
+title: Colored text on Discord
+authors:
+  - iraas
+tags:
+  - discord
 ---
 
 

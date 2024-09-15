@@ -59,3 +59,9 @@ Example of a potential overwrite
 :::danger
 Role & Member takes precedent over default Monni permissions. Ensure you are changing the intended command and overrides are correct.
 :::
+
+---
+
+:::info
+Need help of have suggestions? Join our [support server](https://discord.gg/E8nYdQfqA3).
+:::

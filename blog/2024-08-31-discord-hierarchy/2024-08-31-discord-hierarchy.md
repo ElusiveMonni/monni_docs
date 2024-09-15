@@ -75,6 +75,14 @@ Category permissions work the same way as the channel ones but are only applied 
 
 
 ## Useful resources
+---
+
+:::info
+Need help or have suggestions? Join our [support server](https://discord.gg/E8nYdQfqA3).
+:::
+
 https://support.discord.com/hc/en-us/articles/206029707-Setting-Up-Permissions-FAQ
+
 https://support.discord.com/hc/en-us/articles/214836687-Role-Management-101
+
 https://support.discord.com/hc/en-us/articles/10543994968087-Channel-Permissions-Settings-101
