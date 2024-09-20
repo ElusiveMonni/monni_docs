@@ -12,10 +12,12 @@ This module allows you to create your own Shops and Point Based systems, where p
 :::info
 This Module has a lot of Commands that work with it. Check [**HERE**.](/commands/slash/point-commands)
 :::
+
 :::info
-The Points Module also goes hand in hand with the [**Rewards Module**](https://monni-docs-f7dj.onrender.com/modules/rewards)  
+The Points Module also goes hand in hand with the [**Rewards Module**](rewards)
 Check it out!
 :::
+
 ***
 ### Point System
 ---

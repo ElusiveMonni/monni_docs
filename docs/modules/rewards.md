@@ -6,7 +6,7 @@ title: Rewards
 ***
 The Rewards System works in sync with the Points System. Together this makes up the bulk of the Point Shop.
 :::info
-This Module goes hand in hand with the [**Points Module**](https://monni-docs-f7dj.onrender.com/modules/points).  
+This Module goes hand in hand with the [**Points Module**](points).
 So check that out!
 :::
 ### Rewards Configuration

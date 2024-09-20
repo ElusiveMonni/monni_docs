@@ -7,9 +7,9 @@ title: Introduction
 ---
 **Monni is a highly configurable security bot,** with **Moderation**, **Economy,** **Verification**, and much more! We’ve built these docs to cover almost everything Monni can do, so you’ll never get stuck.
 ***
-_**Looking for commands?**_ click [**Here**](https://monni-docs-f7dj.onrender.com/commands)!
+_**Looking for commands?**_ click [**Here**](/commands)!
 ***
-***Need more help with Monni? Check out our guides & tutorials*** [**Here**](https://monni-docs-f7dj.onrender.com/guides)!
+***Need more help with Monni? Check out our guides & tutorials*** [**Here**](/guides)!
 :::info
 The tutorials include a Roblox **Verification guide,** a **Mass actions guide,** and a tutorial on configuring our **Points and Rewards systems.**
 :::

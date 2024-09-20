@@ -17,9 +17,9 @@ The settings for how the module detects and responds to bots is customizable to 
 - **Action**
 	- Multiple actions can be selected.
 	- **Report** will send a message to the channel selected.
-		- Useful when combined with the [**Logging Module**](https://monni-docs-f7dj.onrender.com/modules/logging).
+		- Useful when combined with the [**Logging Module**](logging).
 	- **Delete Message** will delete whatever messages trigger the detection of the bot.
-	- The other actions available for bot punishment are covered in the [**Moderation Module**](https://monni-docs-f7dj.onrender.com/modules/moderation).
+	- The other actions available for bot punishment are covered in the [**Moderation Module**](moderation).
 ### Multi Channel Messaging
 ---
 When enabled, **Multi Channel Messaging** will detect members that send multiple messages to separate channels in a short period of time.

@@ -30,4 +30,4 @@ Some of these options are:
 - **Milestones** - Allows you to set certain roles or actions behind a certain number of points before they are automatically given
 - **Sources** - Allows you to decide how and how quickly points can automatically be earned
 
-To configure your point system in greater depth, refer to the [Points Module](https://monni-docs-f7dj.onrender.com/modules/points)
+To configure your point system in greater depth, refer to the [Points Module](/modules/points)

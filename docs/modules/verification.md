@@ -7,12 +7,15 @@ title: Verification
 The Verification module offers the ability to give and take roles on join and verify, allowing for the creation of Verification Security Walls.
 
 Verification can be done through either the **/verify command**, (Which can be used in your discord server) or by using a **verification embed** or DM.
+
 :::info
 Verification Embeds can be sent to any channel by accessing the verification module’s settings in the **dashboard** (**[https://monni.fyi/dashboard/](https://monni.fyi/dashboard/)**) and are visible to everyone.
 :::
+
 :::note
-You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**simpukka**](https://monni-docs-f7dj.onrender.com/simpukka/)
+You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**Simpukka**](/simpukka)
 :::
+
 ***
 ### Using Verification
 ---
@@ -47,7 +50,7 @@ This allows members to automatically verify with previously verified accounts.
 
 3. **NICKNAME**  
 Change the nickname of a member on verify. For example their Roblox name.  
-(*Supports* [**simpukka**](https://monni-docs-f7dj.onrender.com/simpukka/).)
+(*Supports* [**simpukka**](/simpukka))
 
 ---
 
@@ -60,7 +63,7 @@ This is a well built Embed which you can send to a channel that people can verif
 :::
 
 :::info
-**Need help verifying? Check out our easy to follow verification guide here:** (**[Setting up verification](https://monni-docs-f7dj.onrender.com/guides/setting-up-verification)**)
+**Need help verifying? Check out our easy to follow verification guide here:** (**[Setting up verification](/guides/verification-guide)**)
 :::
 ***
 

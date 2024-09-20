@@ -6,7 +6,7 @@ title: Moderation
 ***
 The Moderation Module is a module designed to keep members from breaking the rules. It comes with an array of commands which can be used to mute, ban, and warn members. You’ll also be able to use purge commands to clear spam or NSFW from the chat.
 
-All command usage can be logged in a channel of your choice using the [**Logging Module**](https://monni-docs-f7dj.onrender.com/modules/logging).
+All command usage can be logged in a channel of your choice using the [**Logging Module**](logging).
 ### Actions
 ---
 The currently available actions are:
