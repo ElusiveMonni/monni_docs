@@ -16,7 +16,6 @@ Verification Embeds can be sent to any channel by accessing the verification mod
 You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**Simpukka**](/simpukka)
 :::
 
-***
 ### Using Verification
 ---
 There are a few things you’ll need to configure before Verification is working in your server.
@@ -35,24 +34,16 @@ Once a member verifies, the unverified role will be removed from them.
 ---
 We offer a few quality of life settings you can use to improve the verification experience for you and your members. These include:
 
----
-
 1. **VERIFICATION MESSAGE**  
-Sends a verification message to new members who join your server.
-
----
-
-2. **DISCORD ACCOUNT SELECTION**  
-This allows members to automatically verify with previously verified accounts.  
-(*Keep in mind this is less secure from automated raids.*)
-
----
+	Sends a verification message to new members who join your server.
+	
+1. **DISCORD ACCOUNT SELECTION**  
+	This allows members to automatically verify with previously verified accounts.  
+	(*Keep in mind this is less secure from automated raids.*)
 
 3. **NICKNAME**  
-Change the nickname of a member on verify. For example their Roblox name.  
-(*Supports* [**simpukka**](/simpukka))
-
----
+	Change the nickname of a member on verify. For example their Roblox name.  
+	(*Supports* [**simpukka**](/simpukka))
 
 ### Other
 ---
@@ -62,8 +53,11 @@ If you would like to have a channel that members would use to verify, you might 
 This is a well built Embed which you can send to a channel that people can verify through. This can be simpler than using a command for some members.
 :::
 
-:::info
-**Need help verifying? Check out our easy to follow verification guide here:** (**[Setting up verification](/guides/verification-guide)**)
-:::
 ***
+### Additional Information
+---
+
+- **A short guide for setting up a verification system can be found [*here*](/guides/verification-guide).**
+
+- **All available commands relating to the Verification Module can be found [*here*](/commands/slash/verification-commands)**
 

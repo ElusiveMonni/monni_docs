@@ -10,7 +10,7 @@ Our Points Module is a highly configurable section of Monni, which is designed f
 This module allows you to create your own Shops and Point Based systems, where people can earn things like **Roles**, **Badges**, and **Items**.
 
 :::info
-This Module has a lot of Commands that work with it. Check [**HERE**.](/commands/slash/point-commands)
+This Module has a lot of Commands that work with it. Check [**here**](/commands/slash/point-commands).
 :::
 
 :::info

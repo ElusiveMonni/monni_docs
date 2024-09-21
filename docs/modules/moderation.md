@@ -9,7 +9,8 @@ The Moderation Module is a module designed to keep members from breaking the rul
 All command usage can be logged in a channel of your choice using the [**Logging Module**](logging).
 ### Actions
 ---
-The currently available actions are:
+The main actions are:
+
 - **Timeout**
 	- The Timeout command allows you to time a member out for a set amount of time. Timing out a member causes them to no longer be able to speak or set reactions to messages.
 	- **Default Duration** allows you to set a duration for how long the timeout lasts, which can be set to minutes or hours.
@@ -28,6 +29,11 @@ The currently available actions are:
 	- The Kick command allows you to KICK a member from your server.
 - **Purge**
 	- The Purge Command allows you to delete a set amount of messages from a channel, and is very useful for removing mass NSFW or spam.
+
+:::info
+**All available commands for this module can be found [*here*](/commands/slash/moderation/moderation-commands).**
+:::
+
 ### Other Settings
 ---
 #### Message
