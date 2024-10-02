@@ -68,6 +68,24 @@ const sidebars = {
           ],
           },
 
+        {
+          type: 'category',
+          label: 'Global',
+          link: {
+            type: 'doc',
+            id: 'commands/slash/global-commands',
+          },
+          items: [
+              'commands/slash/global/discord-avatar',
+              'commands/slash/global/reminder-create',
+              'commands/slash/global/reminder-manage',
+              'commands/slash/global/tag-create',
+              'commands/slash/global/tag-get',
+              'commands/slash/global/tag-manage',
+          ],
+          },
+
+
           {
           type: 'category',
           label: 'Invite',
