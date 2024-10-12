@@ -82,6 +82,7 @@ const sidebars = {
               'commands/slash/global/tag-create',
               'commands/slash/global/tag-get',
               'commands/slash/global/tag-manage',
+              'commands/slash/global/timestamp',
           ],
           },
 
