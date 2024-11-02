@@ -232,6 +232,7 @@ const sidebars = {
     items: [
         'control-panel/mass-actions',
         'control-panel/timestamp-tool',
+        'control-panel/web-logs',
     ],
   },
 
