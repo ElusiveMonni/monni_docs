@@ -6,11 +6,11 @@ title: Remove Item
 A command for removing items from a member. For more info on items and how to create them refer to [**Rewards module**](/modules/rewards).
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 :::admin
-**Dashboard** is an [administrator command](/misc/info/admin)!
+**Dashboard** is an [administrator command](/commands/info/admin)!
 :::
 
 ---

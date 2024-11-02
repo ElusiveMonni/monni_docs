@@ -20,7 +20,7 @@ Tracking certain command usage within the server.
 Creating a custom currency along with a shop where it can be used.
 
 ---
-#### [**Roles**](modules/Roles) 
+#### [**Roles**](modules/roles) 
 Managing roles and making roling people simpler.
 
 ---

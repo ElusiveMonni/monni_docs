@@ -6,7 +6,7 @@ title: Inventory
 A command for displaying what items a member has. For more info on items and how to create them refer to the [**Rewards module**](/modules/rewards).
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 ---

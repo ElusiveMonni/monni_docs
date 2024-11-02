@@ -6,11 +6,11 @@ title: Give Badge
 A command for giving members guild badges. For more info on badges and how to create them refer to the [**Rewards module**](/modules/rewards).
 
 :::slash
-**Dashboard** is a [slash command](/misc/info/slash/)!
+**Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
 :::admin
-**Dashboard** is an [administrator command](/misc/info/admin)!
+**Dashboard** is an [administrator command](/commands/info/admin)!
 :::
 
 ---
