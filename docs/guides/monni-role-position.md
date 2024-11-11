@@ -17,13 +17,13 @@ Own is always on top of the hierarchy, and cannot be changed.
 ---
 Open Discord's server settings. Then select "Roles".
 
-![server-settings](guide-assets/monni-role-position-settings.png)
-![roles-settings](guide-assets/monni-role-position-roles-settings.png)
+![server-settings](images/monni-role-position/monni-role-position1.png)
+![roles-settings](images/monni-role-position/monni-role-position2.png)
 
 
 Once the "Roles" section is open drag the "Monni" role above the other roles.
 
-![drag](guide-assets/monni-role-position-drag.gif)
+![drag](images/monni-role-position/monni-role-position3.gif)
 
 ### Why is role position important?
 ---

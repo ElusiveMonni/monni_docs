@@ -17,7 +17,7 @@ This step by step guide will allow you to quickly set up secure and efficient ve
 2. Login with your discord account and head over to the dashboard to select the server you want to add verification to!
 3. Once you have selected a server, you will see the “Verification” panel.
 
-![setting-up-verification-guide](assets/setting-up-verification-guide.png)
+![setting-up-verification-guide](images/verification-guide/verification-guide.png)
 4. Enable Roblox verification
 
 :::note

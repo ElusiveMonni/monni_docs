@@ -19,7 +19,7 @@ Mass actions is a tool which can be used to do things such as add roles to many 
 You can access Mass Actions in your servers dashboard, at: **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**
 
 It can be found in **Control Panel** > **Guild**
-![mass-actions-guide.png](guide-assets/mass-actions-guide.png)
+![mass-actions-guide.png](images/mass-actions/mass-actions.png)
 
 ### How to use Mass Actions
 ---
