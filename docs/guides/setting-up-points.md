@@ -1,5 +1,5 @@
 ---
-title: Setting Up A Points System
+title: Setting up a Points System
 sidebar_position: 4
 ---
 ##### A simple guide for using the Point Module!

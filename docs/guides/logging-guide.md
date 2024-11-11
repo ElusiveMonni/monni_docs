@@ -1,5 +1,5 @@
 ---
-title: Building Your Logging System!
+title: Building your Logging System
 sidebar_position: 3
 ---
 ##### Guide to building your own event logging system!

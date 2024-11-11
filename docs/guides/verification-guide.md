@@ -1,5 +1,5 @@
 ---
-title: Setting Up Verification
+title: Setting up Verification
 sidebar_position: 2
 ---
 ##### Our guide on setting up Verification!

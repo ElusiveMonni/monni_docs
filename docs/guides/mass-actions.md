@@ -1,5 +1,5 @@
 ---
-title: Guide To Mass Actions
+title: Guide to Mass Actions
 sidebar_position: 5
 ---
 ##### Need to do a lot at once? Here's how!
