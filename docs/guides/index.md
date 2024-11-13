@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 **Below are all of our document guides for those of you that would like some more instructions on how to configure the bot.**
 
-You can either use our written guides (Above the video) or check below them for their **video formats**.
+Some of the these guides also contain a video version incase you prefer it over being solely text-based.
 
 ---
 
