@@ -276,6 +276,8 @@ const sidebars = {
       "guides/setting-up-points",
       "guides/mass-actions",
       "guides/monni-role-position",
+      "guides/invite-tracking-rewards",
+      "guides/reaction-roles",
     ],
   },
 
