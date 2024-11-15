@@ -17,7 +17,7 @@ Our [Points Module](/modules/points) has a built in way to create a point system
 
 ![invite-tracking-rewards1](images/invite-tracking-rewards/invite-tracking-rewards1.png)
 
-2. Set the name to anything you prefer, in this case "Invite Counter", and then set the alias that is used in the point commands as found [here](/commands/slash/points); in this case, "invites". Also set the *Point System* option to either "True invites" or "Invites"
+2. Set the name to anything you prefer, in this case "Invite Counter", and then set the alias that is used in the point commands as found [here](/commands/slash/point-commands); in this case, "invites". Also set the *Point System* option to either "True invites" or "Invites"
 	- True invites only add points to members when the invitee is joining for the first time, while Invites will always add a point to the member.
 	- It's also a good idea to enable balance checking and a public leaderboard to allow for some competition between members.
 
