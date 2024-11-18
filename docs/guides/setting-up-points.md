@@ -8,7 +8,7 @@ The first thing you’ll want to do to set up your Point System is navigate to t
 
 You can do this by following the instructions below:
 ***
-1. go to **[https://monni.fyi/](https://monni.fyi/)**.  
+1. Go to **[https://monni.fyi/](https://monni.fyi/)**.  
 2. Go to the **dashboard**.  
 3. Click the server you want to set your Point System up in.  
 4. Use the sidebar on the left of the dashboard and select **"Points"**.  

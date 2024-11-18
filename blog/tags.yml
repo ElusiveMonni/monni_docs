@@ -7,3 +7,8 @@ release-note:
   label: Release note
   permalink: release-note
   description: Blog post for release
+
+localisation:
+  label: Localisation
+  permalink: localisation
+  description: Blog posts related to localisation
