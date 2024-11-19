@@ -12,10 +12,10 @@ You can aid us massively by engaging with our listed methods. We seriously appre
 ## Referring us to friends
 You can really help by recommending Monni to friends. The main form of growth for Discord Bots is what we call referrals. All good gossip about Monni is **highly** appreciated.
 ## Donations and Purchases
-[User Premium](link) is now available! A form of donating added to also grant you some benefits with Monni. You'll also gain a Donator role in our support server.
+[User Premium](https://monni.fyi/premium/user/) is now available! A form of donating added to also grant you some benefits with Monni. You'll also gain a Donator role in our support server.
 *Check the link out for information.*
 
-You can also donate to us directly [here](1. [https://buy.stripe.com/8wM2c5ekIcTgeCk9AA](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA "https://buy.stripe.com/8wM2c5ekIcTgeCk9AA"))!
+You can also donate to us directly [here](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA)
 ## Translations for Monni
 If you're fluent in a language we haven't added yet, we'd love you to add a translation for Monni.
 [Click here to learn how translate for us.](/blog/2024-11-18-translation-guide/2024-11-18-translation-guide)
