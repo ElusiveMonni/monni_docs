@@ -3,7 +3,7 @@ slug: next-steps
 title: Next Steps
 authors:
   - rockoyhead
-tags: []
+tags: release-note
 ---
 # Next Steps
 We'd like to talk about our next goals for Monni, as we've recently finished the framework for our standard features.
@@ -33,3 +33,17 @@ Also, we plan to add more in the future. We'd like to make it clear that we will
 We plan for Guild premium to be a serious level above in terms of capabilities.
 
 Lastly, we also have added a way to donate for anyone interested in aiding with development. You can check that out [here!](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA)
+
+
+## Changes
+- Removed discord linked roles. Doesn't work well and abandoned feature by discord. 
+- Changed just now to relative on the timestamp command.
+- Fixed sticky roles issue where role was given on join.
+- Fixed pets command bug where if you had 0 pets it would break.
+- Added rate limits to point system saving. This should stabilize point system registering.
+- Changed just now to relative on the timestamp command. More accurate wording.
+- Moved tags and reminders to a new encrypted storage system.
+- Added full translation support for reminders and tags.
+- Added new system for making cooldowns and translations related to it.
+- Large amount of internal changes to the bot to reduce future bugs.
+- Payment system integration.
