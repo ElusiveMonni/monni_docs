@@ -1,6 +1,6 @@
 ---
 title: Permissions
-sidebar_position: 2
+sidebar_position: 3
 ---
 Permissions and why we need them
 

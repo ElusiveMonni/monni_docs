@@ -24,4 +24,8 @@ Translations are provided by our community. We aren't responsible for potentiall
 :::
 
 ## Contributing
+<<<<<<< Updated upstream
 All of our translations are open to contribution. If you want to help Monni reach people who can't speak english or want to enjoy Monni in their native language. You can help us with our translation effort at https://weblate.monni.fyi/
+=======
+All of ours translations are open to contribution. If you want to help Monni reach people who can't speak English you can help us with our translation effort at https://weblate.monni.fyi/
+>>>>>>> Stashed changes

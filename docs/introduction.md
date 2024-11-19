@@ -6,6 +6,8 @@ title: Introduction
 # Welcome to Monni docs!
 ---
 **Monni is a highly configurable security bot,** with **Moderation**, **Economy,** **Verification**, and much more! We’ve built these docs to cover almost everything Monni can do, so you’ll never get stuck.
+
+We highly encourage you to join our [Support Server](https://discord.gg/QDKcs3sFpw)
 ***
 _**Looking for commands?**_ click [**Here**](/commands)!
 ***
