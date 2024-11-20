@@ -3,7 +3,8 @@ slug: next-steps
 title: Next Steps
 authors:
   - rockoyhead
-tags: release-note
+tags: 
+  - release-note
 ---
 # Next Steps
 We'd like to talk about our next goals for Monni, as we've recently finished the framework for our standard features.
