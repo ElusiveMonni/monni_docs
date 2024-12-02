@@ -19,7 +19,7 @@ Here is our simple guide on adding a translation projects from English to ***(Yo
 <!-- truncate -->
 _______________________________________________________________________________
 
-1. Press the "**+**" symbol above our already existing languages.
+1. Press the "**+**" symbol above existing languages.
 2. Start a new translation by selecting your desired language.
 3. Hit "**Start new translation**".
 4. Use your translation skills to translate Monni in your selected language.
