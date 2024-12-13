@@ -1,7 +1,7 @@
 ---
 title: How you can help us
 sidebar_position: 2
-slug: /help
+slug: /misc/faq/help
 ---
 Many features we're working on require premium. That's because if we were to make them free, **we'd be losing money.** General development also takes time!
 

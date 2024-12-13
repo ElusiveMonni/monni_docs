@@ -187,6 +187,14 @@ const config = {
           path: './release-notes',
         },
       ],
+      [
+        "posthog-docusaurus",
+      {
+        apiKey: "phc_CaQpEHaUFKm5mgi7t5gJrB0miDQECSY5oEypbGWEVSa",
+        appUrl: "https://eu.i.posthog.com", // optional, defaults to "https://us.i.posthog.com"
+        enableInDevelopment: false, // optional
+      },
+      ],
     ],
 };
 
