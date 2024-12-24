@@ -339,6 +339,18 @@ const sidebars = {
     },
     collapsed: true,
     items: [
+{
+        type: 'category',
+        label: 'DevTools',
+        link: {
+          type: 'doc',
+          id: 'developer/devtools/index',
+        },
+        collapsed: true,
+        items: [
+          'developer/devtools/points'
+        ]
+      },
         'developer/monni-api',
     ],
   },
