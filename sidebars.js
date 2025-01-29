@@ -187,7 +187,7 @@ const sidebars = {
           label: 'General Commands',
           link: {
             type: 'doc',
-            id: 'commands/prefix/general/general-index',
+            id: 'commands/prefix/general/index',
           },
           collapsed: true,
           items: [
@@ -200,7 +200,7 @@ const sidebars = {
           label: 'Guild Commands',
           link: {
             type: 'doc',
-            id: 'commands/prefix/guild/general-index',
+            id: 'commands/prefix/guild/index',
           },
           collapsed: true,
           items: [
