@@ -187,13 +187,28 @@ const sidebars = {
           label: 'General Commands',
           link: {
             type: 'doc',
-            id: 'commands/prefix/prefix-index',
+            id: 'commands/prefix/general/general-index',
           },
           collapsed: true,
           items: [
-              'commands/prefix/general-commands/pets',
+              'commands/prefix/general/pet-info',
           ],
           },
+
+          {
+          type: 'category',
+          label: 'Guild Commands',
+          link: {
+            type: 'doc',
+            id: 'commands/prefix/guild/general-index',
+          },
+          collapsed: true,
+          items: [
+              'commands/prefix/guild/forum-posts',
+          ],
+          },
+
+
         ],
       },
 

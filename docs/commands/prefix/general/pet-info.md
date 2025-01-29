@@ -1,11 +1,12 @@
 ---
-title: Pet command
+title: pet_info
 ---
-# Pets command
+# Pet Info command
 
 Command for displaying information about your personal pet count and global statistics. This is the second most important command!
+
 :::info
-**Pets** is a [prefix command](/commands/info/slash/)!
+**pet_info** is a [prefix command](/commands/prefix/)!
 :::
 
 ---

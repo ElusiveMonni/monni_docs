@@ -18,7 +18,7 @@ You can really help by recommending Monni to friends. The main form of growth fo
 You can also donate to us directly [here](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA)
 ## Translations for Monni
 If you're fluent in a language we haven't added yet, we'd love you to add a translation for Monni.
-[Click here to learn how translate for us.](/blog/2024-11-18-translation-guide/2024-11-18-translation-guide)
+[Click here to learn how translate for us.](/blog/translation-guide)
 
 
 You can contact us from our [Support Server](https://discord.gg/QDKcs3sFpw)
