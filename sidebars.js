@@ -205,6 +205,7 @@ const sidebars = {
           collapsed: true,
           items: [
               'commands/prefix/guild/forum-posts',
+              'commands/prefix/guild/forum-posts-sync',
           ],
           },
 
