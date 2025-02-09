@@ -206,6 +206,7 @@ const sidebars = {
           items: [
               'commands/prefix/guild/forum-posts',
               'commands/prefix/guild/forum-posts-sync',
+              'commands/prefix/guild/forum-posts-leaderboard',
           ],
           },
 

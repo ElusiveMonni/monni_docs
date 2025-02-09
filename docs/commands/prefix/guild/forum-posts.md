@@ -1,12 +1,16 @@
 ---
 title: forum_posts
 ---
-# Forum Posts command
+# Forum Posts
 
 Command for displaying information about how many posts a user has made within a specific forum.
 
 :::info
 **forum_posts** is a [prefix command](/commands/prefix/)!
+:::
+
+:::admin
+**forum_posts** is an [administrator command](/commands/info/admin)!
 :::
 
 ---
@@ -19,6 +23,10 @@ Arguments must be in order
 - 2 **forum id**  
 	ID of the forum channel which the information is wanted from
 
+## Rate Limits
+
+This command has no rate or concurrency limits.
+
 ## 🔒 Required permissions
 
-Requires the `manage server` permission
+Monni requires the `manage server` permission

@@ -1,7 +1,7 @@
 ---
 title: forum_posts_sync
 ---
-# Forum Posts command
+# Forum Posts Sync
 
 Command for synching past information about how many posts a user has made within a specific forum.
 
@@ -29,4 +29,4 @@ Forum_posts_sync can be used a maximum of 5 times within 120 seconds, and as a c
 
 ## 🔒 Required permissions
 
-Monni requires the `View Channel` permission for the specific forum
+Monni requires the `View Channel` permission for the specific forum along with the `Manage Server` permission
