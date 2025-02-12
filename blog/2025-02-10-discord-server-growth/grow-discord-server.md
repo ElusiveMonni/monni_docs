@@ -1,5 +1,5 @@
 ---
-slug: growing-guide
+slug: growing-discord-server
 title: Grow your Discord Server!
 authors:
   - rockoyhead
