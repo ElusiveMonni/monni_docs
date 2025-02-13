@@ -21,6 +21,8 @@ These are usually the first things that come to mind when trying to expand your 
 
 However, there are necessary steps to take before this can be effective. If you neglect these, you won’t see much growth, if any at all!
 
+<!-- truncate -->
+
 So before we go over the practices of advertising on these platforms, you’ll need to know which ones to use. Platforms like Disboard come ranked. Meaning some are more visited and known about than others. Don’t disregard the lower ranked ones!
 
 Here are some examples which you can also use:
