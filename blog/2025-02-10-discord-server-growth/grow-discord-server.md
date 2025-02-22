@@ -4,7 +4,7 @@ title: Grow your Discord Server!
 authors:
   - rockoyhead
 tags:
-  - blog
+  - discord
 ---
 # Growing your discord server
 
