@@ -11,7 +11,7 @@ A command for quickly converting times to UNIX Timestamps.
 
 ## Arguments
 
-- 1 **time:**  
+- 1 **time**  
     The time you wish to get a timestamp for
 	    - Ex: `5 Days`, `4 Weeks`
 

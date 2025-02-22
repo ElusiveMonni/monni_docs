@@ -187,13 +187,30 @@ const sidebars = {
           label: 'General Commands',
           link: {
             type: 'doc',
-            id: 'commands/prefix/prefix-index',
+            id: 'commands/prefix/general/index',
           },
           collapsed: true,
           items: [
-              'commands/prefix/general-commands/pets',
+              'commands/prefix/general/pet-info',
           ],
           },
+
+          {
+          type: 'category',
+          label: 'Guild Commands',
+          link: {
+            type: 'doc',
+            id: 'commands/prefix/guild/index',
+          },
+          collapsed: true,
+          items: [
+              'commands/prefix/guild/forum-posts',
+              'commands/prefix/guild/forum-posts-sync',
+              'commands/prefix/guild/forum-posts-leaderboard',
+          ],
+          },
+
+
         ],
       },
 
@@ -339,6 +356,18 @@ const sidebars = {
     },
     collapsed: true,
     items: [
+{
+        type: 'category',
+        label: 'DevTools',
+        link: {
+          type: 'doc',
+          id: 'developer/devtools/index',
+        },
+        collapsed: true,
+        items: [
+          'developer/devtools/points'
+        ]
+      },
         'developer/monni-api',
     ],
   },
