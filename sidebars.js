@@ -274,7 +274,6 @@ const sidebars = {
     items: [
         'misc/faq/permissions',
         'misc/faq/tokens',
-        'misc/faq/help',
     ]
   },
   ],
@@ -371,10 +370,22 @@ const sidebars = {
         'developer/monni-api',
     ],
   },
+
+ {
+    type: 'category',
+    label: 'Contributing',
+    link: {
+      type: 'doc',
+      id: 'contributing/index',
+    },
+    collapsed: true,
+    items: [
+          'contributing/help',
+    ]
+  },
+
  "localisation",
 ],
-
-
 
 
 
