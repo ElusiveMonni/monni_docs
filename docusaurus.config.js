@@ -153,14 +153,6 @@ const config = {
 
         copyright: `Copyright © ${new Date().getFullYear()} Monni technologies ltd`,
       },
-     announcementBar: {
-       id: 'migrating',
-     content:
-     'Due to the migraion to new docs some old soon to be removed content was left out. These can be found at our old docs at <a target="_blank" rel="noopener noreferrer" href="https://old.docs.monni.fyi/">old.docs.monni.fyi</a>',
-     backgroundColor: '#fafbfc',
-     textColor: '#091E42',
-     isCloseable: true,
-     },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
