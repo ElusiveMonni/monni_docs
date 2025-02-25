@@ -143,7 +143,8 @@ There is no need to keep affiliating just in Discord. You can affiliate with You
 
 ## Social Media influence.
 
-Social media can be used to advertise your Discord Server. You should choose platforms that your audience is most likely to be on. Are you a gaming server? Youtube shorts and such can be great. Or perhaps you focus on fashion and community engagement, instagram may be effective. 
+Social media can be used to advertise your Discord Server. You should choose platforms that your audience is most likely to be on. Are you a gaming server? Youtube shorts and such can be great.
+If you’re offering some type of work maybe linked in.
 
 ## Referral Schemes
 
