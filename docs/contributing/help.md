@@ -15,7 +15,6 @@ You can really help by recommending Monni to friends. The main form of growth fo
 [User Premium](https://monni.fyi/premium/user/) is now available! You'll also gain a Supporter role in our support server.
 *Check the link out for information.*
 
-You can also donate to us directly [here](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA)
 ## Translations for Monni
 If you're fluent in a language we haven't added yet, we'd love you to add a translation for Monni.
 [Click here to learn how translate for us.](/blog/translation-guide)
