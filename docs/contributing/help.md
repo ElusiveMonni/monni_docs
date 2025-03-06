@@ -11,8 +11,8 @@ If you'd like to support the development and expansion of Monni, no matter how l
 You can aid us massively by engaging with our listed methods. We seriously appreciate all support, regardless of how!
 ## Referring us to friends
 You can really help by recommending Monni to friends. The main form of growth for Discord Bots is what we call referrals. All good gossip about Monni is **highly** appreciated.
-## Donations and Purchases
-[User Premium](https://monni.fyi/premium/user/) is now available! A form of donating added to also grant you some benefits with Monni. You'll also gain a Donator role in our support server.
+## Purchases
+[User Premium](https://monni.fyi/premium/user/) is now available! You'll also gain a Supporter role in our support server.
 *Check the link out for information.*
 
 You can also donate to us directly [here](https://buy.stripe.com/8wM2c5ekIcTgeCk9AA)
