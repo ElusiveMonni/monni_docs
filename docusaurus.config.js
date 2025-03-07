@@ -54,6 +54,18 @@ const config = {
             'https://github.com/ElusiveMonni/monni_docs/blob/source/',
         },
         blog: {
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Monni technologies Oy.`,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
