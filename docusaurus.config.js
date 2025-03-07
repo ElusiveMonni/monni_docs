@@ -178,6 +178,18 @@ const config = {
       [
         '@docusaurus/plugin-content-blog',
         {
+                    feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Monni technologies Oy.`,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
           /**
            * URL route for the blog section of your site.
            * *DO NOT* include a trailing slash.
