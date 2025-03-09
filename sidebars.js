@@ -295,6 +295,7 @@ const sidebars = {
       "guides/monni-role-position",
       "guides/invite-tracking-rewards",
       "guides/reaction-roles",
+      "guides/sync-names-verification",
     ],
   },
 

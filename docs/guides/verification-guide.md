@@ -3,7 +3,6 @@ title: Setting up Verification
 sidebar_position: 2
 ---
 ##### Our guide on setting up Verification!
-
 ---
 
 This step by step guide will allow you to quickly set up secure and efficient verification for your discord server.
