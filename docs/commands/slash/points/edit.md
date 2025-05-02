@@ -21,7 +21,15 @@ The Edit command allows you to edit the point amounts of members. You can add an
 - 2 **Amount**  
     The **amount** of Points you would like to add. You can also use **negative numbers** (Remove Points).
     
-
+- 3 **Mode**  
+    The way you want the points to be edited
+	- `add` is the default, and will add the `amount` specified to the current balance
+	- `remove` will remove the `amount` specified from the current balance
+	- `set` will set the current balance to the `amount` specified
+	
+- 4 **Hidden**  
+    When set to `true`, will send the confirmation message as an ephemeral message only the command sender can see, while `false`, which is default, will send a confirmation message anyone can see
+    
 ## 🔒 Required permissions
 
 Administrator permissions required.
