@@ -10,7 +10,7 @@ The balance command gives you the ability to check how many points you or your m
 :::
 
 :::warning
-This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](modules/points) settings.
+This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](modules/points.md) settings.
 :::
 
 ## Arguments
