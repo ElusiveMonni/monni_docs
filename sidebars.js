@@ -28,7 +28,7 @@ const sidebars = {
     items: [
       {
         type: 'category',
-        label: 'types',
+        label: 'Types',
         link: {
           type: 'doc',
           id: 'commands/info/index',
@@ -227,10 +227,25 @@ const sidebars = {
     },
     collapsed: true,
     items: [
+      {
+        type: 'category',
+        label: 'Points',
+        link: {
+          type: 'doc',
+          id: 'modules/points',
+        },
+        collapsed: true,
+        items: [
+          'modules/points-info/systems',
+          'modules/points-info/commands',
+          'modules/points-info/shops',
+          'modules/points-info/milestones',
+          'modules/points-info/sources',
+          'modules/points-info/items',
+        ]
+      },
       "modules/verification",
       "modules/logging",
-      "modules/points",
-      "modules/rewards",
       "modules/roles",
       "modules/automod",
       "modules/moderation",
