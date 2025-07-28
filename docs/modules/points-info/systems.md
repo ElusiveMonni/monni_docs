@@ -3,14 +3,14 @@ sidebar_position: 3
 title: Systems
 slug: /modules/points-info/systems
 ---
-###### Module for building currency systems
+###### Module for building a server economy
 ---
-Our Points Module is a highly configurable section of Monni, which is designed for building currency based systems around Points.
+Our Points Module is a highly configurable section of Monni, which is designed for building currency based systems around "points".
 
-This module allows you to create your own Shops and Point Based systems, where people can earn things like **Roles**, **Badges**, and **Items**.
+This module allows you to create your own shops and point-based systems, where members can earn things like **Roles** and **Items**.
 
 :::info
-This Module has a lot of Commands that work with it. Check [**here**](/commands/slash/point-commands).
+This Module has a lot of Commands that work with it. Check [**here**](commands/slash/point-commands.md).
 :::
 
 :::info
