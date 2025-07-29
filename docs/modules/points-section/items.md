@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-title: Commands
-slug: /modules/points-info/commands
+title: Items
+slug: /modules/points/items
 ---
 ###### Module for building currency systems
 ---

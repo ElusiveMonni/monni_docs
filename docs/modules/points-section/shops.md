@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Shops
-slug: /modules/points-info/shops
+slug: /modules/points/shops
 ---
 ###### Module for building currency systems
 ---

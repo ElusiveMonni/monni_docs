@@ -236,12 +236,12 @@ const sidebars = {
         },
         collapsed: true,
         items: [
-          'modules/points-info/systems',
-          'modules/points-info/commands',
-          'modules/points-info/shops',
-          'modules/points-info/milestones',
-          'modules/points-info/sources',
-          'modules/points-info/items',
+          'modules/points-section/systems',
+          'modules/points-section/commands',
+          'modules/points-section/shops',
+          'modules/points-section/milestones',
+          'modules/points-section/sources',
+          'modules/points-section/items',
         ]
       },
       "modules/verification",

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Sources
-slug: /modules/points-info/sources
+slug: /modules/points/sources
 ---
 ###### Module for building currency systems
 ---
