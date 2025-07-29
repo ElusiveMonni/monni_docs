@@ -30,9 +30,9 @@ You can create a new point system by doing the following:
 
 You can change a lot with your points systems, which are separated into 6 sections. By clicking on the orange name of each of these below you can find information in greater detail:
 
-1. [**Systems**](points-section/systems) - The main systems where points are stored to be used in the rest of the module.
-2. [**Commands**](points-section/commands) - Where you create commands for you and your members to manage their points and items, and to purchase things with their points.
-3. [**Shops**](points-section/shops) - Where you create items that can be purchased using points using the shop command.
-4. [**Milestones**](points-section/milestones) - Where you can create milestones which perform actions when a member reaches a certain amount of points.
-5. [**Sources**](points-section/sources) - Where you create ways for members to gain points for specific systems.
-6. [**Items**](points-section/items) - Where you create items which can be purchased in shops and perform actions when owned or used.
+1. [**Systems**](points/systems) - The main systems where points are stored to be used in the rest of the module.
+2. [**Commands**](points/commands) - Where you create commands for you and your members to manage their points and items, and to purchase things with their points.
+3. [**Shops**](points/shops) - Where you create items that can be purchased using points using the shop command.
+4. [**Milestones**](points/milestones) - Where you can create milestones which perform actions when a member reaches a certain amount of points.
+5. [**Sources**](points/sources) - Where you create ways for members to gain points for specific systems.
+6. [**Items**](points/items) - Where you create items which can be purchased in shops and perform actions when owned or used.
