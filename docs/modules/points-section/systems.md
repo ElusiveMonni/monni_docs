@@ -22,4 +22,4 @@ Each system has a name, alias, and emoji associated with it:
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of systems which can exist in a single server.
 
-This limit is 10 systems for a normal server, and \[NUMBER] for a premium server.
+This limit is 10 systems for a normal server, and 20 for a premium server.

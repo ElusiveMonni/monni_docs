@@ -134,10 +134,12 @@ const sidebars = {
           items: [
               'commands/slash/points/balance',
               'commands/slash/points/edit',
-              'commands/slash/points/info',
               'commands/slash/points/leaderboard',
-              'commands/slash/points/send',
+              'commands/slash/points/item-edit',
+              'commands/slash/points/inventory',
               'commands/slash/points/shop',
+              'commands/slash/points/history',
+              'commands/slash/points/send',
           ],
           },
 
@@ -155,21 +157,7 @@ const sidebars = {
           ],
           },
 
-          {
-          type: 'category',
-          label: 'Rewards',
-          link: {
-            type: 'doc',
-            id: 'commands/slash/reward-commands',
-          },
-          items: [
-              'commands/slash/rewards/give-badge',
-              'commands/slash/rewards/give-item',
-              'commands/slash/rewards/inventory',
-              'commands/slash/rewards/remove-badge',
-              'commands/slash/rewards/remove-item',
-          ],
-          },
+
          ],
       },
 

@@ -24,5 +24,5 @@ This command is a dynamic command. The existence and name of this command will c
 
 ## Customization
 
-- **Systems**
+- **Systems**:  
 	Which systems balance will be showed when using the command. When selecting multiple will show all systems selected and use a different embed

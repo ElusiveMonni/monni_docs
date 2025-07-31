@@ -3,97 +3,39 @@ sidebar_position: 3
 title: Commands
 slug: /modules/points/commands
 ---
-###### Module for building currency systems
+### What are they?
 ---
-Our Points Module is a highly configurable section of Monni, which is designed for building currency based systems around Points.
+Commands are how members interact with the [point systems](/modules/points/systems) set up in a server. There are 8 different commands, ranging from checking the balance of a member to accessing a [shop](/modules/points/shops) to spend points on actions.
 
-This module allows you to create your own Shops and Point Based systems, where people can earn things like **Roles**, **Badges**, and **Items**.
-
-:::info
-This Module has a lot of Commands that work with it. Check [**here**](/commands/slash/point-commands).
-:::
-
-:::info
-The Points Module also goes hand in hand with the [**Rewards Module**](rewards)
-Check it out!
-:::
-
-***
-### Point System
+### Setting up commands
 ---
-You can create a new point system by doing the following:
+Commands can be creating by going to the dashboard, opening the `Points` module, going to the `Commands` section, and pressing "Add commands"
 
-1. Going to [https://monni.fyi](https://monni.fyi) and signing into your account.  
+Each command has a name, which will be what is typed in Discord to use the command. A command with the name `coins-balance` will be accessed in Discord as `/coins-balance`. Commands can only have names containing lowercase letters, numbers, and hyphens `-`.
 
-2. Heading over to the dashboard and selecting a server to configure.  
+The default permission decides what members can use a specific command. If `Everyone` is selected, then anyone in the server can see and use the command. If `Administrator` is selected, then anyone with a role with the administrator permission can see and use the command. Further customization cannot be done through the dashboard, but can be done through Discord using [this guide](/blog/slash-commands-permissions).
 
-3. Clicking “Points” on the sidebar. (It is on the left)  
-
-4. Configure the panel that pops up on the right to your needs!
-### Point System Configuration
+### Embed style
 ---
-You can change a lot with your new Point System. This includes:
+All commands come with a few premade styles, but further customization can be done by selecting "preview and edit". Depending on the type of command, there may be multiple versions based on the arguments being used, which can all be edited individually.
 
-- **Name of the Point System** | _Will also be the name of the currency_
+The embed editor uses [LiquidJS](https://liquidjs.com/) for logic to display information specific to the system and member using the command. These variables can be found under the `Context` section of the embed editor.
 
-- **Alias** | _Used as prefix on the commands._
-
-- **The Type Of Point System** | _You can use an internal system or a custom one. Internal systems are automatically managed and incremented, like the “**invited people**” system._
-
-- **Balance Checking** | _Whether a person can check their own currency balance or not._
-
-- **Allow or Deny Currency Usage** | _(Trading of Points.)_
-
-- **Point System Leaderboard** | _Whether it is accessible or not._
-
-#### Point Shop
+### Commands type and specific settings
 ---
-You can add purchasable items to the Point Shop. This includes a very long list of possibilities, such as buying **roles**, **badges**, **items** and more.
+Each command has a type which decides how it will function, these commands and their specific settings can be found in the [Points Commands](/commands/slash/point-commands) section of the documentation, or by clicking on the orange name of the command on this page.
 
-**Shop Items** are not to be confused with **Items.**  
-_Items can be created, traded, and bought. As well as given a rarity value._
-The full list of possibilities are:
+1. [**Balance**](/commands/slash/points/balance) - Displays the amount of a points a member has in each system.
+2. [**Edit**](/commands/slash/points/edit) - Changes the number of a points a member has for a given system.
+3. [**Leaderboard**](/commands/slash/points/leaderboard) - Displays and ranks members based on how many points they have.
+4. [**Item edit**](/commands/slash/points/item-edit) - Changes which and how many of a specific item a member has.
+5. [**Inventory**](/commands/slash/points/inventory) - Displays all items a member has.
+6. [**Shop**](/commands/slash/points/shop) - Opens a [shop](/modules/points/shops) which a member can buy items from.
+7. [**History**](/commands/slash/points/history) - Displays logs of past actions using points from a specific system.
+8. [**Send**](/commands/slash/points/send) - Sends points from the member using the command to another specified member.
 
+### Limits
 ---
+To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of commands which can exist in a single server.
 
- 1. **Give Role** | Adds a Role of your choice.
-2. **Remove Role** | Removes a Role of your choice.
-3. **Give Badge** | Adds a Badge of your choice.
-4. **Remove Badge** | Removes a Badge of your choice.
-5. **Give Item** | Gives an Item of your choice.
-6. **Remove Item** | Removes an Item of your choice.
-7. **Post Request** | Yep, send a Post Request to your API.
-8. **Send Message** | Monni will send a message of your choice. (Supports Simpuka).
-9. **Give Points** | Add points to the member who aquired it.
-10. **Remove Points** | Remove points from the member who aquired it.
-11. **Kick** | Kicks the member who aquired it.
-12. **Ban** | Bans the member who aquired it.
-13. **Timeout** | Timesout the member who aquired it.
-
-**These Items can be added and configured in any Point Shop you create!**
-
----
-### Milestones
----
-Milestones are similar to items, however rather than them being purchased they are automatically earned once a member hits a certain **Milestone** (Point amount).
-#### Sources
----
-Sources can be added to allow more ways for members to earn points.
-
-The two current options are:
-1. **Messages Sent** 
-
-Messages sent allows members to earn Points from sending messages. Below are a few editable features that you can configure.
-- **MESSAGES REQUIRED**  
-This is where you can decide how many messages a member has to post to earn points.
-- **POINTS TO AWARD**  
-This is where you can decide how many points a member gets, once they have posted the amount of messages required.
-
-2. **Voice Channel Time** 
-
-Voice Channel Time allows members to earn Points from being in VC for a set amount of time. Below are a few editable features that you can configure.
-- **Time in VC required**  
-This is where you can decide how long a member has to be in VC to earn points.  
-The time is set in minutes.
-- **POINTS TO AWARD**  
-This is where you can decide how many points a member gets, once they have posted the amount of messages required.
+This limit is 10 commands for a normal server, and 20 for a premium server.
