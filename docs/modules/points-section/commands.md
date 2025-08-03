@@ -3,6 +3,7 @@ sidebar_position: 3
 title: Commands
 slug: /modules/points/commands
 ---
+
 ### What are they?
 ---
 Commands are how members interact with the [point systems](/modules/points/systems) set up in a server. There are 8 different commands, ranging from checking the balance of a member to accessing a [shop](/modules/points/shops) to spend points on actions.

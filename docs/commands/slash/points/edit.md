@@ -1,19 +1,17 @@
 ---
 title: Edit
 ---
-# alias-Edit
+# Edit
 
-The Edit command allows you to edit the point amounts of members. You can add and remove points from any member you choose.
+The edit command allows you to edit the point amounts of members. You can add and remove points from any member you choose. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Edit** is a [slash command](/commands/info/slash/)!
 :::
 
 :::warning
 This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](modules/points.md) settings.
 :::
-
----
 
 ## Arguments
 
@@ -31,7 +29,8 @@ This command is a dynamic command. The existence and name of this command will c
 	
 - 4 **Hidden**  
     When set to `true`, will send the confirmation message as an ephemeral message only the command sender can see, while `false`, which is default, will send a confirmation message anyone can see
-    
-## 🔒 Required permissions
 
-Administrator permissions required.
+## Customization
+
+- **Systems**:  
+	Which systems balance will be showed when using the command. When selecting multiple will show all systems selected and use a different embed
