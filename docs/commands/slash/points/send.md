@@ -3,7 +3,7 @@ title: Send
 ---
 # Send
 
-A command that sends points from one member to another member of a guild. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
+The send command takes points from one member and adds them to another member of a guild. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
 
 :::slash
 **Send** is a [slash command](/commands/info/slash/)!

@@ -31,10 +31,10 @@ This command is a dynamic command. The existence and name of this command will c
     When set to `true`, will send the confirmation message as an ephemeral message only the command sender can see, while `false`, which is default, will send a confirmation message anyone can see
 - 5 **reason:**  
 	The reason displayed for points being edited when using the [history](/commands/slash/points/history) command
-- 6 **system:**
+- 6 **system:**  
 	Only when the command is assigned to multiple systems. Selects which system is edited. Multiple systems cannot be edited at the same time.
 
 ## Customization
 
 - **Systems**:  
-	Which systems balance will be showed when using the command. When selecting multiple will show all systems selected and use a different embed
+	Which systems balance can be edited when using the command.

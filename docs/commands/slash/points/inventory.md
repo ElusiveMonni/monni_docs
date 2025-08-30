@@ -3,7 +3,7 @@ title: Inventory
 ---
 # Inventory
 
-The inventory command displays all items that a specified member has. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
+The inventory command displays all items that a member has. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
 
 :::slash
 **Inventory** is a [slash command](/commands/info/slash/)!
@@ -15,9 +15,9 @@ This command is a dynamic command. The existence and name of this command will c
 
 ## Arguments
 
-This command takes no arguments.
+- 1 **hidden:**  
+	Whether the command will be visible to everyone or just the person using the command.
 
 ## Customization
 
-- **Systems**:  
-	Which systems balance will be showed when using the command. When selecting multiple will show all systems selected and use a different embed
+The inventory command has no customization, and **cannot** have a custom embed style.

@@ -3,7 +3,7 @@ title: History
 ---
 # History
 
-The history command displays recent actions performed involving a specific point system. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
+The history command displays recent actions performed involving a point system. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
 
 :::slash
 **History** is a [slash command](/commands/info/slash/)!
