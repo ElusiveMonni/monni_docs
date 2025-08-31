@@ -22,7 +22,7 @@ This command is a dynamic command. The existence and name of this command will c
 - 3 **amount:**  
 	How many items will be added to a member (can be negative to remove items)
 - 4 **hidden:**  
-	Whether the command will be visible to everyone or just the person using the command.
+	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is default, will send a message anyone can see.
 
 ## Customization
 

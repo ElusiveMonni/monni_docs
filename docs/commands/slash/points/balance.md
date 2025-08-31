@@ -18,7 +18,7 @@ This command is a dynamic command. The existence and name of this command will c
 - 1 **member:**  
     The member whose balance is displayed. Takes discord ID or a name. If left empty, will default to person who ran the command.
 - 2 **hidden:**  
-    Whether the message will be ephemeral (`true`) or visible to everyone (`false`). Defaults to `false`.
+    When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is default, will send a message anyone can see.
 - 3 **system:**  
     Only used when the command is set up for multiple systems. If a system is selected using its alias, then only that system will show up in the command, otherwise all systems will appear.
 

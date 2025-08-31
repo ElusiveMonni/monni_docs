@@ -15,9 +15,14 @@ This command is a dynamic command. The existence and name of this command will c
 
 ## Arguments
 
-This command takes no arguments.
+- 1 **shop:**  
+	Only appears when multiple shops are assigned to the command. Specifies which shop is opened.
+- 2 **hidden:**  
+	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is default, will send a message anyone can see.
 
 ## Customization
 
-- **Systems**:  
-	Which systems balance will be showed when using the command. When selecting multiple will show all systems selected and use a different embed
+There is no customization for the embed style of this command.
+
+- Shops:  
+	Which shops can be opened and purchased from when using the command.
