@@ -28,7 +28,7 @@ const sidebars = {
     items: [
       {
         type: 'category',
-        label: 'types',
+        label: 'Types',
         link: {
           type: 'doc',
           id: 'commands/info/index',
@@ -134,10 +134,12 @@ const sidebars = {
           items: [
               'commands/slash/points/balance',
               'commands/slash/points/edit',
-              'commands/slash/points/info',
               'commands/slash/points/leaderboard',
-              'commands/slash/points/send',
+              'commands/slash/points/item-edit',
+              'commands/slash/points/inventory',
               'commands/slash/points/shop',
+              'commands/slash/points/history',
+              'commands/slash/points/send',
           ],
           },
 
@@ -155,21 +157,7 @@ const sidebars = {
           ],
           },
 
-          {
-          type: 'category',
-          label: 'Rewards',
-          link: {
-            type: 'doc',
-            id: 'commands/slash/reward-commands',
-          },
-          items: [
-              'commands/slash/rewards/give-badge',
-              'commands/slash/rewards/give-item',
-              'commands/slash/rewards/inventory',
-              'commands/slash/rewards/remove-badge',
-              'commands/slash/rewards/remove-item',
-          ],
-          },
+
          ],
       },
 
@@ -227,10 +215,25 @@ const sidebars = {
     },
     collapsed: true,
     items: [
+      {
+        type: 'category',
+        label: 'Points',
+        link: {
+          type: 'doc',
+          id: 'modules/points',
+        },
+        collapsed: true,
+        items: [
+          'modules/points-section/systems',
+          'modules/points-section/commands',
+          'modules/points-section/shops',
+          'modules/points-section/milestones',
+          'modules/points-section/sources',
+          'modules/points-section/items',
+        ]
+      },
       "modules/verification",
       "modules/logging",
-      "modules/points",
-      "modules/rewards",
       "modules/roles",
       "modules/automod",
       "modules/moderation",

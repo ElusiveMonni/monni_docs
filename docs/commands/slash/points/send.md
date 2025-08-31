@@ -1,27 +1,28 @@
 ---
 title: Send
 ---
-# alias-Send
+# Send
 
-A command for sending points to your friends.
+The send command takes points from one member and adds them to another member of a guild. Guild owners can hide this command either by changing the permissions through the **Integrations Menu** in Discord settings or by changing the default permission within the Monni Dashboard.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Send** is a [slash command](/commands/info/slash/)!
 :::
 
-> This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](/modules/points) settings.
-
----
+:::warning
+This command is a dynamic command. The existence and name of this command will change depending on the guild’s settings. In this case [**Points module**](modules/points.md) settings.
+:::
 
 ## Arguments
 
-- 1 **Member:**  
-    The Member to send points to. Either Discord name or a ID. If left empty defaults to the person who ran the command.
-    
-- 2 **Amount**  
-    The **amount** of Points you would like to send.
-    
+- 1 **system:**  
+	Only appears when multiple systems are selected. Decides which system to send points from.
+- 2 **receiver:**  
+    The member to send points to, either as a name or a user ID.
+- 3 **amount:**  
+    The amount of points you would like to send.
 
-## 🔒 Required permissions
+## Customization
 
-No permissions required.
+- **Systems**:  
+	Which systems the points can be sent from/to. Only one system can be selected at a time.
