@@ -10,7 +10,9 @@ Items are things that exist in a member's [inventory](/commands/slash/points/inv
 
 ### Creating items
 ---
-Items can be created by going to the `Points` module on the dashboard and selecting the `items` section on the top bar. Then, press "Add items" and add a name, an optional description, a type, and actions (multiple can be selected).
+Items can be created by going to the `Points` module on the dashboard and selecting the `items` section on the top bar. Then, press "Add items" and add a name, an optional image or description, a type, and actions (multiple can be selected).
+
+Items can display an image when selected in an inventory by pasting a URL into the box below "Item image".
 
 Currently there is only one type, `consumable`, which means it can be used by selecting it within an inventory command in the server.
 
