@@ -10,16 +10,16 @@ A command to create readily available text strings
 :::
 
 :::ephemeral
-**Tag Create** is a [ephemeral command](/commands/info/ephemeral)!
+**Tag Create** is an [ephemeral command](/commands/info/ephemeral)!
 :::
 
 ## Arguments
 
 - 1 **name**  
-    The name of the tag for finding it when used with [Tag Get](tag-get)
+    The name of the tag for finding it when used with [Tag Get](tag-get).
 - 2 **content**  
-	The string of text contained in the stored tag
+	The string of text contained in the stored tag.
 
 ## 🔒 Required permissions
 
-No permissions are required
+No permissions are required.

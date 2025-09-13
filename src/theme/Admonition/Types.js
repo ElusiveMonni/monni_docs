@@ -33,7 +33,7 @@ function Ephemeral(props) {
     'margin-left': -2
     }}>
       <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <img src="/img/ghost.png/" alt="ghost"></img>
+      <img src="/img/ghost.png" alt="ghost"></img>
       <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '10px'}}>{props.title}</h5>
       </div>
       <div>{props.children}</div>
@@ -53,7 +53,7 @@ function Administrator(props) {
     'margin-left': -2
     }}>
       <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <img src="/img/is_admin_32x.png/" alt="admin_shield"></img>
+      <img src="/img/is_admin_32x.png" alt="admin_shield"></img>
       <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '5px'}}>{props.title}</h5>
       </div>
       <div>{props.children}</div>

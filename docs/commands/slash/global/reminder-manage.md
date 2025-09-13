@@ -3,7 +3,7 @@ title: Reminder Manage
 ---
 # Reminder
 
-A command for managing all currently active reminders on an account
+A command for managing all currently active reminders on an account.
 
 :::slash
 **Reminder Manage** is a [slash command](/commands/info/slash/)!
@@ -16,8 +16,8 @@ A command for managing all currently active reminders on an account
 
 ## Arguments
 
-This command has no arguments
+This command has no arguments.
 
 ## 🔒 Required permissions
 
-No permissions are required
+No permissions are required.

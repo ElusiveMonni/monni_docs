@@ -3,7 +3,7 @@ title: Discord Avatar
 ---
 # Discord Avatar
 
-A command for displaying the avatar image of a user on Discord
+A command for displaying the avatar image of a user on Discord.
 
 :::slash
 **Discord Avatar** is a [slash command](/commands/info/slash/)!

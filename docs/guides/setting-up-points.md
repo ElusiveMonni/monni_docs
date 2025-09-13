@@ -6,7 +6,7 @@ sidebar_position: 3
 ---
 ***
 ## What we're covering
-You'll learn to use stores, where members can buy, trade, or be given Items, based on your settings. Then what those Items do. Want to add roles? let someone change their name? or perhaps even have a message sent when somebody receives one of your items!
+You'll learn to use stores, where members can buy, trade, or be given Items, based on your settings. Then what those Items do. Want to add roles? Points? or perhaps even have a message sent when somebody receives one of your items!
 
 We'll go over milestones, which cause things to happen when members reach a certain amount of points, as well as how to create points, and different ways members can earn them. 
 
@@ -64,7 +64,7 @@ Now let's talk about Items.
 ## What are Items? 
 Items are a tradable asset which when obtained can trigger an action of your choosing. They can be bought, given, or earned through Milestones. (We'll go over milestones soon.)
 
-As for the "actions", these allow you to do things such as add/remove points, roles, or if you like  change a users nickname. These are generally self explanatory so you can mess around with them. Let's create our first Item by navigating to the "Items" section and creating an Item like we did a command. 
+As for the "actions", these allow you to do things such as add/remove points, roles, or if you like  ban somebody, lol. These are generally self explanatory so you can mess around with them. Let's create our first Item by navigating to the "Items" section and creating an Item like we did a command. 
 
 ![setting-up-economy-guide](images/economy-guide/create-item.png)
 

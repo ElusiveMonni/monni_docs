@@ -3,7 +3,7 @@ title: forum_posts_sync
 ---
 # Forum Posts Sync
 
-Command for synching past information about how many posts a user has made within a specific forum.
+Command for syncing past information about how many posts a user has made within a specific forum.
 
 :::info
 **forum_posts_sync** is a [prefix command](/commands/prefix/)!
@@ -19,9 +19,9 @@ Command for synching past information about how many posts a user has made withi
 Arguments must be in order
 
 - 1 **forum id**  
-	ID of the forum channel which information is going to be synched from
+	ID of the forum channel which information is going to be synced from.
 - 2 **user id**  
-	ID of the user whose information will be synched
+	ID of the user whose information will be synced.
 
 ## Rate limit
 
