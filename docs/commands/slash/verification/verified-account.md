@@ -12,7 +12,7 @@ A command for displaying information about the chosen member’s account during 
 :::
 
 ---
-### Argument types
+## Arguments
 
 - 1 **member:**  
     Member whose information will be displayed. Takes Discord name or ID.

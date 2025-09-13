@@ -8,6 +8,8 @@ The Timeout command allows you to time a member out for a set amount of time.
 Timing out a member causes them to no longer be able to speak or set reactions to messages.
 
 ---
+## Arguments
+
 - **1. Member**
     The member you want to add the timeout to.
 

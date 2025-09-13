@@ -8,6 +8,8 @@ The Warn command allows you to add a warning to one of your members with an opti
 This allows you to keep track of a user’s offenses so you can better decide their punishment.
 
 ---
+## Arguments 
+
 - **1. Member**
     The member you want to warn.
 

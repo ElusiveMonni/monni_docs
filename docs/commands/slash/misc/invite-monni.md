@@ -9,7 +9,7 @@ A command for inviting Monni.
 **Dashboard** is a [slash command](/commands/info/slash/)!
 :::
 
-## Argument
+## Arguments
 
 This command takes no arguments.
 

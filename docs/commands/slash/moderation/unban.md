@@ -6,6 +6,8 @@ title: Unban
 The Unban command allows you to remove a ban from a member.
 
 ---
+## Arguments
+
 - **1. Member**
     Select a member to unban. This also supports a member ID.
 

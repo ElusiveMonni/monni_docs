@@ -6,6 +6,8 @@ title: Remove-timeout
 The Remove Timeout command allows you to remove a timeout from a member.
 
 ---
+## Arguments
+
 - **1. Member**
     The member you want to remove the timeout from.
 

@@ -6,6 +6,8 @@ title: Kick
 The Kick command allows you to KICK a member from your server.
 
 ---
+## Arguments
+
 - **1. Member:**
     The member you would like to kick.
 
