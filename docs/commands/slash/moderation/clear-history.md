@@ -6,9 +6,10 @@ title: Clear History
 Completely clears a members mod history. This includes warns.
 
 ---
-## Member
+## Arguments
 
-The member you are going to clear history from.
+- **1. Member**
+    The member you are going to clear history from.
 
 ---
 ## REQUIRE 2FA

@@ -12,9 +12,10 @@ MUTES
 TIMEOUTS**
 
 ---
-## Member
+## Arguments
 
-The member you are going to check history from.
+- **1. Member**
+    The member you are going to check history from.
 
 ---
 ## REQUIRE 2FA
