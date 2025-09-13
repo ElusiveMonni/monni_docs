@@ -10,16 +10,16 @@ Timing out a member causes them to no longer be able to speak or set reactions t
 ---
 ## Arguments
 
-- **1. Member**
+- **1 Member**
     The member you want to add the timeout to.
 
-- **2. Default Duration**
+- **2 Default Duration**
     This section allows you to set a duration for how long the timeout lasts.  
     You can set it to minutes or hours.
 
     ![default_duration.png](https://docs.monni.fyi/default_duration.png)
 
-- **2. Message:**
+- **3 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
     *Message Details*

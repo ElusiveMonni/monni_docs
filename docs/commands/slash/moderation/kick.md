@@ -8,10 +8,10 @@ The Kick command allows you to KICK a member from your server.
 ---
 ## Arguments
 
-- **1. Member:**
+- **1 Member:**
     The member you would like to kick.
 
-- **2. Message:**
+- **2 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
     *Message Details*

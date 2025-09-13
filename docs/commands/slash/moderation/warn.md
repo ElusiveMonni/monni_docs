@@ -10,13 +10,13 @@ This allows you to keep track of a user’s offenses so you can better decide th
 ---
 ## Arguments 
 
-- **1. Member**
+- **1 Member**
     The member you want to warn.
 
-- **2. Reason**
+- **2 Reason**
     The reason for timing out your member.
 
-- **3. Default Expiration**
+- **3 Default Expiration**
     This section allows you to set a duration for how long the warn lasts before expiring 
     (Being removed from the member).  
 
@@ -24,7 +24,7 @@ This allows you to keep track of a user’s offenses so you can better decide th
 
     ![expiration.png](https://docs.monni.fyi/expiration.png)
 
-- **2. Message:**
+- **4 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
     *Message Details*

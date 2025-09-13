@@ -10,13 +10,13 @@ Banning a member means they can NOT rejoin your server. You can unban a member b
 ---
 ## Arguments
 
-- **1. Default Duration:**
+- **1 Default Duration:**
     This section allows you to set a duration for how long the ban lasts.  
     You can set it to minutes or hours.
 
     ![default_duration.png](https://docs.monni.fyi/default_duration.png)
 
-- **2. Message:**
+- **2 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
     *Message Details*

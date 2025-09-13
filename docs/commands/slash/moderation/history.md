@@ -14,7 +14,7 @@ TIMEOUTS**
 ---
 ## Arguments
 
-- **1. Member**
+- **1 Member**
     The member you are going to check history from.
 
 ---

@@ -10,13 +10,13 @@ Muting a member causes them to no longer be able to speak in your server.
 ---
 ## Arguments
 
-- **1. Default Duration**
+- **1 Default Duration**
     This section allows you to set a duration for how long the mute lasts.  
     You can set it to minutes or hours.
 
     ![default_duration.png](https://docs.monni.fyi/default_duration.png)
 
-- **2. Message:**
+- **2 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
     *Message Details*
@@ -34,12 +34,12 @@ Muting a member causes them to no longer be able to speak in your server.
     The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
 
 
-- **3. Hard Mute:**
+- **3 Hard Mute:**
     If activated, this will remove roles from the member. Once the mute ends, the roles will be  added back.
 
   >Make sure Monni has the appropriate permissions to remove the roles!
 
-- **4. Sticky Mute:**
+- **4 Sticky Mute:**
     Will make sure that if a member leaves and rejoins, they will remain muted.
 ---
 

@@ -8,7 +8,7 @@ Removes a moderation case using a case ID as input.
 --- 
 ## Arguments
 
-- **1. Case_id**
+- **1 Case_id**
     The ID of the case you'd like to delete. You can get these from viewing history or logs.
 
 ---

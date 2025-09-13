@@ -8,7 +8,7 @@ Completely clears a members mod history. This includes warns.
 ---
 ## Arguments
 
-- **1. Member**
+- **1 Member**
     The member you are going to clear history from.
 
 ---
