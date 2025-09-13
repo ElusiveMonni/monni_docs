@@ -16,7 +16,7 @@ This command is a dynamic command. The existence and name of this command will c
 ## Arguments
 
 - 1 **hidden:**  
-	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is default, will send a message anyone can see.
+	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is the default, will send a message anyone can see.
 
 ## Customization
 

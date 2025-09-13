@@ -17,10 +17,12 @@ This command is a dynamic command. The existence and name of this command will c
 
 - 1 **member:**  
 	Decides which member's logs will be accessed.
+
 - 2 **system:**  
-	Only appears when multiple systems are selected. Chooses which system's logs will be show up.
+	Only appears when multiple systems are selected. Chooses which system's logs will be shown.
+
 - 3 **hidden:**  
-	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is default, will send a message anyone can see.
+	When set to `true`, will send the message as an ephemeral message only the command sender can see, while `false`, which is the default, will send a message anyone can see.
 
 ## Customization
 
