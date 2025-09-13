@@ -12,19 +12,20 @@ The Kick command allows you to KICK a member from your server.
 - **2. Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
-    ##### Message Details
+    *Message Details*
 
-    **No Messages**:  
+    ##### No Messages:  
     No message will be sent to the affected user!
 
-    **Server and Action**:  
+    ##### Server and Action:  
     The action committed and the server it was committed in will be sent to the user.
 
-    **Server, Action, and Reason**:  
+    ##### Server, Action, and Reason:  
     The action committed, the server it was committed, and the reason provided by the command executor will be sent to the user.
 
-    **Server, Action, Reason and Moderator**:  
+    ##### Server, Action, Reason and Moderator:  
     The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
+
 
 ---
 
