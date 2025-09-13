@@ -1,13 +1,13 @@
 ---
-title: Remove-case
+title: Unban
 ---
-# Mod | Remove Case
+# Mod | Unban Command
 
-Removes a moderation case using a case ID as input.
+The Unban command allows you to remove a ban from a member.
 
---- 
-- **1. Case_id**
-    The ID of the case you'd like to delete. You can get these from viewing history or logs.
+---
+- **1. Member**
+    Select a member to unban. This also supports a member ID.
 
 ---
 ## REQUIRE 2FA

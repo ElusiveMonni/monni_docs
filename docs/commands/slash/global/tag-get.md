@@ -11,11 +11,13 @@ A command for fetching the text strings of created tags
 
 ## Arguments
 
-- 1 **tag**  
+- 1 **tag:**  
     Name of the requested tag.
-- 2 **hidden**  
+
+- 2 **hidden:**  
 	Whether the tag will or will not be [ephemeral](/commands/info/ephemeral).
-- 3 **copy_mode**  
+	
+- 3 **copy_mode:**  
 	Whether the tag will be displayed within backticks ( \` ) for ease of copying.
 
 ## 🔒 Required permissions

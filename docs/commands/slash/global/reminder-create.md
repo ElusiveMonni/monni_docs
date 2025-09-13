@@ -16,13 +16,16 @@ A command for reminding yourself about important things after a set time
 
 ## Arguments
 
-- 1 **about**  
+- 1 **about:**  
     Sets a title for the reminder.
-- 2 **description**  
+
+- 2 **description:**  
 	Sets a description for the reminder.
-- 3 **time**  
+
+- 3 **time:**  
 	Sets a time until the reminder message is sent.
-- 4 **repeating**  
+
+- 4 **repeating:**  
 	Decides whether the reminder will repeat itself until deleted.
 
 ## 🔒 Required permissions

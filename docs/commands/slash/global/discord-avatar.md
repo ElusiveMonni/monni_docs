@@ -11,7 +11,7 @@ A command for displaying the avatar image of a user on Discord.
 
 ## Arguments
 
-- 1 **member**  
+- 1 **member:**
     Username of the user whose avatar image is wanted
 
 ## 🔒 Required permissions

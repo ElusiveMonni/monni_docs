@@ -15,7 +15,7 @@ A command for editing and deleting any currently saved tags.
 
 ## Arguments
 
-- 1 **tag**  
+- 1 **tag:**  
     Chooses which saved tag to manage, leave blank for a list of all current tags.
 
 ## 🔒 Required permissions

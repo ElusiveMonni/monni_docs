@@ -10,7 +10,6 @@ The verify command brings up a link to the verification page where you can conne
 :::
 
 ---
-
 ## Arguments
 
 This command takes no arguments.

@@ -10,7 +10,6 @@ A command for updating the nickname of a server member. The nickname is based on
 :::
 
 ---
-
 ## Arguments
 
 - 1 **Member**  
