@@ -14,10 +14,10 @@ Shops can be created by pressing "Add shops" in the `Shops` section of the `Poin
 
 ### Customization
 ---
-Customization of a shop is mainly done by adding products. Each product has a name, and description which appear in the message sent by Monni when using the shop command. Each item also has a price, can have a prerequisite, and performs an action.
+Customization of a shop is mainly done by adding products. Each product has a name, and description, which appear in the message sent by Monni when using the shop command. Each item also has a price, can have a prerequisite, and performs an action.
 
-- **Price** - How many points will be removed from a member when purchasing the item. This amount must be positive, and the item can only be purchased if the buyer's balance is positive and greater than the price. Multiple point systems can be selected, and means that the buyer's balance must be greater than the price specified each system individually.
-- **Prerequisite** - A prerequisite can be either an item or a set amount of points. These points and/or items will not be spent when purchasing, but are needed for the option to purchase to be available.
+- **Price** - How many points will be removed from a member when purchasing the item. This amount must be positive, and the item can only be purchased if the buyer's balance is positive and greater than the price. If multiple point systems can be selected then the buyer's balance must be greater than the price specified in each system individually.
+- **Prerequisite** - A prerequisite can either be an item or a set amount of points. These points and/or items will not be spent when purchasing, but are needed for the purchase option to be available.
 - **Actions** - Actions are what occur when a product is purchased. Multiple actions can be added to a single product.
 
 ### Actions
@@ -38,4 +38,4 @@ The current available actions are:
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of shops which can exist in a single server.
 
-This limit is 3 shops for a normal server, and 10 for a premium server.
+This limit is 3 shops for a normal server. Limits can soon be increased indefinitely through our premium subscription.

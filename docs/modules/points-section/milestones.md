@@ -6,7 +6,7 @@ slug: /modules/points/milestones
 
 ### What are they?
 ---
-Milestones are ways to reward members for reaching a certain amount of points in a [system](/modules/points/systems). Each milestone is related to a single system and can perform an action when the milestone is passed, and when the member loses points and goes below the milestone.
+Milestones are ways to reward members for reaching a certain amount of points in a [system](/modules/points/systems). Each milestone is related to a single system and can perform an action when the milestone is passed. You can also do this when the member loses points and goes below the milestone.
 
 ### Creating milestones
 ---
@@ -34,4 +34,4 @@ Multiple actions can occur for a single milestone. The current actions available
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of milestones which can exist in a single server.
 
-This limit is 20 milestones for a normal server, and 40 for a premium server.
+This limit is 20 milestones for a normal server. Limits can soon be increased indefinitely through our premium subscription.

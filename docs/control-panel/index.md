@@ -4,6 +4,7 @@ title: Control Panel
 slug: control-panel/index
 ---
 # Control Panel
+*This page is based on the old version of the site, which can be found at https://old.monni.fyi/*
 
 The Control Panel allows you to manage all of your servers via its **tools**, such as [**Mass actions**](/guides/mass-actions).
 
@@ -27,8 +28,8 @@ Triggers are a very important feature of Monni as they allow you to do nearly an
 
 These triggers can be built with our user friendly action builder as well as a block code editor and code editor.
 
-We highly reccomend you see our detailed page on Triggers.  
-[**CLICK HERE**](https://docs.monni.fyi/triggers)
+We highly recommend you see our detailed page on Triggers.  
+[**CLICK HERE**](https://docs.monni.fyi/triggers) (This link is currently being updated)
 
 ## Home
 

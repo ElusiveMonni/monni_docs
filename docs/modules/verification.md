@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Verification
 ---
-###### Module for handling verification related data
+###### Module for handling verification tools
 ***
 The Verification module offers the ability to give and take roles on join and verify, allowing for the creation of Verification Security Walls.
 
@@ -13,14 +13,14 @@ Verification Embeds can be sent to any channel by accessing the verification mod
 :::
 
 :::note
-You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**Simpukka**](/simpukka)
+You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**Simpukka.**](/simpukka)
 :::
 
 ### Using Verification
 ---
 There are a few things you’ll need to configure before Verification is working in your server.
 1. **VERIFICATION SERVICE**  
-Enables Verification
+Allows you to select which type of verification you want to use.
 2. **VERIFIED ROLE**  
 This is the role a member will get when he verifies.
 3. **UNVERIFIED ROLE**  

@@ -3,9 +3,9 @@ title: How you can help us
 sidebar_position: 1
 slug: /contributing/help
 ---
-Many features we're working on require premium. That's because if we were to make them free, **we'd be losing money.** General development also takes time!
+Many features we're working on require premium. That's because if we were to make them free, **we'd be spending more money than we make.** Development also takes time!
 
-We're making it clear that all existing free features will never be moved behind a paywall. We also plan to continue adding to our free modules forever.
+We're making it clear that all existing free features will never be moved behind a paywall. We also plan to continue adding to our free modules forever. Our premium features are features that NEED to be premium so we can avoid a net loss. 
 
 If you'd like to support the development and expansion of Monni, no matter how little,
 You can aid us massively by engaging with our listed methods. We seriously appreciate all support, regardless of how!

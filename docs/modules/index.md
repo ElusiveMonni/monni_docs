@@ -3,33 +3,33 @@ slug: /modules
 title: Modules
 sidebar_position: 2
 ---
-Modules are main functions that Monni has and are fully toggleable and customisible through the dashboard at https://monni.fyi/
+Modules the paint for your canvas. These are fully toggleable and customisable through the dashboard at https://monni.fyi/.
 
 Our currently available modules are:
+
+---
+#### [**Economy**](modules/points)
+Create a custom currency, let members trade, and perform actions for reaching milestones.
+
+---
+#### [**Logging**](modules/logging)
+Track everything that happens in your server. Become the government.
+
+---
+#### [**Auto Mod**](modules/automod) **and** [**Moderation**](modules/moderation) 
+Chat filters, anti-spam, and better commands for punishment.
+
+---
+#### [**Roles**](modules/roles) 
+Tools to let you choose how people are automatically roled in your server.
 
 ---
 #### [**Verification**](modules/verification) 
 Confirming your members are who they say they are through linking their Roblox account.
 
 ---
-#### [**Logging**](modules/logging)
-Tracking certain command usage within the server.
-
----
-#### [**Points**](modules/points) **and** [**Rewards**](modules/rewards) 
-Creating a custom currency along with a shop where it can be used.
-
----
-#### [**Roles**](modules/roles) 
-Managing roles and making roling people simpler.
-
----
-#### [**Auto Mod**](modules/automod) **and** [**Moderation**](modules/moderation) 
-Creating chat filters, anti-spam, and simpler punishment.
-
----
 #### [**Anti Bot**](modules/anti-bot)
-A way to automatically detect bot raids before they become a major problem.
+A way to automatically detect bot raids before they become a major problem. Essentially let's you build a nuke bunker.
 
 ---
 

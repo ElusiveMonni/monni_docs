@@ -4,6 +4,8 @@ title: Timestamp Tool
 ---
 # Timestamp Tool
 
+This is an old version of the Timestamp Tool, which can be accessed from https://old.monni.fyi/tools/timestamp
+
 Our Timestamp tool allows you to create timestamps instantly.
 
 ![misc/control-panel](assets/timestamp.png)

@@ -7,7 +7,7 @@ title: Logging
 The Logging Module allows you to keep track of all server related events such as moderation, channel and member events.
 
 :::info
-It boasts over 50+ events that can be logged and configured!
+It boasts over 70+ events that can be logged and configured!
 :::
 
 :::note
@@ -17,6 +17,9 @@ Looking for help setting up some logging? See our Tutorial with full details: **
 ***
 ### Advanced Mode
 ***
+*This no longer exists, however advanced mode can still be used from the old site, accessible at*
+*https://old.monni.fyi/*. A version for the new website is currently planned.
+
 Advanced mode allows for adding a Triggers to your Logging Events. This means when something is logged, your Trigger will be activated.
 
 These Triggers can range from changing the nickname of a member, to sending a message or even banning them. It’s completely up to you.

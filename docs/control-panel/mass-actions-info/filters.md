@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Filters
 ---
 # Actions
+*These filters are used by the old tool, which is on the old site, which can be accessed at https://old.monni.fyi*
 
 Actions are used to select different outcomes that will effect selected members.
 

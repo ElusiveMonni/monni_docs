@@ -6,11 +6,11 @@ slug: /modules/points/items
 
 ### What are they?
 ---
-Items are things that exist in a member's [inventory](/commands/slash/points/inventory) and can be used to apply certain actions. Each item has a name, description, type, and related actions.
+Items exist in a member's [inventory](/commands/slash/points/inventory) and can be used to apply certain actions. Each item has a name, description, type, and related actions.
 
 ### Creating items
 ---
-Items can be created by going to the `Points` module on the dashboard and selecting the `items` section on the top bar. Then, press "Add items" and add a name, an optional image or description, a type, and actions (multiple can be selected).
+Items can be created by going to the `Points` module on the dashboard and selecting the `items` section on the top bar. Next, press "Add items" and add a name, an optional image or description, a type, and actions (multiple can be selected).
 
 Items can display an image when selected in an inventory by pasting a URL into the box below "Item image".
 
@@ -34,4 +34,4 @@ The current available actions are:
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of items which can exist in a single server.
 
-This limit is 20 items for a normal server, and 40 for a premium server.
+This limit is 20 items for a normal server. Limits can soon be increased indefinitely through our premium subscription.

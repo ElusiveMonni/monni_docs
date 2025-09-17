@@ -3,10 +3,11 @@ sidebar_position: 1
 title: Mass Actions
 ---
 # Mass Actions
+*This version of the tool is on the old site, which can be accessed at https://old.monni.fyi*
 
 Mass actions is a tool which can be used to do things such as add roles to many people at once, or ban multiple users at the same time.
 
-> **Members are selected through [FILTERS](/control-panel/mass-actions-info/filters). Some Filters include:**  
+> **Members are selected through [FILTERS](control-panel/mass-actions-info/filters). Some Filters include:**  
 > _-Members with specific roles._  
 > _-Days since members joined._
 
@@ -14,7 +15,7 @@ Mass actions is a tool which can be used to do things such as add roles to many 
 
 ## Where do I find Mass Actions?
 
-You can access Mass Actions in your servers dashboard, at: **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**  
+You can access Mass Actions in your servers dashboard, at: **[https://old.monni.fyi/dashboard](https://monni.fyi/dashboard)**  
 It can be found in **Control Panel** > **Guild**  
 ![misc/control-panel](assets/mass_actions.png)
 
@@ -38,4 +39,4 @@ You’ll be sent a confirmation message in direct messages after executing. It c
 
 ### More information
 
-> If you are interested in details on Filters and Actions, you can find more information here: [**actions/filters**](https://docs.monni.fyi/modules/control-panel/actions-and-filters)
+> If you are interested in details on Filters and Actions, you can find more information here: [**filters**](control-panel/mass-actions-info/filters)

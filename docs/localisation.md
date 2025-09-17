@@ -2,7 +2,9 @@
 title: Localisation
 ---
 
-Monni provides you a way to change language of the bot. On guild level the language can be changed from [dashboard](https://monni.fyi/dashboard/). Each user can also set their own preferred language at their [settings](https://monni.fyi/settings/dashboard/localisation). Default language is english and its the language used in case some part of Monni isn't translated. Below is a table showing what language will be chosen in each situation
+Monni provides you a way to change the language of the bot. On the guild level the language can be changed from your [dashboard](https://monni.fyi/dashboard/). Each user can also set their own preferred language at their [settings](https://monni.fyi/settings/dashboard/localisation). 
+
+The default language is English and its the language used in the case some part of Monni isn't translated. Below is a table showing what language will be chosen in each situation.
 
 
 
@@ -25,4 +27,4 @@ Translations are provided by our community. We aren't responsible for potentiall
 
 ## Contributing
 
-All of our translations are open to contribution. If you want to help Monni reach people who can't speak english or want to enjoy Monni in their native language. You can help us with our translation effort at https://weblate.monni.fyi/
+All of our translations are open to contribution. If you want to help Monni reach people who can't speak english or want to enjoy Monni in their native language. You can help us with our translation effort at https://weblate.monni.fyi/.
