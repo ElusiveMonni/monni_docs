@@ -4,8 +4,9 @@ sidebar_position: 8
 ---
 ###### A quick guide to self-roling using reactions!
 ___
+*Reaction roles are not currently on the new version of the website and will be added shortly. For now, you can use reaction roles through the old website at https://old.monni.fyi/*
 
-
+This guide uses the old website and will be updated once reaction roles are added to the new website.
 ### Why use reaction roles?
 ---
 

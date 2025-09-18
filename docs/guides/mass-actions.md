@@ -4,6 +4,9 @@ sidebar_position: 5
 ---
 ##### Need to do a lot at once? Here's how!
 ---
+*This tool does not yet exist on the new version of the website. You can still use the tool at* 
+*https://old.monni.fyi/.* This guide will be updated once the tool is added to the new site.
+
 Mass actions is a tool which can be used to do things such as add roles to many people at once, or ban multiple users at the same time.
 
 :::info

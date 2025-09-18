@@ -13,30 +13,31 @@ Our [Points Module](/modules/points) has a built in way to create a point system
 ### Creating the tracking system
 ---
 
-1. Go to the [Monni Dashboard](https://monni.fyi/dashboard), then your server and go to the *Points Module*. In the module tab, select "Add new point system".
+1. Go to the [Monni Dashboard](https://monni.fyi/dashboard), then your server, and go to the *Points Module*. In the systems tab, select "Add system".
 
-![invite-tracking-rewards1](images/invite-tracking-rewards/invite-tracking-rewards1.png)
+![invite-tracking-rewards](images/invite-tracking-rewards/points-example.png)
 
-2. Set the name to anything you prefer, in this case "Invite Counter", and then set the alias that is used in the point commands as found [here](/commands/slash/point-commands); in this case, "invites". Also set the *Point System* option to either "True invites" or "Invites"
-	- True invites only add points to members when the invitee is joining for the first time, while Invites will always add a point to the member.
-	- It's also a good idea to enable balance checking and a public leaderboard to allow for some competition between members.
+2. Now name your currency, something like "Invite Count". Next set the alias, which will be the name of our commands later. 
 
-![invite-tracking-rewards2](images/invite-tracking-rewards/invite-tracking-rewards2.png)
+3. Head over to the "Sources tab" and click "Add sources". Give it a name, like "Invite Points".
 
-3. As an option to reward people for inviting others, you can use either a shop item or milestone as described in the [Points Module](/modules/points). Once you set these rewards up to your liking, make sure you hit save!
-	- For this point system setting, a source for point is not needed as selecting True invites or Invites is a source of its own.
+![invite-tracking-rewards](images/invite-tracking-rewards/sources-example.png)
 
-![invite-tracking-rewards3](images/invite-tracking-rewards/invite-tracking-rewards3.png)
+4. In Point Systems, select the point system we made previously. These will be the points a member gets for inviting people. 
+
+5. Lastly select "People Invited" as the source. Now you can choose how much points a member gets for inviting somebody. 
+
+You can now add things like milestones for your system or shop items. Enjoy!
 
 ### Troubleshooting
 ---
 
-Sometimes, do to a few common errors, the invite tracking system won't work; this could be due to two main reasons:
-- Monni does not have the "manage roles" permission required to perform reward actions
-- Monni does not have the permissions required to view the audit/invite logs
+Sometimes, due to a few common errors, the invite tracking system won't work. This could be due to two main reasons:
+- Monni does not have the "manage roles" permission required to perform reward actions.
+- Monni does not have the permissions required to view the audit/invite logs.
 
-A good way to check whether a point system works is to test the balance after it should have gone up and the shop to make sure Monni has all the permissions required. This can be done as in the image:
+A good way to check whether a point system works is to test the balance after it should have gone up, and the shop to make sure Monni has all the permissions required. This can be done as in the image:
 
 ![invite-tracking-rewards4](images/invite-tracking-rewards/invite-tracking-rewards4.png)
 
-If there's any issues or if you have questions that go further in depth than this guide, check out our [community server](https://discord.gg/kEKuDRE3Jv) where staff can help answer any questions.
+If there's any issues or you have questions that go further in depth than this guide, check out our [community server](https://discord.gg/kEKuDRE3Jv) where staff can help answer any questions.

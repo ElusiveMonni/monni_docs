@@ -5,9 +5,9 @@ sidebar_position: 2
 ##### Our guide on setting up Verification!
 ---
 
-This step by step guide will allow you to quickly set up secure and efficient verification for your discord server.
+This step by step guide will allow you to quickly set up secure and efficient verification for your discord server. The video below uses the old website but will be be updated to the new one soon.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m6QLpJv8UhQ?si=GYgSU2xD9SCVi13m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6QLpJv8UhQ?si=GYgSU2xD9SCVi13m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>z
 ***
 
 ### Setting up Discord-Roblox verification
@@ -16,7 +16,7 @@ This step by step guide will allow you to quickly set up secure and efficient ve
 2. Login with your discord account and head over to the dashboard to select the server you want to add verification to!
 3. Once you have selected a server, you will see the “Verification” panel.
 
-![setting-up-verification-guide](images/verification-guide/verification-guide.png)
+![setting-up-verification-guide](images/verification-guide/verification-panel.png)
 4. Enable Roblox verification
 
 :::note
