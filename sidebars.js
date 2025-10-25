@@ -230,6 +230,7 @@ const sidebars = {
           'modules/points-section/milestones',
           'modules/points-section/sources',
           'modules/points-section/items',
+          'modules/points-section/boosts',
         ]
       },
       "modules/verification",
