@@ -34,4 +34,4 @@ The current available actions are:
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of items which can exist in a single server.
 
-This limit is 20 items for a normal server. Limits can soon be increased indefinitely through our premium subscription.
+This limit is 20 items for a normal server. Limits can be increased indefinitely through our premium subscription.

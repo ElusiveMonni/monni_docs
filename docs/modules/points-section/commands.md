@@ -39,4 +39,4 @@ Each command has a type which decides how it will function, these commands and t
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of commands which can exist in a single server.
 
-This limit is 10 commands for a normal server. Limits can soon be increased indefinitely through our premium subscription.
+This limit is 10 commands for a normal server. Limits can be increased indefinitely through our premium subscription.

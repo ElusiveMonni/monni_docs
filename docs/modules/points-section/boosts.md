@@ -26,4 +26,4 @@ Each boost has a multiplier or flat increase, systems, and a criterion associate
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of boosts which can exist in a single server.
 
-This limit is 5 boosts for a normal server. Limits can soon be increased indefinitely through our premium subscription.
+This limit is 5 boosts for a normal server. Limits can be increased indefinitely through our premium subscription.

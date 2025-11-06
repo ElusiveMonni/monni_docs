@@ -34,4 +34,4 @@ Multiple actions can occur for a single milestone. The current actions available
 ---
 To prevent Discord servers from overusing Monni's resources, there are restrictions to the number of milestones which can exist in a single server.
 
-This limit is 20 milestones for a normal server. Limits can soon be increased indefinitely through our premium subscription.
+This limit is 20 milestones for a normal server. Limits can be increased indefinitely through our premium subscription.
