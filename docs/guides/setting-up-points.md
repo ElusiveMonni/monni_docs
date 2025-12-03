@@ -10,7 +10,7 @@ You'll learn to use stores, where members can buy, trade, or be given Items, bas
 
 We'll go over milestones, which cause things to happen when members reach a certain amount of points, as well as how to create points, and different ways members can earn them. 
 
-Lastly we'll show you how to build some useful common systems. So grab a coffee and relax, your in good fins. 
+Lastly we'll show you how to build some useful common systems. So grab a coffee and relax, you're in good fins. 
 
 # What are "Point Systems?"
 Our point systems are essentially a currency. Each system is tied to its own currency, which you can name and add an emoji to. This name then shows up in commands you add to the system, so you know what system the command is for. 
