@@ -12,3 +12,8 @@ localisation:
   label: Localisation
   permalink: localisation
   description: Blog posts related to localisation
+
+news:
+  label: News
+  permalink: news
+  description: Blog post which are sent to feed
