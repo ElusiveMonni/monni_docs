@@ -13,6 +13,8 @@ We tend to base our premium features around melding modules into one another as 
 ## Cross Server Features.
 Can you imagine a world where you ban somebody from your server, and they also get banned from every other server you own? Or you give somebody a role, and another can be chained and granted to them, not just in one server, but in multiple.
 
+<!-- truncate -->
+
 This is the idea behind cross guild features. Verification systems that require you to be in other servers. The ability to sync economies, the currency's, and actions associated with them, among different servers. Automated ranking systems tied across guilds. We've built Monni in a way that allows for us to easily integrate this into it. Actually, we have been planning this for a long time. It was important for us to construct the base of Monni before we could go ahead with these types of features. Some of the stuff we specifically have planned for this are: 
 ### Cross-Economy
 Shops that can be accessed from multiple servers. If you've ever used Monni's economy, imagine that but usable across multiple servers. Currency earnable in both servers, spendable in both servers. That means if somebody was in a call in one server, earned 50 points from being in it, then you could have a milestone that roles them in a different server for reaching 50 points there. 

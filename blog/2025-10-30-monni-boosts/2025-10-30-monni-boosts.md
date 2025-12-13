@@ -20,6 +20,8 @@ To create a boost, you’ll want to click the “add boosts” button.
    ![emoji-id](images/add-boosts.png)
 We’re now granted with a menu for editing our boost. There are three sections. 
 
+<!-- truncate -->
+
 **MULTIPLIER**
 This number multiplies gain from sources and other sorts of point income. Be careful how you use it, high multipliers build up fast.
 

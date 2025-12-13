@@ -22,3 +22,5 @@ There are many useful things that require enabling developer mode. One common on
  ![emoji-id](images/developer-mode-image.png)
 
 You’re now fully sorted for your developer mode needs. Go crazy!
+
+<!-- truncate -->

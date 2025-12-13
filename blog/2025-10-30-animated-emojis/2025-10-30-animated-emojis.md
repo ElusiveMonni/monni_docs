@@ -20,6 +20,8 @@ See below for a guide on using animated emojis without Nitro.
 ## Using animated emojis without Nitro
 If you're like Monni and live the pond life you might be considering using free methods of posting animated emojis. This part of the guide will teach you an easy way to do so. 
 
+<!-- truncate -->
+
 Head over to the website https://imageclipboard.com/. 
 This is a site where you can add animated emojis from Discord for use later. 
 
