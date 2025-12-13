@@ -184,7 +184,7 @@ const config = {
             createFeedItems: async (params) => {
               const {blogPosts, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({
-                blogPosts: blogPosts = blogPosts.filter(post => 
+                blogPosts: blogPosts.filter(post => 
                   post.metadata.tags.some(tag => tag.label === 'News')
                 ).slice(0, 10),
                 ...rest,
