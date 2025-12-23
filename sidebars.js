@@ -277,7 +277,6 @@ const sidebars = {
     collapsed: true,
     items: [
         'misc/faq/permissions',
-        'misc/faq/tokens',
     ]
   },
   ],
