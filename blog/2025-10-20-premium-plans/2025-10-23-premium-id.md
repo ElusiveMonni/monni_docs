@@ -7,7 +7,7 @@ tags:
   - discord
 ---
 # Premium Plans
-We've got huge plans for premium and we're gonna talk about them. Currently we've released premium in "Alpha Stages". This just means not everything has been added. During this time there is a 20% discount on premium. Those that do subscribe during alpha stages with maintain this subscription for as long as they hold the subscription. They will also hold a permanent "Alpha Tester" role. Of course, any features we do add will be functional and remain without drastic change. You'll begin to see the features in this blog roll out over the following months.
+We've got huge plans for premium and we're gonna talk about them. Currently we've released premium in "Alpha Stages". This just means not everything has been added. During this time there is a 20% discount on premium. Those that do subscribe during alpha stages will maintain this subscription for as long as they hold the subscription. They will also hold a permanent "Alpha Tester" role. Of course, any features we do add will be functional and remain without drastic change. You'll begin to see the features in this blog roll out over the following months.
 
 We tend to base our premium features around melding modules into one another as this creates the most useful and also original tools. Some of our planned features you can see below. (:
 ## Cross Server Features.
