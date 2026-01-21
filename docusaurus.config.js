@@ -157,7 +157,7 @@ const config = {
               },
               {
                 label: 'Terms of use',
-                href: 'https://monni.fyi/terms-of-service',
+                href: 'https://monni.fyi/terms_of_service',
               },
             ],
           },
