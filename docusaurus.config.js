@@ -169,11 +169,33 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      typesense: {
+      // Replace this with the name of your index/collection.
+      // It should match the "index_name" entry in the scraper's "config.json" file.
+      typesenseCollectionName: 'monni-docs',
+
+      typesenseServerConfig: {
+        nodes: [
+          {
+            host: 'typesense.monni.fyi',
+            port: 443,
+            protocol: 'https',
+          },
+        ],
+        apiKey: 'asdasdjlas3211mnsapowe',
+      },
+
+      // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters
+      typesenseSearchParameters: {},
+
+      // Optional
+      contextualSearch: true,
+    },
     }),
     markdown: {
       mermaid: true,
     },
-    themes: ['@docusaurus/theme-mermaid'],
+    themes: ['@docusaurus/theme-mermaid', "docusaurus-theme-search-typesense"],
     plugins: [
       [
         '@docusaurus/plugin-content-blog',
@@ -206,6 +228,7 @@ const config = {
       ],
 
     ],
+    
 };
 
 export default config;
