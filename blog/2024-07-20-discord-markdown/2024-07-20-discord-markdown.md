@@ -89,7 +89,15 @@ Format of the timestamp (12h or 24h) changes according to your language settings
 :::
 
 ![timestamp-dates](images/timestamp-dates-example.png)
-![timestamp-hover](images/timestamp-hover-example.png)
+![timestamp-hover|538](images/timestamp-hover-example.png)
+
+In case you need to get timestamp fast you can generate them below
+<iframe
+  id="inlineEditor"
+  height="435"
+  width="100%"
+  src="https://monni.fyi/tools/timestamp?embed=true">
+</iframe>
 
 ### Mentions
 ---
@@ -116,7 +124,7 @@ You can create _single_ line **code blocks** by wrapping your text in **backtick
 
 #### Multiline
 ---
-**Multiline code blocks** can be used to create code blocks which span **many lines**. They also support **syntax highlighting**. You can **create** multi line code blocks by enclosing text with ` ``` `. Syntax highlighting can be added by specifying language after three backticks `` ` ``. **More information** can be found [here](https://monni-docs-f7dj.onrender.com/blog/colored-text#syntax-highlighting).
+**Multiline code blocks** can be used to create code blocks which span **many lines**. They also support **syntax highlighting**. You can **create** multi line code blocks by enclosing text with ` ``` `. Syntax highlighting can be added by specifying language after three backticks `` ` ``. **More information** can be found [here](https://docs.monni.fyi/blog/colored-text#syntax-highlighting).
 
 ````none
 ```python
@@ -127,7 +135,7 @@ print("Hello, I am inside a codeblock.")
 ![multi-codeblock](images/codeblock-example.png)
 
 :::info
-Multiline code blocks are the **de facto** way to create **colored text** in discord. If you want to know more [check out our in-depth guide on them](https://monni-docs-f7dj.onrender.com/blog/colored-text).
+Multiline code blocks are the **de facto** way to create **colored text** in discord. If you want to know more [check out our in-depth guide on them](https://docs.monni.fyi/blog/colored-text).
 :::
 
 ### Block Quotes
@@ -166,14 +174,12 @@ Discord help article on markdown
 
 Third party discord timestamp tool
 
-- [https://r.3v.fi/discord-timestamps/](https://r.3v.fi/discord-timestamps/)
+- [https://monni.fyi/tools/timestamp](https://monni.fyi/tools/timestamp)
 
 Discord documentation section outlining timestamps.
-
 - [https://discord.com/developers/docs/reference#message-formatting-timestamp-styles](https://discord.com/developers/docs/reference#message-formatting-timestamp-styles)
 
 Gist on how timestamps work
-
 - [https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa)
 
 Discord help article on spoilers
