@@ -38,7 +38,7 @@ return amount
 Rounding also follows a few rules, as point systems do not support decimals:
 - Values where the decimal is less than `.5` will round down to the nearest integer
 - Values where the decimal is greater than or equal to `.5` will round up to the nearest integer
-- Values of `.5` (exact) will round down to the nearest integer
+- Values of `.5` (exact) will round down to zero
 
 ### Limits
 ---
