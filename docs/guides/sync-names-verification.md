@@ -1,5 +1,5 @@
 ---
-title: Synching Names with Verification
+title: Syncing Names with Verification
 sidebar_position: 7
 ---
 ##### Our guide for more in depth use of verification!
