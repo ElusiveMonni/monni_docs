@@ -5,7 +5,7 @@ sidebar_position: 4
 ##### Advanced configuration tools useful for getting more out of Monni. Also includes useful tools for developers.
 ---
 
-DevTools provides more advanced settings for Monni that are nearly impossible to implement UIs for. Sometimes they can be bot-breaking or not major enough to warrant implement a UI for.
+DevTools provides more advanced settings for Monni that are nearly impossible to implement UIs for. Sometimes they can be bot-breaking or not major enough to warrant implementing a UI for.
 
 Some miscellaneous tools included under this expose internal information that may be necessary for API interactions.
 
@@ -19,7 +19,7 @@ DevTools are only recommended for **advanced users**, and we take no responsibil
 
 ### Usage
 ---
-DevTools work through a text-based command interface. There is no support for slash commands, instead, you need to ping Monni to use them.
+DevTools work through a text-based command interface. There is no support for slash commands; you need to ping Monni to use them.
 
 The proper order in the message is as follows: `<@911945727402471455> <devtools> <group> <subcommand/subgroup> (arguments)`
 - Angle Brackets `<>` are not part of the message itself and anything included in them is **required** to run the command.
