@@ -37,3 +37,4 @@ Click on an orange name below for information and finer details:
 4. [**Milestones**](points/milestones) - Create milestones, which perform actions when a member reaches a certain amount of points.
 5. [**Sources**](points/sources) - Create ways for members to gain points for specific systems.
 6. [**Items**](points/items) - Create items which can be purchased in shops and perform actions when owned or used.
+7. [**Boosts**](points/boosts) - Add ways for members to gain extra points from sources.
