@@ -321,7 +321,8 @@ const sidebars = {
         },
         collapsed: true,
         items: [
-          'developer/devtools/points'
+          'developer/devtools/points',
+		  'developer/devtools/resync'
         ]
       },
         'developer/monni-api',

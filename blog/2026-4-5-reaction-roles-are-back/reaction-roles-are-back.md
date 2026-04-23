@@ -63,5 +63,5 @@ Don't let your members get lost in a sea of messy roles. Whether you're running 
 - Press plus sign near reaction role card
 - Configure the reaction role and press send.
 - Remember to save or the reaction role won't work.
-- **Need a Deeper Dive?** – Read our Full Reaction Roles Documentation for a detailed guide.
+- **Need a Deeper Dive?** – Read our full [Reaction Roles Documentation](/modules/roles#reaction-roles) for a detailed guide.
 
