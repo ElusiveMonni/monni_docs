@@ -12,9 +12,9 @@ function Slash(props) {
     'margin': 10,
     'margin-left': -2
     }}>
-      <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <h5 style={{color: 'white', fontSize: 16, 'margin-right': '5px'}}>{'{/}'}</h5>
-      <h5 style={{color: 'white', fontSize: 17, 'margin-top': '10px'}}>{props.title}</h5>
+      <div style={{display: 'flex', 'flex-direction': 'row', 'alignItems': 'center', 'margin-top': '10px'}}>
+      <h5 style={{color: 'white', fontSize: 18, 'margin-right': '5px', 'margin-top': '0px'}}>{'{/}'}</h5>
+      <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '0px'}}>{props.title ?? 'Slash command'}</h5>
       </div>
       <div>{props.children}</div>
     </div>
@@ -32,9 +32,9 @@ function Ephemeral(props) {
     'margin': 10,
     'margin-left': -2
     }}>
-      <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <img src="/img/ghost.png" alt="ghost"></img>
-      <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '10px'}}>{props.title}</h5>
+      <div style={{display: 'flex', 'flex-direction': 'row', 'alignItems': 'center', 'margin-top': '10px'}}>
+      <h5 style={{color: 'white', fontSize: 16, 'margin-right': '5px', 'marging-top': '0px'}}>{'⌛'}</h5>
+      <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '0px'}}>{props.title ?? 'Ephemeral command'}</h5>
       </div>
       <div>{props.children}</div>
     </div>
@@ -52,9 +52,9 @@ function Administrator(props) {
     'margin': 10,
     'margin-left': -2
     }}>
-      <div style={{display: 'flex', 'flex-direction': 'row'}}>
-      <img src="/img/is_admin_32x.png" alt="admin_shield"></img>
-      <h5 style={{color: 'white', fontSize: 17, 'margin-left': '5px', 'margin-top': '5px'}}>{props.title}</h5>
+      <div style={{display: 'flex', 'flex-direction': 'row', alignItems: 'center', 'margin-top': '10px',  'margin-bottom': '16px'}}>
+      <img style={{'height': '20px', 'margin-right': '5px'}} src="/img/is_admin_32x.png" alt="admin_shield"></img>
+      <h5 style={{color: 'white', fontSize: 17, 'margin': '0px', 'margin-left': '5px'}}>{props.title ?? 'Admin command'}</h5>
       </div>
       <div>{props.children}</div>
     </div>
