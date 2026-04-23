@@ -8,10 +8,14 @@ Permissions and why we need them
 
 Monni is an extensive discord bot with a lot of features. With these features comes the need for multiple different permissions. After reading this article you will have a better understanding of what permissions we request and what they are used for.
 
+:::warning
+We dont regularly update this page. If you have questions about permissions please join our [support server](https://monni.fyi/support/) and ask.
+
+
 ### Terminology
 ---
 
-- `actions`: Anything the user can make Monni do with features such as mass actions, role actions, or Simpukka.
+- `actions`: Anything the user can make Monni do with features such as mass actions or role actions
 - `...`: Future features
 - `Moderation`: Moderation-related planned features.
 
@@ -47,7 +51,7 @@ Importance is an indicator of how important permissions are for the integrity of
 |Manage threads|Delete, create, edit threads|…|Optional|
 |Embed links|Links in embeds|verification, logging|Visual|
 |Attach files|Send files|logging|Important|
-|Mention @everyone|Mention everyone, here and roles|Simpukka|Optional|
+|Mention @everyone|Mention everyone, here and roles|Message templates|Optional|
 |Add reactions|React to messages|…|Important|
 |Use external emoji|Gives access to external emojis|…|Visual|
 |Use external sticker|Gives access to external stickers|…|Visual|

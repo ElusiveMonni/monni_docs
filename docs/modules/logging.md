@@ -14,23 +14,7 @@ It boasts over 70+ events that can be logged and configured!
 Looking for help setting up some logging? See our Tutorial with full details: **[Building Your Logging System!](/guides/logging-guide)**.
 :::
 
-***
-### Advanced Mode
-***
-*This no longer exists, however advanced mode can still be used from the old site, accessible at*
-*https://old.monni.fyi/*. A version for the new website is currently planned.
 
-Advanced mode allows for adding a Triggers to your Logging Events. This means when something is logged, your Trigger will be activated.
-
-These Triggers can range from changing the nickname of a member, to sending a message or even banning them. It’s completely up to you.
-
-You can enable Advanced mode by clicking the Advanced mode button. Create a Trigger using the boxes that pop up under the Logging Events.
-
-These Triggers work using [**Simpukka**](/simpukka).
-
-:::note
-All of Logging is disabled by default.
-:::
 
 ### Events
 ***
@@ -47,12 +31,6 @@ Each event has a default message, however, this can be edited with **Advanced Mo
 :::note
 **Invite Tracking**  
 **Invite Tracking is included within the Logging Module.** This includes who created the invite, when it is created, and who used the invite. A great tool for moderation.
-:::
-
-:::note
-**Templates & Ready Made Templates**  
-You can read more about Templates, [**HERE**](/simpukka)  
-There are currently no ready made templates available. However you can create your own by using our custom template engine.
 :::
 
 ***
