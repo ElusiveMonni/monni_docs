@@ -13,6 +13,10 @@ Command for syncing past information about how many posts a user has made within
 **forum_posts_sync** is an [administrator command](/commands/info/admin)!
 :::
 
+:::warning
+This command will be integrated into point module in future. 
+:::
+
 ---
 ## Arguments
 

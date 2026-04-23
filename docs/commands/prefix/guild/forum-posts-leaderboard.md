@@ -13,6 +13,9 @@ Command for displaying information on a leaderboard of how many posts all users 
 **forum_posts_leaderboard** is an [administrator command](/commands/info/admin)!
 :::
 
+:::warning
+This command will be integrated into point module in future. 
+:::
 ---
 ## Arguments
 
