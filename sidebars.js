@@ -253,7 +253,6 @@ const sidebars = {
     items: [
         'control-panel/mass-actions',
         'control-panel/timestamp-tool',
-        'control-panel/web-logs',
     ],
   },
 
@@ -302,53 +301,7 @@ const sidebars = {
     ],
   },
 
-  {
-    type: 'category',
-    label: 'Simpukka',
-    link: {
-      type: 'doc',
-      id: 'simpukka/index',
-    },
-    collapsed: true,
-    items: [
-      {
-        type: 'category',
-        label: 'Simpukka API',
-        link: {
-          type: 'doc',
-          id: 'simpukka/api/index',
-        },
-        collapsed: true,
-        items: [
-          'simpukka/api/misc',
-          'simpukka/api/discord'
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Supported languages',
-        link: {
-          type: 'doc',
-          id: 'simpukka/supported-languages/index',
-        },
-        collapsed: true,
-        items: [
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Objects',
-        link: {
-          type: 'doc',
-          id: 'simpukka/objects/index',
-        },
-        collapsed: true,
-        items: [
-          'simpukka/objects/discord/user'
-        ]
-      },
-    ],
-  },
+
 
   {
     type: 'category',

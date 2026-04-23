@@ -100,7 +100,6 @@ const config = {
           {to: '/modules', label: 'Modules', position: 'left'},
           {to: '/commands', label: 'Commands', position: 'left'},
           {to: '/guides', label: 'Guides', position: 'left'},
-          {to: '/simpukka', label: 'Simpukka', position: 'left'},
           {to: '/developer', label: 'Developer', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
