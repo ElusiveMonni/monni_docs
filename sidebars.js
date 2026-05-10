@@ -312,7 +312,7 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-{
+      {
         type: 'category',
         label: 'DevTools',
         link: {
@@ -322,10 +322,50 @@ const sidebars = {
         collapsed: true,
         items: [
           'developer/devtools/points',
-		  'developer/devtools/resync'
+          'developer/devtools/resync'
         ]
       },
-        'developer/monni-api',
+      {
+        type: 'category',
+        label: 'API',
+        link: {
+          type: 'doc',
+          id: 'developer/api/monni-public-api',
+        },
+        collapsed: true,
+        items: [
+          {
+            type: 'category',
+            label: 'Points',
+            items: [
+              {
+                type: 'doc',
+                id: 'developer/api/get-user-points-points-system-user-id-get',
+                label: 'Get User Points',
+                className: 'api-method get',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/edit-user-points-points-system-user-id-patch',
+                label: 'Edit User Points',
+                className: 'api-method patch',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/set-user-points-points-system-user-id-put',
+                label: 'Set User Points',
+                className: 'api-method put',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/bulk-change-points-points-system-post',
+                label: 'Bulk Change Points',
+                className: 'api-method post',
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 

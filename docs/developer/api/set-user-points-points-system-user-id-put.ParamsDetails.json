@@ -1,0 +1,1 @@
+{"parameters":[{"name":"system","in":"path","required":true,"schema":{"type":"string","title":"System"}},{"name":"user_id","in":"path","required":true,"schema":{"type":"integer","title":"User Id"}},{"name":"amount","in":"query","required":true,"schema":{"type":"integer","title":"Amount"}}]}
