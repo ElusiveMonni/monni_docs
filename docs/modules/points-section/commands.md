@@ -22,6 +22,10 @@ All commands come with a few premade styles, but further customization can be do
 
 The embed editor uses [LiquidJS](https://liquidjs.com/) for logic to display information specific to the system and member using the command. These variables can be found under the `Context` section of the embed editor.
 
+:::warning
+Custom styles do not automatically update when new features are added or changes to logic are made, and therefore do not guarantee backwards compatibility. Logic changes, however, are rare, so a custom command will usually still function without new features.
+:::
+
 ### Command types and specific settings
 ---
 Each command has a type which decides how it will function, these commands and their specific settings can be found in the [Points Commands](/commands/slash/point-commands) section of the documentation, or by clicking on the orange name's of the commands below. 
