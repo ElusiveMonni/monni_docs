@@ -43,6 +43,3 @@ Some examples of correct and incorrect variables are:
 
 This can be done simply by adding `{{ "{" }} other stuff {{ "}" }}`.
 
-:::info
-This feature is powered by [**Simpukka**](/simpukka), for more complex nicknames please refer to Simpukka documentation.
-:::

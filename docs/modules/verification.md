@@ -13,7 +13,7 @@ Verification Embeds can be sent to any channel by accessing the verification mod
 :::
 
 :::note
-You can also change the nickname of a member on verify, in the Verification Module’s Settings. This has support for [**Simpukka.**](/simpukka)
+You can also change the nickname of a member on verify, in the Verification Module’s Settings. Supported template variables are shown in the settings.
 :::
 
 ### Using Verification
@@ -43,7 +43,7 @@ We offer a few quality of life settings you can use to improve the verification 
 
 3. **NICKNAME**  
 	Change the nickname of a member on verify. For example their Roblox name.  
-	(*Supports* [**simpukka**](/simpukka))
+	(*Supports* templating)
 
 ### Other
 ---

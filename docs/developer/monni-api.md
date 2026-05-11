@@ -3,40 +3,12 @@ title: Monni API
 sidebar_position: 2
 ---
  
-The Monni API is provided to make it possible for you to communicate and integrate with Monni systems from external applications. In order to communicate with most API’s you need an API key. The API key has to be provided in the header with the key named `api_key`
+The Monni API is provided to make it possible for you to communicate and integrate with Monni systems from external applications. In order to communicate with most API’s you need an API key. The API key has to be provided in the header named `X-API-Key`
 
-:::danger
-We are currently migrating our API system. Old monni.fyi/api/public will be deprecated at 30.11.2024. The new API can be found at https://api.monni.fyi/ and the documentation can be found at https://api.monni.fyi/docs/.
-:::
 
-:::info
-If you are using api.monni.fyi endpoints the header should be `X-guild-API-key`
-:::
 ## API keys
-The API key consists of two sections. Metadata and randomly generated key. A comma delimiter separates them. Please note, metadata is base64 encoded.
+API keys can be created at servers dashboard in API section which is found inside home.
 
-Example key
-`Z3VpbGR8OTYxNjYzOTkzNTkwNzQzMTgw.qtEcSLOdZXbjl0iqdC08U38D4wff51-s5sLIpI-Eej5roosvjhmh091ha5FRmCNH__YaxnEbhVZuRA03ZW-aKQ`
-
-Metadata `Z3VpbGR8OTYxNjYzOTkzNTkwNzQzMTgw` (guild|961663993590743180)
-Delimiter `.`
-Securely generated key `qtEcSLOdZXbjl0iqdC08U38D4wff51-s5sLIpI-Eej5roosvjhmh091ha5FRmCNH__YaxnEbhVZuRA03ZW-aKQ`
-
-:::warning
-Keys are stored hashed and cannot be edited. If metadata or any part is changed, the key will become invalid.
-:::
-
-:::info
-Keys made before 30.9.2024 will not contain the metadata section
-:::
-## Structure
----
-/api/public/\<version>/\<API name>
-
-
-:::warning
-API end points may change without notice. This includes the path and rate limits.
-:::
 
 ## Current API End Points
 ---

@@ -96,7 +96,8 @@ In case you need to get timestamp fast you can generate them below
   id="inlineEditor"
   height="435"
   width="100%"
-  src="https://monni.fyi/tools/timestamp?embed=true">
+  src="https://monni.fyi/tools/timestamp?embed=true"
+  allow="clipboard-write 'self' https://monni.fyi/">
 </iframe>
 
 ### Mentions

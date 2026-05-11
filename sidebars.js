@@ -253,7 +253,6 @@ const sidebars = {
     items: [
         'control-panel/mass-actions',
         'control-panel/timestamp-tool',
-        'control-panel/web-logs',
     ],
   },
 
@@ -302,53 +301,7 @@ const sidebars = {
     ],
   },
 
-  {
-    type: 'category',
-    label: 'Simpukka',
-    link: {
-      type: 'doc',
-      id: 'simpukka/index',
-    },
-    collapsed: true,
-    items: [
-      {
-        type: 'category',
-        label: 'Simpukka API',
-        link: {
-          type: 'doc',
-          id: 'simpukka/api/index',
-        },
-        collapsed: true,
-        items: [
-          'simpukka/api/misc',
-          'simpukka/api/discord'
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Supported languages',
-        link: {
-          type: 'doc',
-          id: 'simpukka/supported-languages/index',
-        },
-        collapsed: true,
-        items: [
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Objects',
-        link: {
-          type: 'doc',
-          id: 'simpukka/objects/index',
-        },
-        collapsed: true,
-        items: [
-          'simpukka/objects/discord/user'
-        ]
-      },
-    ],
-  },
+
 
   {
     type: 'category',
@@ -359,7 +312,7 @@ const sidebars = {
     },
     collapsed: true,
     items: [
-{
+      {
         type: 'category',
         label: 'DevTools',
         link: {
@@ -369,10 +322,50 @@ const sidebars = {
         collapsed: true,
         items: [
           'developer/devtools/points',
-		  'developer/devtools/resync'
+          'developer/devtools/resync'
         ]
       },
-        'developer/monni-api',
+      {
+        type: 'category',
+        label: 'API',
+        link: {
+          type: 'doc',
+          id: 'developer/api/monni-public-api',
+        },
+        collapsed: true,
+        items: [
+          {
+            type: 'category',
+            label: 'Points',
+            items: [
+              {
+                type: 'doc',
+                id: 'developer/api/get-user-points-points-system-user-id-get',
+                label: 'Get User Points',
+                className: 'api-method get',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/edit-user-points-points-system-user-id-patch',
+                label: 'Edit User Points',
+                className: 'api-method patch',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/set-user-points-points-system-user-id-put',
+                label: 'Set User Points',
+                className: 'api-method put',
+              },
+              {
+                type: 'doc',
+                id: 'developer/api/bulk-change-points-points-system-post',
+                label: 'Bulk Change Points',
+                className: 'api-method post',
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 

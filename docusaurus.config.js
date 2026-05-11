@@ -6,6 +6,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+/** @typedef {import("docusaurus-plugin-openapi-docs")} OpenApiPlugin */
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -47,6 +48,7 @@ const config = {
           },
 
           sidebarPath: './sidebars.js',
+          docItemComponent: "@theme/ApiItem",
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -100,7 +102,6 @@ const config = {
           {to: '/modules', label: 'Modules', position: 'left'},
           {to: '/commands', label: 'Commands', position: 'left'},
           {to: '/guides', label: 'Guides', position: 'left'},
-          {to: '/simpukka', label: 'Simpukka', position: 'left'},
           {to: '/developer', label: 'Developer', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
@@ -195,7 +196,7 @@ const config = {
     markdown: {
       mermaid: true,
     },
-    themes: ['@docusaurus/theme-mermaid', "docusaurus-theme-search-typesense"],
+    themes: ['@docusaurus/theme-mermaid', "docusaurus-theme-search-typesense", "docusaurus-theme-openapi-docs"],
     plugins: [
       [
         '@docusaurus/plugin-content-blog',
@@ -225,6 +226,24 @@ const config = {
            */
           path: './release-notes',
         },
+      ],
+      [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: "api", // plugin id
+        docsPluginId: "classic", // configured for preset-classic
+        config: {
+          public: {
+            specPath: "https://api.monni.fyi/public/openapi.json",
+            outputDir: "docs/developer/api",
+            maskCredentials: false,
+            hideSendButton: false,
+            sidebarOptions: {
+              groupPathsBy: "tag",
+            },
+          },
+        },
+      },
       ],
 
     ],

@@ -13,6 +13,10 @@ Command for displaying information about how many posts a user has made within a
 **forum_posts** is an [administrator command](/commands/info/admin)!
 :::
 
+:::warning
+This command will be integrated into point module in future. 
+:::
+
 ---
 ## Arguments
 
