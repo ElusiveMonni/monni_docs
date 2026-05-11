@@ -16,7 +16,7 @@ Each source has a name, attached system, and type, with further customization ba
 
 - **Source name** - The name of the source in the dashboard to differentiate between sources more easily.
 
-- **Point system** - Which system's balance is changed when the source triggers for a member.
+- **Point system** - Which systems' balance is changed when the source triggers for a member.
 
 - **Source type** - The way a member gains points through the source. The current types are:
   `Messages sent`, `Voice channel time`, and `People invited`.
@@ -28,6 +28,10 @@ Each source has a name, attached system, and type, with further customization ba
 	- `People invited` will trigger when a new member joins through an invite. The member who created the invite will be credited. 
 	
 - Each source will `give` a specified number of points to the member for the attached system. Sources can also remove points by making the number negative with a `-`.
+
+:::note
+It is recommended to put multiple systems onto a single source where possible to avoid some desyncs.
+:::
 
 ### Limits
 ---
