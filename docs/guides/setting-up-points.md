@@ -5,6 +5,11 @@ sidebar_position: 3
 ##### Our guide on setting up an Economy with Monni!
 ---
 
+Add new images for renamed systems
+Rewrite paragraph for "embed style" under creating commands
+Fact check creating a shop section
+Add boosts sections (already labeled where)
+
 ### What we're covering
 ---
 
@@ -25,7 +30,6 @@ Point systems are essentially separate currencies. Each system has its own balan
 
 As these are the basis for everything in our economy, you'll want to make one. You can do this by pressing "Add Systems". You can also change the style of the UI to your taste with the button next to it. In the example below we have OOF Coins (a purchasing currency) and Rank Points (to keep track of when people should gain a new role) in one of my personal servers. Two useful ways to use points.
 
-**ADD NEW IMAGE FOR RENAMED**
 \![create-system](images/economy-guide/create-system.png)
 
 ### Creating Commands
@@ -33,94 +37,92 @@ As these are the basis for everything in our economy, you'll want to make one. Y
 
 Commands directly tie in with your point systems, and there are a few different types, but first we'll want to create some. Head over to the Commands section and we'll have a look! 
 
-**ADD NEW IMAGE FOR RENAMED**
 \![commands-select](images/economy-guide/commands-select.png)
 
 Now add a command the same way you added a system before. You'll see a menu pop up, or you can use the "Toggle Mode" button to edit these without the popup. Now we'll go over what the different settings do.
 
-**ADD NEW IMAGE FOR RENAMED**
 \![command-popup](images/economy-guide/command-popup.png)
 
-In this `edit` command we have the name, which shows up in Discord. We also have the permissions, where you can allow different people to use the command in your server. 
+For now, we will just go over the `edit` command, as other commands are very similar in their settings.
 
-**REWRITE STYLE PARAGRAPH**
-You'll also see the "Embed style". You can choose from our embed types, or make your own.
+The `name` is the name of the command when used within Discord. 
+
+We also have the permissions, where you can allow either everyone, or only administrators access to the command. (Further customization is only possible through Discord, following [this guide](/blog/slash-commands-permissions))
 
 Below this we have the "Systems" setting (sometimes replaced by other options as it relates to each command). This is the most important as it dictates what currency the command will affect. Multiple systems can be selected, and which is affected depends on the `command arguments` used within Discord when running the command. 
+
+You'll also see the "Embed style". You can choose from our embed types, or make your own.
 
 #### Command Types
 
 The main command types you'll want are "Edit" and "Balance", but we'll cover them all.
 
 **EDIT**
-This type of command lets you edit the amount of points somebody has. You can use a negative number to remove points.  You'll probably want this to manually change points in different circumstances.
+This type of command lets you edit the balance somebody has in a system. You can use a negative number to remove points. You'll probably need this to manually change points in different circumstances.
 
 **BALANCE**
-Let's you see how much points somebody has. 
+Let's you (and the member) see how much points they hasve. 
 
 **SHOP**
-Displays Items that are purchasable for points. We'll go over making shops and items later. 
+Displays products that are purchasable using systems (or items). We'll go over making shops and products later. 
 
 **SEND**
-This lets people send points from their own account into another persons account. 
+This lets members send their balance directly to other members. 
 
 **LEADERBOARD**
-See how much points people have, displayed highest to lowest.
+See a ranking of every member with points in a system, displayed highest to lowest.
 
 **INVENTORY**
 Shows what Items a member has.
 
 **ITEM-EDIT**
-Lets you edit how many Items somebody has, works like the currency edit command. Mostly used for trading. 
+Lets you edit how many Items somebody has, works like the normal edit command; Usually unnecessary.
 
 **HISTORY**
 Shows a general economic history of the member.
 
-Now let's talk about Items.
 ### What are Items? 
 ---
 
-Items are a tradable asset which when obtained can trigger an action of your choosing. They can be bought, given, or earned through Milestones. (We'll go over milestones soon.)
+Items are found using the `inventory` command, and can trigger actions of your choosing. They can be bought, given, or earned through Milestones. (Soon...)
 
-As for the "actions", these allow you to do things such as add/remove points, roles, or if you like  ban somebody, lol. These are generally self explanatory so you can mess around with them. Let's create our first Item by navigating to the "Items" section and creating an Item like we did a command. 
+As for the "actions", these allow you to do things such as add/remove points, roles, or if you'd like, ban themselves. These are generally self explanatory so you can mess around with them. Let's create our first Item by navigating to the "Items" section and pressing "Add items" like we did a system and command. 
 
-![setting-up-economy-guide](images/economy-guide/create-item.png)
+\![create-item](images/economy-guide/create-item.png)
 
-Now lets make the item. Once you've made it, you'll be able to name it, add a description of what it is (Shows up in shops which we're covering next), and add an image to present it with.
+Now let's customize. You can name it, add a description of what it is (Shows up in shops which we're covering next), and add an image to present it with.
 
-The most important thing here is adding an action. You can try adding the "Give Role" action to test your item, and give yourself the item with an item-give command! 
+The most important thing here is adding an action. You can try adding the "Give Role" action to test your item, and give yourself the item with the `item-edit` command! 
 
-Now, we'll want somewhere to buy or even just get items for free. So lets create our shop. Navigate to the shop tab (Shown below)
+Now, we'll want somewhere to get these items. So, let's create our shop: Navigate to the "Shops" module. 
 
-![setting-up-economy-guide](images/economy-guide/create-shop.png)
+\![create-shop](images/economy-guide/create-shop.png)
 
-Now create a shop, yep, same drill as the last things we created. Name it what you like. 
-Next, create your first shop item. (Not to be confused with items). you can name it and give it a description. Let's take a look at the categories in the shop item's settings.
+Now create a shop. Yep, same drill as the last things we created. Name it what you like.
+
+Next, create your first shop product (Products and items are very easy to confuse). You can name it and give it a description. Let's take a look at the shop product's settings.
 
 **PRICE**
-This is where you'll select what currency the shop item accepts and how much of it is used. You can even buy it with items. 
+This is where you'll select which system's balance pays for the product and how much it costs. You can even make it cost items.
+- Multiple systems and/or items can be selected
 
 **PREREQUISITES**
-Works like price, but the currency or items won't be used during the purchase. 
+Works like price, but the currency, item, or role won't be lost during the purchase. 
 
 **ACTIONS**
-Here you can do general actions for what happens when the shop item is purchased. You can also allow an item to be given, so try adding the item you made before!
+Here you can add what happens when the shop item is purchased.
+- This follows a similar list to the item actions, including giving the purchaser an item.
 
-Now that we've gone over the base structure for a point system, let's discuss milestones and sources. 
-### What are milestones?
+### Milestones, sources, and boosts. 
 ---
 
-Milestones are tools you can use to cause actions when a member reaches a certain amount of points. It comes with two different types of actions. Regular actions, which trigger when the member reaches the point amount, and reverse actions, which trigger when a member goes under the amount of points. You can access these from the milestones sections in the economy navbar. 
+These will be covered a lot quicker as you already read all the information needed to set them up. Further information is linked for each one.
 
-![setting-up-economy-guide](images/economy-guide/create-milestone.png)
+[**Milestones**](/modules/points/milestones) are tools you can use to cause actions when a member reaches a certain amount of points. It comes with two different types of actions. Regular actions, which trigger when the member reaches the point amount, and reverse actions, which trigger when a member goes under the amount of points.
 
-### What are sources? 
----
+[**Sources**](/modules/points/sources) allows your members to passively earn points. You can choose from a few options, such as messages sent or time spent in a VC. 
 
-Sources allow your members to passively earn points. You can choose from a few options, such as messages sent or time spent in a VC. You can access it from the economy navbar, it's directly to the right of Milestones.
-
-### What are boosts?
----
+[**Boosts**](/modules/points/boosts) are ways to... boost... the number of points a member receives from a source as long as they meet certain requirements, like a role or nitro boosting the server.
 
 ### Types Of Economies
 ---
