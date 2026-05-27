@@ -21,28 +21,33 @@ Lastly we'll show you how to build some useful common economies. So grab a coffe
 ### What are "Point Systems?"
 ---
 
-Our point systems are essentially a currency. Each system is tied to its own currency, which you can name and add an emoji to. This name then shows up in commands you add to the system, so you know what system the command is for. 
+Point systems are essentially separate currencies. Each system has its own balance, which you can name and add an emoji to. This name then shows up in commands you add to the system, so you know what system the command is for. 
 
-As these are the basis for everything in our economy, you'll want to make one. You can do this by pressing "Add Systems". You can also change the style of the UI to your taste with the button next to it. In the example below we have OOF coins (A purchasing currency) and RANK rates (To keep track of when promotions happen) in one of my personal servers. Two useful ways to use points.
+As these are the basis for everything in our economy, you'll want to make one. You can do this by pressing "Add Systems". You can also change the style of the UI to your taste with the button next to it. In the example below we have OOF Coins (a purchasing currency) and Rank Points (to keep track of when people should gain a new role) in one of my personal servers. Two useful ways to use points.
 
-![setting-up-economy-guide](images/economy-guide/create_system.png)
+**ADD NEW IMAGE FOR RENAMED**
+\![create-system](images/economy-guide/create-system.png)
 
 ### Creating Commands
 ---
 
-Commands directly tie in with your point systems, and there are a few different types, but first we'll want to create some. Head over to the Commands section and we'll have a look at what we can do with commands. 
+Commands directly tie in with your point systems, and there are a few different types, but first we'll want to create some. Head over to the Commands section and we'll have a look! 
 
-![setting-up-economy-guide](images/economy-guide/commands-select.png)
+**ADD NEW IMAGE FOR RENAMED**
+\![commands-select](images/economy-guide/commands-select.png)
 
-Now add a command the same way you added a system before. You'll see a menu pop up, and you can use the Toggle Mode to edit these without the popup if you want. Now we'll go over what the different settings do.
+Now add a command the same way you added a system before. You'll see a menu pop up, or you can use the "Toggle Mode" button to edit these without the popup. Now we'll go over what the different settings do.
 
-![setting-up-economy-guide](images/economy-guide/command-popup.png)
+**ADD NEW IMAGE FOR RENAMED**
+\![command-popup](images/economy-guide/command-popup.png)
 
-In our command we have the name, which shows up in Discord. We also have the permissions, where you can allow different people to use the command in your server. 
+In this `edit` command we have the name, which shows up in Discord. We also have the permissions, where you can allow different people to use the command in your server. 
 
-You'll also see the "Embed style". You can choose from our embed types, or make your own. You can even add [Simpukka](docs/simpukka/index) variables in here.
+**REWRITE STYLE PARAGRAPH**
+You'll also see the "Embed style". You can choose from our embed types, or make your own.
 
-Below this we have the "Systems" setting. This is the most important as this dictates what currency the command will effect. You can make it give multiple currencies at the same time, if you're crazy like that. Now, let's go over the types of commands. 
+Below this we have the "Systems" setting (sometimes replaced by other options as it relates to each command). This is the most important as it dictates what currency the command will affect. Multiple systems can be selected, and which is affected depends on the `command arguments` used within Discord when running the command. 
+
 #### Command Types
 
 The main command types you'll want are "Edit" and "Balance", but we'll cover them all.
@@ -107,7 +112,7 @@ Now that we've gone over the base structure for a point system, let's discuss mi
 
 Milestones are tools you can use to cause actions when a member reaches a certain amount of points. It comes with two different types of actions. Regular actions, which trigger when the member reaches the point amount, and reverse actions, which trigger when a member goes under the amount of points. You can access these from the milestones sections in the economy navbar. 
 
-![setting-up-economy-guide](images/economy-guide/create_milestone.png)
+![setting-up-economy-guide](images/economy-guide/create-milestone.png)
 
 ### What are sources? 
 ---
