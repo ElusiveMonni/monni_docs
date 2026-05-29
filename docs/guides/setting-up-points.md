@@ -8,7 +8,6 @@ sidebar_position: 3
 Add new images for renamed systems
 Rewrite paragraph for "embed style" under creating commands
 Fact check creating a shop section
-Add boosts sections (already labeled where)
 
 ### What we're covering
 ---
@@ -120,48 +119,48 @@ These will be covered a lot quicker as you already read all the information need
 
 [**Milestones**](/modules/points/milestones) are tools you can use to cause actions when a member reaches a certain amount of points. It comes with two different types of actions. Regular actions, which trigger when the member reaches the point amount, and reverse actions, which trigger when a member goes under the amount of points.
 
-[**Sources**](/modules/points/sources) allows your members to passively earn points. You can choose from a few options, such as messages sent or time spent in a VC. 
+[**Sources**](/modules/points/sources) allows your members to passively earn points. You can choose from a few options, such as messages sent or time spent in a VC. This can be used as a visible reward to encourage activity.
 
-[**Boosts**](/modules/points/boosts) are ways to... boost... the number of points a member receives from a source as long as they meet certain requirements, like a role or nitro boosting the server.
+[**Boosts**](/modules/points/boosts) are ways to... boost... the number of points a member receives from a source as long as they meet certain requirements, like a role or nitro boosting the server. These can be either flat boosts or a multiplier.
 
 ### Types Of Economies
 ---
 
 Now that you know how to create an economy with Monni, we'll cover a few basic types of systems you can create with Monni. Of course, you can really make anything you want! 
-#### Regular Tradable Currency
+
+#### Regular Currency
 
 Usually used to keep track of services you offer for other currencies outside Monni. Though this is a great foundation system for anything. First we create a system:
 
-![setting-up-economy-guide](images/economy-guide/regular-currency.png)
+\![regular-currency](images/economy-guide/regular-currency.png)
 
 Now lets make our commands. Head over to the commands section. We're going to create three commands. Make sure to set all of them to use the system we just made:
 
 **Edit**
 **Balance**
-**History**
+**Send**
 
-Now name them and keep the permissions as administrator. You can customize the embed if you want.
-
-![setting-up-economy-guide](images/economy-guide/command-list.png)
+Now name them and set the **Balance** and **Send** commands' permissions to `Everyone`. You can customize the embed messages if you want.
 
 Give your commands a try in your Discord server! You now have the foundation to build any advanced economy on. 
+
 #### Milestone Roles
 
 One useful addition is to automatically give roles to people as they earn points. You can then distribute those points for things like event participation or chat activity. You'll need a currency system made to create this, which you can create in the section just above.
 
 **First** create some roles. For this we'll just create three roles, but you can make more.
 
-**Next** head over to the Milestones section. We're going to create three milestones. 
-*Make sure to set them to different amounts of points* 
+**Next** head over to the Milestones section. We're going to create three milestones. *Make sure to set them to different amounts of points*.
 
-![setting-up-economy-guide](images/economy-guide/earn-roles.png)
+\![earn-roles](images/economy-guide/earn-roles.png)
 
-Now, inside your first item, create an action and select "Give role" and select one. Then, create a reverse action and select "Remove role" and select the same role. Repeat this for the other items and just change the role to the one you'd like. 
+Now, inside your first item, create an action and select "Give role" and select your desired role. Then, create a reverse action and select "Remove role" and select the same role. Repeat this for the other items and just change the role to the one you'd like. 
 
-Now try giving yourself some points with an edit command and watch Monni role you! You can remove points and they'll automatically be taken if you fall under the amount. 
+Now try giving yourself some points with an edit command and watch Monni role you! You can remove points and role is removed if you fall under the requirement. 
+
 #### Buyable Roles
 
-Let members buy roles from your store. Great way to let members earn cosmetic roles or earn access to different places. You'll need a currency system made to create this, which you can create by following the Regular Tradable Currency guide.
+Let members buy roles from your store. It's a great way to let members earn cosmetic roles or earn access to different places. You'll need a currency system made to create this, which you have probably made by now.
 
 **First** we create a shop in the shops menu. I just called mine the "Role Store".
 
@@ -169,9 +168,10 @@ Let members buy roles from your store. Great way to let members earn cosmetic ro
 
 **Lastly** we set the action. Simply select the give role option and choose the role of your liking. 
 
-![setting-up-economy-guide](images/economy-guide/buy-roles.png)
+\![buy-roles](images/economy-guide/buy-roles.png)
 
-Now all you have to do is repeat this step for any roles you'd like to sell. 
+Now all you have to do is repeat this for any roles you'd like to sell. 
+
 ### Conclusion
 ---
 
