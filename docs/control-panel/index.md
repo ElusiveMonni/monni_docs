@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 title: Control Panel
-slug: control-panel/index
 ---
 # Control Panel
 *This page is based on the old version of the site, which can be found at https://old.monni.fyi/*

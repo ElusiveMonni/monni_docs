@@ -21,7 +21,7 @@ The tutorials include a Roblox **Verification guide,** a **Mass actions guide,**
 - [**Invite the bot**](https://discord.com/oauth2/authorize?client_id=911945727402471455&permissions=1633094518871&scope=bot)
 - [**Support server**](https://discord.gg/kEKuDRE3Jv) | For more help
 - [**Main website**](https://monni.fyi)
-- [**Privacy Policy**](https://monni.fyi/privacy/) & [**Terms Of Service**](https://monni.fyi/terms-of-service/)
+- [**Privacy Policy**](https://monni.fyi/privacy/) & [**Terms Of Service**](https://monni.fyi/terms_of_service/)
 ### Navigation
 ---
 **To navigate to the appropriate pages you need, use the sidebar (to the left of the screen)**

@@ -1,5 +1,5 @@
 ---
-slug: /misc/index
+slug: /misc
 title: Misc
 ---
 # Misc
