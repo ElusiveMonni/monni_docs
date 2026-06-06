@@ -22,8 +22,6 @@ This allows you to keep track of a user’s offenses so you can better decide th
 
     You can set it to minutes or hours.
 
-    ![expiration.png](https://docs.monni.fyi/expiration.png)
-
 - **4 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 

@@ -114,7 +114,6 @@ const sidebars = {
               'commands/slash/moderation/kick',
               'commands/slash/moderation/clear-history',
               'commands/slash/moderation/history',
-              'commands/slash/moderation/kick',
               'commands/slash/moderation/mute',
               'commands/slash/moderation/purge',
               'commands/slash/moderation/remove-case',
