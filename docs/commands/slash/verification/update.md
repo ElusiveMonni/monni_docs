@@ -20,4 +20,4 @@ A command for updating the nickname of a server member. The nickname is based on
 Ensure Monni has following permissions.  
 `Manage Nicknames`
 
-> Make sure Monni’s role is [above](https://docs.monni.fyi/tutorials/monni-role-position) the roles of the members you want him to change the nicknames of.
+> Make sure Monni’s role is [above](/guides/monni-role-position) the roles of the members you want him to change the nicknames of.

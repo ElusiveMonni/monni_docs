@@ -125,7 +125,7 @@ You can create _single_ line **code blocks** by wrapping your text in **backtick
 
 #### Multiline
 ---
-**Multiline code blocks** can be used to create code blocks which span **many lines**. They also support **syntax highlighting**. You can **create** multi line code blocks by enclosing text with ` ``` `. Syntax highlighting can be added by specifying language after three backticks `` ` ``. **More information** can be found [here](https://docs.monni.fyi/blog/colored-text#syntax-highlighting).
+**Multiline code blocks** can be used to create code blocks which span **many lines**. They also support **syntax highlighting**. You can **create** multi line code blocks by enclosing text with ` ``` `. Syntax highlighting can be added by specifying language after three backticks `` ` ``. **More information** can be found [here](/blog/colored-text#syntax-highlighting).
 
 ````none
 ```python
@@ -136,7 +136,7 @@ print("Hello, I am inside a codeblock.")
 ![multi-codeblock](images/codeblock-example.png)
 
 :::info
-Multiline code blocks are the **de facto** way to create **colored text** in discord. If you want to know more [check out our in-depth guide on them](https://docs.monni.fyi/blog/colored-text).
+Multiline code blocks are the **de facto** way to create **colored text** in discord. If you want to know more [check out our in-depth guide on them](/blog/colored-text).
 :::
 
 ### Block Quotes
