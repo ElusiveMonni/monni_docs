@@ -36,6 +36,18 @@ const sidebar: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "automations",
+      items: [
+        {
+          type: "doc",
+          id: "developer/api/run-manual-trigger-automations-trigger-id-run-post",
+          label: "Run Manual Trigger",
+          className: "api-method post",
+        },
+      ],
+    },
   ],
 };
 
