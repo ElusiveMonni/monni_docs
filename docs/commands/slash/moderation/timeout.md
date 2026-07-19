@@ -17,8 +17,6 @@ Timing out a member causes them to no longer be able to speak or set reactions t
     This section allows you to set a duration for how long the timeout lasts.  
     You can set it to minutes or hours.
 
-    ![default_duration.png](https://docs.monni.fyi/default_duration.png)
-
 - **3 Message:**
     When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
