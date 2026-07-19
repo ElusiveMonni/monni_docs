@@ -17,373 +17,420 @@ const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   docs: ["introduction",
 
-  {
-    type: 'category',
-    label: 'Commands',
-    link: {
-      type: 'doc',
-      id: 'commands/index',
-    },
-    collapsed: true,
-    items: [
-      {
-        type: 'category',
-        label: 'Types',
-        link: {
-          type: 'doc',
-          id: 'commands/info/index',
-        },
-        collapsed: true,
-        items: [
-          'commands/info/slash',
-          'commands/info/ephemeral',
-          'commands/info/admin',
-        ]
+    {
+      type: 'category',
+      label: 'Commands',
+      link: {
+        type: 'doc',
+        id: 'commands/index',
       },
-
-      {
-        type: 'category',
-        label: 'Slash',
-        link: {
-          type: 'doc',
-          id: 'commands/slash/index',
+      collapsed: true,
+      items: [
+        {
+          type: 'category',
+          label: 'Types',
+          link: {
+            type: 'doc',
+            id: 'commands/info/index',
+          },
+          collapsed: true,
+          items: [
+            'commands/info/slash',
+            'commands/info/ephemeral',
+            'commands/info/admin',
+          ]
         },
-        items: [
-        {
-          type: 'category',
-          label: 'Misc',
-          link: {
-            type: 'doc',
-            id: 'commands/slash/misc-commands',
-          },
-          items: [
-              'commands/slash/misc/roblox-get-info',
-              'commands/slash/misc/ping',
-              'commands/slash/misc/pet',
-              'commands/slash/misc/invite-monni',
-              'commands/slash/misc/help',
-              'commands/slash/misc/heart-beat',
-              'commands/slash/misc/discord-get-info',
-              'commands/slash/misc/dashboard',
-          ],
-          },
 
         {
           type: 'category',
-          label: 'Global',
+          label: 'Slash',
           link: {
             type: 'doc',
-            id: 'commands/slash/global-commands',
+            id: 'commands/slash/index',
           },
           items: [
-              'commands/slash/global/discord-avatar',
-              'commands/slash/global/reminder-create',
-              'commands/slash/global/reminder-manage',
-              'commands/slash/global/tag-create',
-              'commands/slash/global/tag-get',
-              'commands/slash/global/tag-manage',
-              'commands/slash/global/timestamp',
+            {
+              type: 'category',
+              label: 'Misc',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/misc-commands',
+              },
+              items: [
+                'commands/slash/misc/roblox-get-info',
+                'commands/slash/misc/ping',
+                'commands/slash/misc/pet',
+                'commands/slash/misc/invite-monni',
+                'commands/slash/misc/help',
+                'commands/slash/misc/heart-beat',
+                'commands/slash/misc/discord-get-info',
+                'commands/slash/misc/dashboard',
+              ],
+            },
+
+            {
+              type: 'category',
+              label: 'Global',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/global-commands',
+              },
+              items: [
+                'commands/slash/global/discord-avatar',
+                'commands/slash/global/reminder-create',
+                'commands/slash/global/reminder-manage',
+                'commands/slash/global/tag-create',
+                'commands/slash/global/tag-get',
+                'commands/slash/global/tag-manage',
+                'commands/slash/global/timestamp',
+              ],
+            },
+
+
+            {
+              type: 'category',
+              label: 'Invite',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/invite-commands',
+              },
+              items: [
+                'commands/slash/invite/invite-create',
+                'commands/slash/invite/invite-delete',
+                'commands/slash/invite/invite-sync',
+                'commands/slash/invite/invite-info',
+              ],
+            },
+
+            {
+              type: 'category',
+              label: 'Moderation',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/moderation-commands',
+              },
+              items: [
+                'commands/slash/moderation/ban',
+                'commands/slash/moderation/kick',
+                'commands/slash/moderation/clear-history',
+                'commands/slash/moderation/history',
+                'commands/slash/moderation/kick',
+                'commands/slash/moderation/mute',
+                'commands/slash/moderation/purge',
+                'commands/slash/moderation/remove-case',
+                'commands/slash/moderation/remove-timeout',
+                'commands/slash/moderation/timeout',
+                'commands/slash/moderation/warn',
+              ],
+            },
+
+            {
+              type: 'category',
+              label: 'Points',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/point-commands',
+              },
+              items: [
+                'commands/slash/points/balance',
+                'commands/slash/points/edit',
+                'commands/slash/points/leaderboard',
+                'commands/slash/points/item-edit',
+                'commands/slash/points/inventory',
+                'commands/slash/points/shop',
+                'commands/slash/points/history',
+                'commands/slash/points/send',
+              ],
+            },
+
+            {
+              type: 'category',
+              label: 'Verification',
+              link: {
+                type: 'doc',
+                id: 'commands/slash/verification-commands',
+              },
+              items: [
+                'commands/slash/verification/verified-account',
+                'commands/slash/verification/update',
+                'commands/slash/verification/verify',
+              ],
+            },
+
+
           ],
-          },
+        },
 
 
-          {
+        {
           type: 'category',
-          label: 'Invite',
+          label: 'Prefix',
           link: {
             type: 'doc',
-            id: 'commands/slash/invite-commands',
+            id: 'commands/prefix/index',
           },
           items: [
-              'commands/slash/invite/invite-create',
-              'commands/slash/invite/invite-delete',
-              'commands/slash/invite/invite-sync',
-              'commands/slash/invite/invite-info',
-          ],
-          },
+            {
+              type: 'category',
+              label: 'General Commands',
+              link: {
+                type: 'doc',
+                id: 'commands/prefix/general/index',
+              },
+              collapsed: true,
+              items: [
+                'commands/prefix/general/pet-info',
+              ],
+            },
 
-          {
-          type: 'category',
-          label: 'Moderation',
-          link: {
-            type: 'doc',
-            id: 'commands/slash/moderation-commands',
-          },
-          items: [
-              'commands/slash/moderation/ban',
-              'commands/slash/moderation/kick',
-              'commands/slash/moderation/clear-history',
-              'commands/slash/moderation/history',
-              'commands/slash/moderation/kick',
-              'commands/slash/moderation/mute',
-              'commands/slash/moderation/purge',
-              'commands/slash/moderation/remove-case',
-              'commands/slash/moderation/remove-timeout',
-              'commands/slash/moderation/timeout',
-              'commands/slash/moderation/warn',
-          ],
-          },
+            {
+              type: 'category',
+              label: 'Guild Commands',
+              link: {
+                type: 'doc',
+                id: 'commands/prefix/guild/index',
+              },
+              collapsed: true,
+              items: [
+                'commands/prefix/guild/forum-posts',
+                'commands/prefix/guild/forum-posts-sync',
+                'commands/prefix/guild/forum-posts-leaderboard',
+              ],
+            },
 
-          {
+
+          ],
+        },
+
+
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Modules',
+      link: {
+        type: 'doc',
+        id: 'modules/index',
+      },
+      collapsed: true,
+      items: [
+        {
           type: 'category',
           label: 'Points',
           link: {
             type: 'doc',
-            id: 'commands/slash/point-commands',
-          },
-          items: [
-              'commands/slash/points/balance',
-              'commands/slash/points/edit',
-              'commands/slash/points/leaderboard',
-              'commands/slash/points/item-edit',
-              'commands/slash/points/inventory',
-              'commands/slash/points/shop',
-              'commands/slash/points/history',
-              'commands/slash/points/send',
-          ],
-          },
-
-          {
-          type: 'category',
-          label: 'Verification',
-          link: {
-            type: 'doc',
-            id: 'commands/slash/verification-commands',
-          },
-          items: [
-              'commands/slash/verification/verified-account',
-              'commands/slash/verification/update',
-              'commands/slash/verification/verify',
-          ],
-          },
-
-
-         ],
-      },
-
-
-      {
-        type: 'category',
-        label: 'Prefix',
-        link: {
-          type: 'doc',
-          id: 'commands/prefix/index',
-        },
-        items: [
-          {
-          type: 'category',
-          label: 'General Commands',
-          link: {
-            type: 'doc',
-            id: 'commands/prefix/general/index',
+            id: 'modules/points',
           },
           collapsed: true,
           items: [
-              'commands/prefix/general/pet-info',
-          ],
-          },
-
-          {
+            'modules/points-section/systems',
+            'modules/points-section/commands',
+            'modules/points-section/shops',
+            'modules/points-section/milestones',
+            'modules/points-section/sources',
+            'modules/points-section/items',
+            'modules/points-section/boosts',
+          ]
+        },
+        {
           type: 'category',
-          label: 'Guild Commands',
+          label: 'Automations',
           link: {
             type: 'doc',
-            id: 'commands/prefix/guild/index',
+            id: 'modules/automations/automations',
           },
           collapsed: true,
           items: [
-              'commands/prefix/guild/forum-posts',
-              'commands/prefix/guild/forum-posts-sync',
-              'commands/prefix/guild/forum-posts-leaderboard',
-          ],
-          },
-
-
-        ],
-      },
-
-
-    ],
-  },
-
-  {
-    type: 'category',
-    label: 'Modules',
-    link: {
-      type: 'doc',
-      id: 'modules/index',
-    },
-    collapsed: true,
-    items: [
-      {
-        type: 'category',
-        label: 'Points',
-        link: {
-          type: 'doc',
-          id: 'modules/points',
+            'modules/automations/actions-and-conditions',
+            'modules/automations/mass-actions',
+            'modules/automations/variables-and-templates',
+            'modules/automations/custom-tags-and-filters',
+            {
+              type: 'category',
+              label: 'Triggers',
+              collapsed: true,
+              items: [
+                'modules/automations/triggers/cron',
+                'modules/automations/triggers/manual',
+                'modules/automations/triggers/message_sent',
+                'modules/automations/triggers/timer',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Guides',
+              collapsed: true,
+              items: [
+                'modules/automations/guides/hello-world-command',
+                'modules/automations/guides/random-interval-reward'
+              ]
+            },
+          ]
         },
-        collapsed: true,
-        items: [
-          'modules/points-section/systems',
-          'modules/points-section/commands',
-          'modules/points-section/shops',
-          'modules/points-section/milestones',
-          'modules/points-section/sources',
-          'modules/points-section/items',
-          'modules/points-section/boosts',
-        ]
+        "modules/verification",
+        "modules/logging",
+        "modules/roles",
+        "modules/automod",
+        "modules/moderation",
+        "modules/anti-bot",
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Misc',
+      link: {
+        type: 'doc',
+        id: 'misc/index',
       },
-      "modules/verification",
-      "modules/logging",
-      "modules/roles",
-      "modules/automod",
-      "modules/moderation",
-      "modules/anti-bot",
-    ],
-  },
+      collapsed: true,
+      items: [
 
-  {
-    type: 'category',
-    label: 'Control Panel',
-    link: {
-      type: 'doc',
-      id: 'control-panel/index'
+        {
+          type: 'category',
+          label: 'FAQ',
+          link: {
+            type: 'doc',
+            id: "misc/faq/index",
+          },
+          collapsed: true,
+          items: [
+            'misc/faq/permissions',
+          ]
+        },
+          {
+          type: 'category',
+          label: 'Tools',
+          link: {
+            type: 'doc',
+            id: "misc/tools/index",
+          },
+          collapsed: true,
+          items: [
+            'misc/tools/message-builder',
+            'misc/tools/timestamp',
+            'misc/tools/ansi',
+            
+          ]
+        },
+      ],
     },
-    collapsed: true,
-    items: [
-        'control-panel/mass-actions',
-        'control-panel/timestamp-tool',
-    ],
-  },
 
-  {
-    type: 'category',
-    label: 'Misc',
-    link: {
-      type: 'doc',
-      id: 'misc/index',
+    {
+      type: 'category',
+      label: 'Guides',
+      link: {
+        type: 'doc',
+        id: "guides/index",
+      },
+      collapsed: true,
+      items: [
+        "guides/verification-guide",
+        "guides/logging-guide",
+        "guides/setting-up-points",
+        "guides/monni-role-position",
+        "guides/invite-tracking-rewards",
+        "guides/reaction-roles",
+        "guides/sync-names-verification",
+      ],
     },
-    collapsed: true,
-    items: [
 
-  {
-    type: 'category',
-    label: 'Faq',
-    link: {
-      type: 'doc',
-      id: "misc/faq/index",
+
+
+    {
+      type: 'category',
+      label: 'Developer',
+      link: {
+        type: 'doc',
+        id: 'developer/index',
+      },
+      collapsed: true,
+      items: [
+        {
+          type: 'category',
+          label: 'DevTools',
+          link: {
+            type: 'doc',
+            id: 'developer/devtools/index',
+          },
+          collapsed: true,
+          items: [
+            'developer/devtools/points',
+            'developer/devtools/resync'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'API',
+          link: {
+            type: 'doc',
+            id: 'developer/api/monni-public-api',
+          },
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: 'Points',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'developer/api/get-user-points-points-system-user-id-get',
+                  label: 'Get User Points',
+                  className: 'api-method get',
+                },
+                {
+                  type: 'doc',
+                  id: 'developer/api/edit-user-points-points-system-user-id-patch',
+                  label: 'Edit User Points',
+                  className: 'api-method patch',
+                },
+                {
+                  type: 'doc',
+                  id: 'developer/api/set-user-points-points-system-user-id-put',
+                  label: 'Set User Points',
+                  className: 'api-method put',
+                },
+                {
+                  type: 'doc',
+                  id: 'developer/api/bulk-change-points-points-system-post',
+                  label: 'Bulk Change Points',
+                  className: 'api-method post',
+                },
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Automations',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'developer/api/run-manual-trigger-automations-trigger-id-run-post',
+                  label: 'Run Manual Trigger',
+                  className: 'api-method post',
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
-    collapsed: true,
-    items: [
-        'misc/faq/permissions',
-    ]
-  },
+
+    {
+      type: 'category',
+      label: 'Contributing',
+      link: {
+        type: 'doc',
+        id: 'contributing/index',
+      },
+      collapsed: true,
+      items: [
+        'contributing/help',
+      ]
+    },
+
+    "localisation",
   ],
- },
-
- {
-    type: 'category',
-    label: 'Guides',
-    link: {
-      type: 'doc',
-      id: "guides/index",
-    },
-    collapsed: true,
-    items: [
-      "guides/verification-guide",
-      "guides/logging-guide",
-      "guides/setting-up-points",
-      "guides/mass-actions",
-      "guides/monni-role-position",
-      "guides/invite-tracking-rewards",
-      "guides/reaction-roles",
-      "guides/sync-names-verification",
-    ],
-  },
-
-
-
-  {
-    type: 'category',
-    label: 'Developer',
-    link: {
-      type: 'doc',
-      id: 'developer/index',
-    },
-    collapsed: true,
-    items: [
-      {
-        type: 'category',
-        label: 'DevTools',
-        link: {
-          type: 'doc',
-          id: 'developer/devtools/index',
-        },
-        collapsed: true,
-        items: [
-          'developer/devtools/points',
-          'developer/devtools/resync'
-        ]
-      },
-      {
-        type: 'category',
-        label: 'API',
-        link: {
-          type: 'doc',
-          id: 'developer/api/monni-public-api',
-        },
-        collapsed: true,
-        items: [
-          {
-            type: 'category',
-            label: 'Points',
-            items: [
-              {
-                type: 'doc',
-                id: 'developer/api/get-user-points-points-system-user-id-get',
-                label: 'Get User Points',
-                className: 'api-method get',
-              },
-              {
-                type: 'doc',
-                id: 'developer/api/edit-user-points-points-system-user-id-patch',
-                label: 'Edit User Points',
-                className: 'api-method patch',
-              },
-              {
-                type: 'doc',
-                id: 'developer/api/set-user-points-points-system-user-id-put',
-                label: 'Set User Points',
-                className: 'api-method put',
-              },
-              {
-                type: 'doc',
-                id: 'developer/api/bulk-change-points-points-system-post',
-                label: 'Bulk Change Points',
-                className: 'api-method post',
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-
- {
-    type: 'category',
-    label: 'Contributing',
-    link: {
-      type: 'doc',
-      id: 'contributing/index',
-    },
-    collapsed: true,
-    items: [
-          'contributing/help',
-    ]
-  },
-
- "localisation",
-],
 
 
 
