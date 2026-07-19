@@ -1,0 +1,79 @@
+---
+id: run-manual-trigger-automations-trigger-id-run-post
+title: "Run Manual Trigger"
+description: "Run a manual automation trigger."
+sidebar_label: "Run Manual Trigger"
+hide_title: true
+hide_table_of_contents: true
+api: eJztVttu4zYQ/ZXBvHQXUKy0j3rLQ4EGi8UGSYq2iA2bksYi1xKpHZLxCoKAfkS/sF9SjC62k20K9H39YEvUGXIu5xy5x6Aqj9kTqhhco4Jx1uMmwZJ8waaVe8zwPlpQ0CgbVQ1nJAQ2VUW8Wtu1/WTrblnwcNTOE9Az2QDGw26K3UGhLOQEHC0EzS5WGoImuLm7XcGjpmWDHzyoYkxmbV9jvWoIvFZMJZTGtyoUGloVNLxTtjxDCufq0h1tmkf2IW2cDbrurvJYVhTWttBUHPx7UB4a8l5VlAbTEKe+0FTG+pSLT+BownR27gKY4KneS5ysTGlKU7Rj+PvPv9Y2aGKSqq2DhpqcGBxDoZW1VEPhbKCvIQHvoCW+mhFHxwdoog9QuVO5am13e8dbUoXeTsDdcqKx3pQ05rCMAX7TJIOqVCBg+kxFmJLkaBPY+YNpWyp3YPzaBo4E0q8dMTv2sgrUtKEbp3lPX6Jh8qCsDAcO1J27sLsgy4qj3UkhjfHeOLvCBF1LPD69LTFDjnY7jX87J7q9iN+eFk253Qq2dT5ggp6KyCZ0mD31eHN3+4G6X0iVxJg9bYZNgq1i1VAg9iPEqoYww/NumKAR8go1MEGeKioxk9ITlDE3CrMeQ9dKpA9sbIUJBhNqWXictoLbEgc5kMm3znryEvTT9bX8vNTJQywK8n4fa7ifwZjgOHEbBK7atjbFWHn62UtMf5FIy9K5YKYTprnIlQnU+G8zHZJlQTGr7iLzn6dQkfFexTqMLUtwJsDFTrlzNSl7EfowYy5i96r2NJxPc7kw6yLm5jTO+2jvyUvUIJ8EGwraCQvmqY7DyDC9YEDan2c2pBztOHx+XgYbucYMdQitz9JUtWbVOGvNat8ZlLEsRHmQPk6te0mXU7WqNR+oW3ihp8fJwpzfr27ubq8EIIkbu3dj6FzjRzkT7mJem0IUga89UlRy1Ea8iN2zKcnDUXUQHBgbiFURJgFNG4nyCiYRKn0NxFbVI67iWVbwh4ujW1YUTgrcs2ugVF7nTnEpUpMuTef/uLpeXQsnpNONGqk1Vyb2/XEy75nTr7PvzyT9bvbfzf7/mP2sLSkzbWtlrHBw1Gw/q/3ln4tEDPjCo0XwmwS1+EP2hH2fK0+/cj0MsvwlEssrYJPgs2KjchHjU4+l8XJdzu70H3R+N1dXvoe3sl3swYo3PKs6yh0meKDu5RtlEBfVy1uonwE3RUFtuAj9xuXFpk5OePfp4RET6Yl+6U2H0ZvmC9n+X/M629SSoHwPyRvwvp9cbxhO+OnRmxEnX5zQ0qLNMAz/AC56mVM=
+sidebar_class_name: "post api-method"
+info_path: developer/api/monni-public-api
+custom_edit_url: null
+mask_credentials: false
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Run Manual Trigger"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/automations/{trigger_id}/run"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Run a manual automation trigger.
+
+Only triggers whose event is `manual` can be run through the API. The trigger's actions
+run through the same shared dispatch path (and the same cooldown/burst/monthly-budget
+checks) as message/timer/schedule triggers, with the bot itself as the action author —
+there is no member or channel context, so per-member work must go through a
+`for_each_member` action inside the trigger. When a gate rejects the run, `skipped` is
+true and `errors` is empty.
+
+Requires an API key with the `automations.run` permission.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails
+  {...require("./run-manual-trigger-automations-trigger-id-run-post.ParamsDetails.json")}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./run-manual-trigger-automations-trigger-id-run-post.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./run-manual-trigger-automations-trigger-id-run-post.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      
