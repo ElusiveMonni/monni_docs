@@ -30,7 +30,7 @@ Now add a command the same way you added a system before. You'll see a menu pop 
 
 In our command we have the name, which shows up in Discord. We also have the permissions, where you can allow different people to use the command in your server. 
 
-You'll also see the "Embed style". You can choose from our embed types, or make your own. You can even add [Simpukka](docs/simpukka/index) variables in here.
+You'll also see the "Embed style". You can choose from our embed types, or make your own.
 
 Below this we have the "Systems" setting. This is the most important as this dictates what currency the command will effect. You can make it give multiple currencies at the same time, if you're crazy like that. Now, let's go over the types of commands. 
 ### Command Types
