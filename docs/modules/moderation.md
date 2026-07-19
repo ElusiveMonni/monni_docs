@@ -40,7 +40,7 @@ The main actions are:
 	 The Purge Command allows you to delete a set amount of messages from a channel, and is very useful for removing mass NSFW or spam.
 
 :::info
-**All available commands for this module can be found [*here*](/commands/slash/moderation/).**
+**All available commands for this module can be found [*here*](/commands/slash/moderation/moderation-commands).**
 :::
 
 ### Other Settings
