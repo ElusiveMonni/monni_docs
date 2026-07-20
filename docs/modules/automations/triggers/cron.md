@@ -3,14 +3,14 @@ sidebar_position: 4
 title: Schedule trigger
 ---
 # Schedule trigger
-Schedule triggers lets you use [cron language](https://crontab.guru/) to specify when trigger should run. It's versatile way to define when to run things like run this every monday at 12pm (`0 12 * * 1`) or run this every hour from 2pm to 5pm on monday to friday (`0 14-17 * * 1-5`)
+Schedule triggers let you use [cron language](https://crontab.guru/) to specify when a trigger should run. It's a versatile way to define when to run things like, "run this every monday at 12pm (`0 12 * * 1`)" or "run this every hour from 2pm to 5pm on monday to friday (`0 14-17 * * 1-5`)".
 
 :::info
 Our triggers run on `UTC 0` time. Please keep this in mind when creating triggers.
 :::
 
 ## Syntax
-We support standard cron syntax. this includes following
+We support standard cron syntax. this includes the following:
 | Character | Meaning | Description | Example | What the Example Does |
 | :---: | :--- | :--- | :--- | :--- |
 | `*` | Any value | Acts as a wildcard to match every possible value in that field. | `* 12 * * *` | Runs every minute during the 12 PM (noon) hour, every single day. |

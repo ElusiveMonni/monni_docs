@@ -1,8 +1,7 @@
 # Message sent
-Message sent trigger runs any time when a person sends a message.
-
+The message sent trigger runs any time a person sends a message.
 ## Options
 ### Channel
-Limit the message trigger to specified channel
+Limit the message trigger to a specified channel.
 ### Message starts with
-Limit the message trigger to run only when message starts with specified text. Useful for creating basic commands
+Limit the message trigger to run only when a message starts with specified text. Useful for creating basic commands.

@@ -2,7 +2,7 @@
 title: Timestamp generator
 sidebar_position: 3
 ---
-Timestamp tool allows you to create discord timestamps with ease. You can use it by setting the time and then using the copy icon. When you paste the text in discord you get the corresponding timestamp
+Our timestamp tool allows you to create Discord Timestamps with ease. You can use it by setting the time and then using the copy icon. When you paste the text into Discord you get the corresponding timestamp.
 
 
 <iframe
@@ -14,5 +14,5 @@ Timestamp tool allows you to create discord timestamps with ease. You can use it
 </iframe>
 
 :::info
-Interested in discord timestamps? [Read more here](/blog/discord-timestamps)!
+Interested in Discord timestamps? [Read more here](/blog/discord-timestamps)!
 :::

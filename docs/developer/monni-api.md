@@ -3,12 +3,10 @@ title: Monni API
 sidebar_position: 2
 ---
  
-The Monni API is provided to make it possible for you to communicate and integrate with Monni systems from external applications. In order to communicate with most API’s you need an API key. The API key has to be provided in the header named `X-API-Key`
-
+The Monni API is provided to make it possible for you to communicate and integrate with Monni systems from external applications. In order to communicate with most API’s you need an API key. The API key has to be provided in the header named `X-API-Key`.
 
 ## API keys
-API keys can be created at servers dashboard in API section which is found inside home.
-
+API keys can be created at your server's dashboard in the API section which is found inside home.
 
 ## Current API End Points
 ---
@@ -30,7 +28,7 @@ Parameters:
 }
 ```
 
-Returns a list of all the current points systems in a guild and their settings.
+Returns a list of all the current point systems in a guild and their settings.
 
 - Edit Endpoint
 	- `/api/public/v1/points/edit/`
@@ -45,7 +43,7 @@ Parameters:
 }
 ```
 
-Endpoint for changing points of a member by provided amount.
+Endpoint for changing the points of a member by a provided amount.
 
 - Edit Balance
 	- `/api/public/v1/points/balance/`
@@ -59,7 +57,7 @@ Parameters:
 }
 ```
 
-End point for getting balance of a person.
+The End point for getting the balance of a person.
 
 ### Rewards
 ---
@@ -77,7 +75,7 @@ Parameters:
 }
 ```
 
-Returns a list of all guild badges.
+Returns a list of all the guild badges.
 
 - Get Items Endpoint
 	- `/api/public/v1/rewards/get/items/`
@@ -89,7 +87,7 @@ Parameters:
 }
 ```
 
-Returns a list of all guild items.
+Returns a list of all the guild items.
 
 ### Triggers
 ---
@@ -121,7 +119,7 @@ Parameters:
 }
 ```
 
-_API endpoint for executing custom Simpukka triggers. (Simpukka limits still apply) will return following information:_
+_API endpoint for executing custom Simpukka triggers. (Simpukka limits still apply) will return the following information:_
 ```json
 {
     "result": "rendering result",
@@ -148,4 +146,4 @@ Parameters:
 }
 ```
 
-Endpoint for getting verified account of user.
+Endpoint for getting the verified account of user.
