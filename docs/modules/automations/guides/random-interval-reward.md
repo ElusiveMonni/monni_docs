@@ -17,10 +17,12 @@ Optionally, you can set the `Delete message after a time period` if you want to 
 
 ### Configuring the message
 Press the configure message button in the action and get creative. Just ensure you have at-least one button to program.
+
 ![reward-message-editor.png](assets/reward-message-editor.png)
 
 ### Creating actions for the button
 First create a first to press action. This ensures only the first to press the button gets to claim it. Optionally, enable the disable button checkbox.
+
 ![first-to-press.png](assets/first-to-press.png)
 As we want the reward amount to be random, we need to generate it. As we need the value in two different actions, later on we will store it in a variable. Inside `in first press`, add a variable action with a random number being made with the [random filter](/modules/automations/custom-tags-and-filters#random). It uses the following syntax:
 ```
@@ -31,6 +33,7 @@ To give a random amount of points from 1 to 20 we will write to the variable:
 {{1 | random: 20}}
 ```
 Also set the variable name to reward.
+
 ![reward-variable.png](assets/reward-variable.png)
 Now that we have the reward amount, lets add a give points action which gives `{{vars.reward}}` amount of points.
 
