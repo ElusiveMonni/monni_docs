@@ -10,7 +10,7 @@ Our ANSI coloured text generator can be used to write and create the coloured fo
 
 <iframe
   id="inlineEditor"
-  height="500"
+  height="520"
   width="100%"
   src="https://monni.fyi/tools/colored-text?embed=true"
   allow="clipboard-write 'self' https://monni.fyi/">
