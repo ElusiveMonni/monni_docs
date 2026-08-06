@@ -28,6 +28,10 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  // Force a one-time reload when a lazily-loaded chunk 404s after a redeploy
+  // swaps out the content-hashed files a stale tab still references.
+  clientModules: ['./src/clientModules/chunkErrorReload.js'],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
