@@ -10,7 +10,7 @@ Monni is an extensive discord bot with a lot of features. With these features co
 
 :::warning
 We dont regularly update this page. If you have questions about permissions please join our [support server](https://monni.fyi/support/) and ask.
-
+:::
 
 ### Terminology
 ---
