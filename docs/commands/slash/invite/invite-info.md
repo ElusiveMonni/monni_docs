@@ -7,15 +7,15 @@ slug: commands/slash/invite/invite-info
 A command for displaying information about a guild’s invites.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Invite Info** is a [slash command](/commands/info/slash/)!
 :::
 
 :::ephemeral
-**Dashboard** is a [ephemeral command](/commands/info/ephemeral)!
+**Invite Info** is a [ephemeral command](/commands/info/ephemeral)!
 :::
 
 :::admin
-**Dashboard** is an [administrator command](/commands/info/admin)!
+**Invite Info** is an [administrator command](/commands/info/admin)!
 :::
 
 ## Arguments

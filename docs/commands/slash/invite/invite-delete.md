@@ -7,15 +7,15 @@ slug: commands/slash/invite/invite-delete
 A command for deleting existing invites.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Invite Delete** is a [slash command](/commands/info/slash/)!
 :::
 
 :::ephemeral
-**Dashboard** is a [ephemeral command](/commands/info/ephemeral)!
+**Invite Delete** is a [ephemeral command](/commands/info/ephemeral)!
 :::
 
 :::admin
-**Dashboard** is an [administrator command](/commands/info/admin)!
+**Invite Delete** is an [administrator command](/commands/info/admin)!
 :::
 
 ## Arguments

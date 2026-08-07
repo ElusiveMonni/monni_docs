@@ -7,15 +7,15 @@ slug: commands/slash/invite/invite-create
 A command for creating a new invite.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Invite create** is a [slash command](/commands/info/slash/)!
 :::
 
 :::ephemeral
-**Dashboard** is a [ephemeral command](/commands/info/ephemeral)!
+**Invite create** is a [ephemeral command](/commands/info/ephemeral)!
 :::
 
 :::admin
-**Dashboard** is an [administrator command](/commands/info/admin)!
+**Invite create** is an [administrator command](/commands/info/admin)!
 :::
 
 ## Arguments
