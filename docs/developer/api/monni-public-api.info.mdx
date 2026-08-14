@@ -1,7 +1,7 @@
 ---
 id: monni-public-api
 title: "Monni Public API"
-description: "API which provides way to interact with Monni and create external integrations. You can get API key from dashboard."
+description: "API which provides a way to interact with Monni and create external integrations. You can get an API key from the dashboard."
 sidebar_label: Introduction
 sidebar_position: 0
 hide_title: true
@@ -29,7 +29,47 @@ import Export from "@theme/ApiExplorer/Export";
 
 
 
-API which provides way to interact with Monni and create external integrations. You can get API key from dashboard.
+API which provides a way to interact with Monni and create external integrations. You can get an API key from the dashboard.
+
+## Versions
+
+Every path starts with a version, such as `/v1`. A new version is added next to the existing ones instead of replacing them, so an integration that is already running keeps working. Move to the newest version whenever you can. Older versions are deprecated once a newer one is out and are removed after that.
+
+## Rate limits
+
+Limits are counted per guild, meaning the server your API key belongs to. Creating more API
+keys or calling from more machines will not raise them. Every request has to fit in all of
+the limits that apply to it.
+
+| Limit | Free | Guild premium | Window | Covers |
+| --- | --- | --- | --- | --- |
+| `burst` | 5 | 20 | per 1 second | Short bursts of requests to any public endpoint. |
+| `hourly` | 1,000 | 10,000 | per 1 hour | Sustained traffic across every public endpoint. |
+| `automation-runs` | 100 | 1,000 | per 1 hour | Manual automation runs, which the bot carries out on Discord for you. |
+
+### Working with the limits
+
+Every response tells you where you stand in whichever limit is closest to running out:
+
+| Header | Meaning |
+| --- | --- |
+| `X-RateLimit-Tier` | `free` or `premium`, so which column above applies to you. |
+| `X-RateLimit-Bucket` | The limit the other headers describe. |
+| `X-RateLimit-Limit` | Requests allowed in that window. |
+| `X-RateLimit-Remaining` | Requests you have left in the current window. |
+| `X-RateLimit-Reset` | Unix timestamp in seconds of when that window resets. |
+
+Run out and you get a **429** with the same headers plus `Retry-After`, which is how many
+seconds to wait. Requests that get rejected are not counted, so waiting it out costs you
+nothing.
+
+`GET /limits/` returns all of your limits at once and does not spend any of them, so you can
+check it as often as you like.
+
+There is also a limit of 150 requests per
+10 seconds per IP address. It is there to keep unauthenticated traffic away
+from the API key lookup and is set higher than any single guild is allowed to send.
+
 
 <div
   style={{"marginBottom":"2rem"}}

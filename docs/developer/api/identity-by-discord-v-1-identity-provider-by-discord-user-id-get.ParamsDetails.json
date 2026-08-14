@@ -1,0 +1,1 @@
+{"parameters":[{"name":"provider","in":"path","required":true,"schema":{"type":"string","enum":["roblox","minecraft_java"],"title":"IdentityProviderKey"}},{"name":"user_id","in":"path","required":true,"schema":{"type":"integer","title":"User Id"}}]}
