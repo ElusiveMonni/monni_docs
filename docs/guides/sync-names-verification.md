@@ -2,6 +2,11 @@
 title: Syncing Names with Verification
 sidebar_position: 7
 ---
+
+:::warning
+This guide is outdated.
+:::
+
 ##### Our guide for more in depth use of verification!
 ---
 

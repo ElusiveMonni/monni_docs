@@ -2,6 +2,11 @@
 title: Building your Logging System
 sidebar_position: 3
 ---
+
+:::warning
+This guide is outdated.
+:::
+
 ##### Guide to building your own event logging system!
 ***
 ### Logging

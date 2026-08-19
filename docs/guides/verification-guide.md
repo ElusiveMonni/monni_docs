@@ -2,6 +2,11 @@
 title: Setting up Verification
 sidebar_position: 2
 ---
+
+:::warning
+This guide is outdated.
+:::
+
 ##### Our guide on setting up Verification!
 ---
 
