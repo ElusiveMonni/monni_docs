@@ -9,7 +9,7 @@ Automations let you create custom commands and actions which run based on schedu
 
 ![example-trigger.png](assets/example-trigger.png)
 
-## Related topics
+## Related Topics
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
 
