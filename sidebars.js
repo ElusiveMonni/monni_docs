@@ -206,7 +206,30 @@ const sidebars = {
 
       ],
     },
-
+    {
+      type: 'category',
+      label: 'Cross guild',
+      link: {
+        type: 'doc',
+        id: 'cross-guild/index',
+      },
+      collapsed: true,
+      items: [
+        'modules/logging/invite-tracking',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'General Settings',
+      link: {
+        type: 'doc',
+        id: 'general-settings/index',
+      },
+      collapsed: true,
+      items: [
+        'general-settings/linked-channels',
+      ]
+    },
     {
       type: 'category',
       label: 'Modules',
@@ -269,15 +292,48 @@ const sidebars = {
             },
           ]
         },
-        "modules/verification",
-        "modules/logging",
+        {
+          type: 'category',
+          label: 'Logging',
+          link: {
+            type: 'doc',
+            id: 'modules/logging/logging',
+          },
+          collapsed: true,
+          items: [
+            'modules/logging/invite-tracking',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Verification',
+          link: {
+            type: 'doc',
+            id: 'modules/verification/verification',
+          },
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: 'Services',
+              link: {
+                type: 'doc',
+                id: 'modules/verification/services/index',
+              },
+              collapsed: true,
+              items: [
+                'modules/verification/services/roblox',
+                'modules/verification/services/minecraft',
+              ]
+            },
+          ]
+        },
         "modules/roles",
         "modules/automod",
         "modules/moderation",
         "modules/anti-bot",
       ],
     },
-
     {
       type: 'category',
       label: 'Misc',
