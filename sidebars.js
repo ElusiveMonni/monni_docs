@@ -215,7 +215,6 @@ const sidebars = {
       },
       collapsed: true,
       items: [
-        'modules/logging/invite-tracking',
       ]
     },
     {
