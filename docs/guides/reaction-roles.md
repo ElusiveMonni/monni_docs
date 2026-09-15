@@ -40,7 +40,7 @@ Reaction roles allow server members to role themselves as they wish. It is used 
 	- The `Fields` field creates sections with a bolded title in your embed that can be used for explaining the purpose of each available role.
 	- The `Embed Colour` option allows you to set the colour of the left border of the embed, in this case, red.
 
-![](images/reaction-roles/reaction-roles4.png)
+![Message editor with message content, a "Reaction Roles!" embed title, Gamenight Ping and Giveaway Ping fields, and the embed colour picker, next to a live preview of the message](images/reaction-roles/reaction-roles4.png)
 
 5. Press return and set which channel you'd like your reaction role message to be sent in. Then select the buttons which will be under your embed. (These assign the roles)
 
