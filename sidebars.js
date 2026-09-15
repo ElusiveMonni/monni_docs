@@ -121,6 +121,7 @@ const sidebars = {
                 'commands/slash/moderation/remove-case',
                 'commands/slash/moderation/remove-timeout',
                 'commands/slash/moderation/timeout',
+                'commands/slash/moderation/unban',
                 'commands/slash/moderation/warn',
               ],
             },
