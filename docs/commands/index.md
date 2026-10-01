@@ -7,11 +7,11 @@ tags:
 sidebar_position: 1
 ---
 
-Commands are one of the main ways you can interact with Monni. There are a few command types such as Slash, Prefix, and Context menu commands.
+Commands are one of the main ways you can interact with Monni. There are three types: slash commands, prefix commands, and right click commands you find under **Apps** when you right click a member.
 
 **The command type and related arguments will be in their respective pages below.**
 
-You’ll also find a section called `Permissions` which outlines what discord permissions a command requires to work. There are many commands, Find them below!
+Each command page also has a `Required permissions` section, which lists the Discord permissions the command needs.
 
 :::info
 Need help with commands? Check out our [**Tutorials and Guides**](/guides)
@@ -33,4 +33,4 @@ Arguments are extra pieces of information you give to the bot when running a com
 ### How do I use arguments?
 Usage of an argument changes slightly depending on the command type. For slash commands, Discord will ask you for the required arguments and offer you the chance to fill optional ones. Prefix command arguments are written after the command in the following manner:
 
-`@Monni command <argument>, <argument>`.
+`@Monni command <argument> <argument>`
