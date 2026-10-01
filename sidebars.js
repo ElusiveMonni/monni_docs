@@ -65,7 +65,7 @@ const sidebars = {
                 'commands/slash/misc/pet',
                 'commands/slash/misc/invite-monni',
                 'commands/slash/misc/help',
-                'commands/slash/misc/discord-get-info',
+                'commands/slash/misc/discord-whois',
                 'commands/slash/misc/dashboard',
               ],
             },
