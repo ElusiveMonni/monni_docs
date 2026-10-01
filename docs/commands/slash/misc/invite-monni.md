@@ -1,5 +1,6 @@
 ---
 title: Invite-monni
+description: "Get a link to add Monni to another Discord server with the /invite_monni command."
 ---
 # Invite Monni
 

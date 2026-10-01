@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Boosts
+description: "Give members more points from every source while they meet a condition, like boosting your server or having a role."
 slug: /modules/points/boosts
 ---
 
@@ -11,6 +12,8 @@ Boosts are ways to give members bonus points based on whether they fulfill certa
 ### Creating and customizing a boost
 ---
 A boost can be created by going to the dashboard, going to the `Boosts` section of the `Points` Module, and then pressing "Add boosts".
+
+<img src={require('../assets/points-boosts.webp').default} alt="A boost that doubles the coins members earn while they have the Server Booster role" width="400" />
 
 Each boost has a multiplier or flat increase, systems, and a criterion associated with it:
 

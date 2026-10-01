@@ -1,13 +1,12 @@
 ---
-title: Prefix Commands
+title: Server Prefix Commands
+description: "Prefix commands that only work inside a server, used by mentioning Monni in a channel."
 ---
-# General Prefix Commands
+# Server Prefix Commands
 
-Prefix Commands which only work within a guild.
+Prefix commands that only work inside a server.
 
 ---
-
-Commands Below!
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

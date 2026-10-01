@@ -1,59 +1,41 @@
 ---
 title: Setting up Reaction Roles
+description: "Make a message with buttons that give members roles when they click them, using Monni's reaction roles."
 sidebar_position: 8
 ---
-
-:::warning
-This guide is outdated
-:::
-
-###### A quick guide to self-roling using reactions!
+###### A quick guide to letting members pick their own roles
 ___
-*Reaction roles are not currently on the new version of the website and will be added shortly. For now, you can use reaction roles through the old website at https://old.monni.fyi/*
-
-This guide uses the old website and will be updated once reaction roles are added to the new website.
 ### Why use reaction roles?
 ---
-
-Reaction roles allow server members to role themselves as they wish. It is used for choosing specific pings or identifying roles, like time zones, without the need for an admin to give roles to everyone.
+Reaction roles let members give themselves roles by pressing buttons on a message. They are great for opt-in pings, like game night or giveaway pings, and for roles like time zones or pronouns, without an admin having to give everyone their roles by hand.
 
 ### Setting up reaction roles
 ---
 
-1. Create a channel where the reaction roles message will be placed, preferably where no one else will talk, otherwise the message will get lost in a list of other messages.
+1. Create a channel for the reaction role message. It works best in a channel where nobody else talks, so the message doesn't get buried.
 
-![reaction-roles1](images/reaction-roles/reaction-roles1.png)
+![A reaction-roles channel in a Discord server's channel list](images/reaction-roles/reaction-roles1.png)
 
-2. Go to the [*Monni Dashboard*](https://monni.fyi/dashboard), then go to your server and select the roles module. Next, under *Reaction roles* select "New reaction role".
+2. Go to the [*Monni Dashboard*](https://monni.fyi/dashboard), pick your server and open **Roles**. Under **Reaction Roles**, press **+** to make a new set of buttons.
 
-![reaction-roles2](images/reaction-roles/reaction-roles2.png)
+3. Give the set a **Name**, so you can find it later, and choose a **Mode**. **Normal** lets members pick as many roles as they like. **Unique** only lets them have one at a time. All modes are explained on the [Roles](/modules/roles#modes) page.
 
-3. In the menu that has just popped up, press "Configure Message" to open the message editor and in the top left corner click the brush to clear the template message.
+4. Press **+ Add role** for each button. For each one, pick the roles it gives, write a label, add an emoji if you like, and pick a color.
 
-![reaction-roles3](images/reaction-roles/reaction-roles3.png)
+	- A message can have up to 5 buttons, and one button can give several roles.
+	- The roles must be **below** Monni's role, as described in the [**Monni Role Position**](monni-role-position) guide.
+	- Use **Whitelist roles** if only some members should be able to use the buttons, for example only verified members.
 
-4. Create a message to explain what each role's purpose is to make choosing easier for server members.
+<img src={require('./images/reaction-roles/editor.webp').default} alt="Reaction role editor with a set called Team Roles in Unique mode, with buttons for the Red, Blue and Green teams and Verified as a whitelist role" width="700" />
 
-	The easiest way to do this is by using `Message Content` and `Fields` in the editor.
-	- The `Message Content` field is for all information outside of your embed.
-	- Create a title in the `Title` field for your embed which will be bolded and slightly larger than other text in your embed.
-	- The `Fields` field creates sections with a bolded title in your embed that can be used for explaining the purpose of each available role.
-	- The `Embed Colour` option allows you to set the colour of the left border of the embed, in this case, red.
+5. Open the **Message** tab and write the message the buttons will be under. Explain what each role is for, so members know what they are picking. The preview on the right shows what it will look like in Discord.
 
-![Message editor with message content, a "Reaction Roles!" embed title, Gamenight Ping and Giveaway Ping fields, and the embed colour picker, next to a live preview of the message](images/reaction-roles/reaction-roles4.png)
+<img src={require('./images/reaction-roles/message.webp').default} alt="Message tab of the reaction role editor with the message text on the left and a live preview with Red, Blue and Green buttons on the right" width="700" />
 
-5. Press return and set which channel you'd like your reaction role message to be sent in. Then select the buttons which will be under your embed. (These assign the roles)
+6. Press **Send** and pick the channel from step 1. The message appears in that channel straight away. Members press a button to get the role, and press it again to remove it.
 
-	- The `text` field is optional, but can be used instead of specifying the emoji that each role is related to in the message created in step four.
-	- The "Select emoji" button allows you to choose an emoji that will be displayed in the button.
-	- The `role` field allows you to select what role is applied by each button, the role must be <u>under</u> Monni in the role hierarchy to be selected, as described in the [**Monni Role Position**](monni-role-position) guide.
-	- A colour for the button can also be selected, but the available options of blue, green, red, and grey are the only colours supported by Discord.
+![A reaction role message in Discord with two buttons, and Monni's private reply after a member pressed one](images/reaction-roles/reaction-roles6.png)
 
-![reaction-roles5](images/reaction-roles/reaction-roles5.png)
-
-5. *Press send!* 
- 
-	 The message will appear in your chosen channel. You can remove a reaction role by clicking the button again.
-
-![reaction-roles6](images/reaction-roles/reaction-roles6.png)
-
+:::info
+To change a message you already sent, open the set again, press **Send**, and paste the message link under **Update existing message**. Monni edits the old message instead of posting a new one.
+:::

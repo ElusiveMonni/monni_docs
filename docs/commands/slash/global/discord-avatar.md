@@ -1,5 +1,6 @@
 ---
 title: Discord Avatar
+description: "Show the full size profile picture of any Discord user with the /discord avatar command."
 ---
 # Discord Avatar
 

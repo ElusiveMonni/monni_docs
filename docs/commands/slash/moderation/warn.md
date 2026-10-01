@@ -1,48 +1,32 @@
 ---
 title: Warn
+description: "Warn a member with /mod warn. Each warn can expire on its own, and the message it was about is saved in the case."
 ---
 # Mod | Warn Command
 
-The Warn command allows you to add a warning to one of your members with an optional expiration date.
-
-This allows you to keep track of a user’s offenses so you can better decide their punishment.
+The Warn command allows you to add a warning to one of your members, with an optional expiration date. This allows you to keep track of a member's offences so you can better decide their punishment.
 
 ---
-## Arguments 
+## Arguments
 
 - **1 Member**
     The member you want to warn.
 
 - **2 Reason**
-    The reason for timing out your member.
+    The reason for the warn. If left empty, the default reason from the dashboard is used. You can also type a **[reason alias](/modules/moderation#reason-aliases)**.
 
-- **3 Default Expiration**
-    This section allows you to set a duration for how long the warn lasts before expiring 
-    (Being removed from the member).  
+- **3 Duration**
+    How long the warn stays active, like `12h` or `7d`. If left empty, the default duration from the dashboard is used. Once it expires, the warn no longer counts towards the member's active warns.
 
-    You can set it to minutes or hours.
+- **4 Message**
+    The ID or link of the message the warn is about. Monni saves the message in the case, so you can see what was said later.
 
-- **4 Message:**
-    When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
 
-    *Message Details*
-
-    ##### No Messages:  
-    No message will be sent to the affected user!
-
-    ##### Server and Action:  
-    The action committed and the server it was committed in will be sent to the user.
-
-    ##### Server, Action, and Reason:  
-    The action committed, the server it was committed, and the reason provided by the command executor will be sent to the user.
-
-    ##### Server, Action, Reason and Moderator:  
-    The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
-
+Default reasons, durations and other settings for this command can be changed in the **[Moderation Module](/modules/moderation#command-settings)**.
 
 ---
 ## REQUIRE 2FA
 
-If activated, your Moderators will need to use Two Factor Authentication every hour to use the command.
+If activated, your Moderators will need to use Two Factor Authentication every 2 hours to use the command.
 
 Not recommended for smaller servers. But very helpful for large servers that are vulnerable to Moderator accounts being hacked.

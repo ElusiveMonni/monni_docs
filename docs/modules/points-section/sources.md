@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Sources
+description: "Choose how members earn or lose points: sending messages, time in voice channels, inviting people or being warned, each with its own amount."
 slug: /modules/points/sources
 ---
 
@@ -12,6 +13,8 @@ Sources are a way to automatically award members with points in a [system](/modu
 ---
 To add a source, go the dashboard, and open the `Sources` section of the `Points` module, then press "Add sources".
 
+<img src={require('../assets/points-sources.webp').default} alt="A source called Chatting that gives 10 coins for every 5 messages, with a 60 second cooldown" width="400" />
+
 Each source has a name, attached system, and type, with further customization based on the type of source chosen.
 
 - **Source name** - The name of the source in the dashboard to differentiate between sources more easily.
@@ -19,13 +22,15 @@ Each source has a name, attached system, and type, with further customization ba
 - **Point system** - Which system's balance is changed when the source triggers for a member.
 
 - **Source type** - The way a member gains points through the source. The current types are:
-  `Messages sent`, `Voice channel time`, and `People invited`.
+  `Messages sent`, `Voice channel time`, `People invited` and `Member warned`.
 
 	- `Messages sent` will trigger after the number of `Messages required` are sent by a member (in channels Monni can see) with a `Cooldown` before messages start counting towards the requirement again.
 	
 	- `Voice channel time` will trigger after a member reaches a specified `Time` spent within a voice channel (which Monni can see).
 	
 	- `People invited` will trigger when a new member joins through an invite. The member who created the invite will be credited. 
+	
+	- `Member warned` will trigger when a member is warned. Use a negative number to take points away from members who get warned.
 	
 - Each source will `give` a specified number of points to the member for the attached system. Sources can also remove points by making the number negative with a `-`.
 

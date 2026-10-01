@@ -1,48 +1,35 @@
 ---
 title: Mute
+description: "Mute a member with /mod mute using a Discord timeout, a mute role or a hard mute that takes their roles away."
 ---
 # Mod | Mute Command
 
-The Mute command allows you to mute members for a set amount of time.
+The Mute command allows you to mute members for a set amount of time, or until they are unmuted.
 
-Muting a member causes them to no longer be able to speak in your server.
+Muting a member causes them to no longer be able to speak in your server. Depending on your settings, Monni mutes members with a Discord timeout, a mute role, or a hard mute that removes their roles. See **[Mute Type](/modules/moderation#mute-type)**.
 
 ---
 ## Arguments
 
-- **1 Default Duration**
-    This section allows you to set a duration for how long the mute lasts.  
-    You can set it to minutes or hours.
+- **1 Member**
+    The member you want to mute.
 
-- **2 Message:**
-    When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
+- **2 Reason**
+    The reason for the mute. If left empty, the default reason from the dashboard is used. You can also type a **[reason alias](/modules/moderation#reason-aliases)**.
 
-    *Message Details*
-
-    ##### No Messages:  
-    No message will be sent to the affected user!
-
-    ##### Server and Action:  
-    The action committed and the server it was committed in will be sent to the user.
-
-    ##### Server, Action, and Reason:  
-    The action committed, the server it was committed, and the reason provided by the command executor will be sent to the user.
-
-    ##### Server, Action, Reason and Moderator:  
-    The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
+- **3 Duration**
+    How long the mute lasts, like `30m`, `12h` or `7d`. If left empty, the default duration from the dashboard is used.
 
 
-- **3 Hard Mute:**
-    If activated, this will remove roles from the member. Once the mute ends, the roles will be  added back.
+:::info
+If the member is already muted, Monni can ask before replacing the mute, replace it straight away, or refuse. You can choose which under **When Already Punished** in the [command settings](/modules/moderation#command-settings).
+:::
 
-  >Make sure Monni has the appropriate permissions to remove the roles!
+Default reasons, durations and other settings for this command can be changed in the **[Moderation Module](/modules/moderation#command-settings)**.
 
-- **4 Sticky Mute:**
-    Will make sure that if a member leaves and rejoins, they will remain muted.
 ---
-
 ## REQUIRE 2FA
 
-If activated, your Moderators will need to use Two Factor Authentication every hour to use the command.
+If activated, your Moderators will need to use Two Factor Authentication every 2 hours to use the command.
 
 Not recommended for smaller servers. But very helpful for large servers that are vulnerable to Moderator accounts being hacked.

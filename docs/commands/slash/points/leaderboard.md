@@ -1,5 +1,6 @@
 ---
 title: Leaderboard
+description: "Show a ranking of the members with the most points in one of your server's point systems."
 ---
 # Leaderboard
 

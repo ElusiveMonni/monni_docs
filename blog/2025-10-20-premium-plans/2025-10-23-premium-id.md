@@ -1,6 +1,7 @@
 ---
 slug: premium-plans
 title: Premium Plans
+description: "What Monni Premium includes while it is in alpha, the early supporter discount, and the premium features we plan to add next."
 authors:
   - rockoyhead
 tags:

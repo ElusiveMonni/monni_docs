@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Cross Guild
+description: "Connect two Discord servers in Monni to share roles, verification, bans and moderation, with permissions each server controls."
 ---
 The cross guild feature lets you provide other Discord servers limited access to your server and vice versa.
 
@@ -32,3 +33,6 @@ A server can also grant permissions directly from their cross guild settings, wi
 | **Verification**        | `read_linked_accounts` | Read verification state. Same information the server itself has received about verified account. | Verification Passporting     |
 | **Verification**        | `share_ban_identity`   | Shares banned external accounts information.                                                     | External account ban sharing |
 | **Channel Permissions** | `write_channels`       | Send messages to channels.                                                                        | Linked channels              |
+| **Moderation**          | `share_cases`          | Lets the other server see cases you create, so their moderators have your history on a member.   | [Cross guild moderation](/modules/moderation#cross-guild) |
+| **Moderation**          | `apply_moderation_actions` | Punishments given here also apply on the other server. Both servers must grant it.               | [Cross guild moderation](/modules/moderation#cross-guild) |
+| **Moderation**          | `share_warns`          | Lets the other server see how many active warns a member has, without the cases behind them.     | None                         |

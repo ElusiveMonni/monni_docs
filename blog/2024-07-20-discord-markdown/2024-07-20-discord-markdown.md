@@ -1,6 +1,7 @@
 ---
 slug: discord-markdown
 title: Discord Markdown
+description: "Every Discord markdown format in one place: bold, italics, underline, spoilers, headers, lists, quotes, code blocks and timestamps, with examples."
 authors:
   - iraas
   - aszduh
@@ -19,16 +20,16 @@ Discord has a built in **markdown engine**. Features of this engine range from t
 | <u>Underline</u> | \_\_Underline\_\_ |
 | ~~Strikethrough~~ | \~\~Strikethrough\~\~ |
 
-Different text **formattings** can be **combined**. For example you can combine <u>*underline and italics*</u> with  
+Different text **formatting styles** can be **combined**. For example you can combine <u>*underline and italics*</u> with  
 `*__underline and italics__*`.
 
-![text-format](images/text-format-example.png)
+![Discord message showing italics, bold, bold italics, underline and strikethrough next to the markdown that makes them](images/text-format-example.png)
 <!-- truncate -->
 ### Headers
 ---
 Discord supports usage of **headers**. Headers start with a **hashtag** followed by a **space** and then the text itself `# Text here`. There is three different **sizes of headers**. The largest is `#`, then `##`, and the smallest is `###`. A message has to start with a header, so a _header in the middle of a sentence_ isn’t possible.
 
-![discord-headers](images/discord-headers-example.png)
+![Discord message showing the three header sizes next to the #, ## and ### markdown that makes them](images/discord-headers-example.png)
 
 :::note
 Did you know that text formatting works in headers?
@@ -38,7 +39,7 @@ Did you know that text formatting works in headers?
 ### Subtext
 Almost like headers but instead of making text larger it makes it smaller. To use it add \-# before your message
 
-![subtext-example](images/subtext-example.png)
+![Discord message with small gray subtext](images/subtext-example.png)
 
 :::info
 With subtext same rules apply as headers. The sentence must start with \-#, otherwise it's invalid.
@@ -49,9 +50,9 @@ With subtext same rules apply as headers. The sentence must start with \-#, othe
 ---
 Discord supports **lists** in their markdown. You can **create** a list by using `*` or `-` before each line. **Indentation** can be achieved by having space before `*` or `-`.
 
-![raw-list](images/list-raw-example.png)
+![A list typed with hyphens and asterisks, before Discord formats it](images/list-raw-example.png)
 
-![result-list](images/list-result-example.png)
+![The same list after Discord turns it into bullet points with indented sub items](images/list-result-example.png)
 
 #### Ordered Lists
 ---
@@ -65,7 +66,7 @@ There is also support for **ordered lists**. to use them add a _number followed 
    * Third sublist thing
 ```
 
-![ordered-list](images/ordered-list-example.png)
+![Numbered list in Discord with an indented sublist numbered in roman numerals](images/ordered-list-example.png)
 
 ### Timestamps
 ---
@@ -88,7 +89,7 @@ Discord has support for **timestamps**. They allow you to specify **dates** or *
 Format of the timestamp (12h or 24h) changes according to your language settings.
 :::
 
-![timestamp-dates](images/timestamp-dates-example.png)
+![Every Discord timestamp format, from short time to relative, next to the code that makes it](images/timestamp-dates-example.png)
 ![timestamp-hover|538](images/timestamp-hover-example.png)
 
 In case you need to get timestamp fast you can generate them below
@@ -105,13 +106,13 @@ In case you need to get timestamp fast you can generate them below
 
 | Type           | Structure              | Example                    | Result                                             |
 | -------------- | ---------------------- | -------------------------- | -------------------------------------------------- |
-| User           | ``<@user_id>``         | ``<@911945727402471455>``  | ![user](images/table-user.png)                     |
-| Channel        | ``<#Channel_id>``      | ``<@911945727402471455>``  | ![channel](images/table-channel.png)               |
-| Role           | ``<@&role_id>``        | ``<@&961921133479878720>`` | ![role](images/table-role.png)                     |
-| Slash Command  | ``</name:command_id>`` | ``</pet:107907537956>``    | ![slash](images/table-slash.png)                   |
-| Emoji          | ``:emoji name:``       | ``:smile:``                | ![emoji](images/table-emoji.png)                   |
-| Custom emoji   | ``<:name:id>``         | ``<:o:10072062957298>``    | ![custom-emoji](images/table-custom-emoji.png)     |
-| Animated emoji | ``<a:name:id>``        | ``<a:s:100720629576>``     | ![animated-emoji](images/table-animated-emoji.png) |
+| User           | ``<@user_id>``         | ``<@911945727402471455>``  | ![A user mention in a Discord message, shown highlighted as @monni](images/table-user.png)                     |
+| Channel        | ``<#Channel_id>``      | ``<@911945727402471455>``  | ![A channel mention in a Discord message, shown highlighted as #general](images/table-channel.png)               |
+| Role           | ``<@&role_id>``        | ``<@&961921133479878720>`` | ![A role mention in a Discord message, shown highlighted as @admin](images/table-role.png)                     |
+| Slash Command  | ``</name:command_id>`` | ``</pet:107907537956>``    | ![A slash command mention in a Discord message, shown as a clickable /pet](images/table-slash.png)                   |
+| Emoji          | ``:emoji name:``       | ``:smile:``                | ![A standard emoji shown large in a Discord message](images/table-emoji.png)                   |
+| Custom emoji   | ``<:name:id>``         | ``<:o:10072062957298>``    | ![A custom server emoji of a yellow crown shown in a Discord message](images/table-custom-emoji.png)     |
+| Animated emoji | ``<a:name:id>``        | ``<a:s:100720629576>``     | ![An animated custom emoji of an orange checkmark shown in a Discord message](images/table-animated-emoji.png) |
 
 ### Code Blocks
 ---
@@ -121,7 +122,7 @@ You can create _single_ line **code blocks** by wrapping your text in **backtick
 
 `Look at this nice code block.`
 
-![singleline-codeblock](images/singleline-codeblock-example.png)
+![Text wrapped in single backticks, shown as inline code with a dark background](images/singleline-codeblock-example.png)
 
 #### Multiline
 ---
@@ -133,7 +134,7 @@ print("Hello, I am inside a codeblock.")
 ```
 ````
 
-![multi-codeblock](images/codeblock-example.png)
+![A code block in Discord with Python syntax highlighting](images/codeblock-example.png)
 
 :::info
 Multiline code blocks are the **de facto** way to create **colored text** in discord. If you want to know more [check out our in-depth guide on them](/blog/colored-text).
@@ -143,17 +144,17 @@ Multiline code blocks are the **de facto** way to create **colored text** in dis
 ---
 Block quotes allow you to **indent** part of your text. You can make **one line** of text indented by adding `>` before the line. You can make **multiple lines** indented by adding `>>>` before the lines.
 
-![quoteblock-raw](images/quoteblock-raw-example.png)
+![Quotes typed with > and >>> before Discord formats them](images/quoteblock-raw-example.png)
 
-![quoteblock-output](images/quoteblock-output-example.png)
+![The same messages after Discord formats them into block quotes with a bar on the left](images/quoteblock-output-example.png)
 
 ### Spoilers
 ---
 Spoilers can be used to make **part** of or the **whole** message **hidden** by a black box which disappears locally once a person clicks it. You can **create** spoilers by enclosing your text in two vertical bars `||`.
 
-![unrevealed-spoil](images/unrevealed-spoiler-example.png)
+![A hidden spoiler in Discord, shown as a dark bar before it is clicked](images/unrevealed-spoiler-example.png)
 
-![revealed-spoil](images/revealed-spoiler-example.png)
+![The same spoiler after it is clicked, showing the secret text](images/revealed-spoiler-example.png)
 
 ### Masked Links
 ---
@@ -191,6 +192,6 @@ Discord documentation section outlining mentions
 
 - [https://discord.com/developers/docs/reference#message-formatting-formats](https://discord.com/developers/docs/reference#message-formatting-formats)
 
-Third party library discord uses for syntax highligting
+Third party library discord uses for syntax highlighting
 
 - [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)

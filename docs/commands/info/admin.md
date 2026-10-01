@@ -1,5 +1,6 @@
 ---
 title: Admin
+description: "Some Monni commands can only be used by server administrators. This page explains what that means and how these docs mark them."
 ---
 # Administrator commands
 

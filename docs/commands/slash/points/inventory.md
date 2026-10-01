@@ -1,5 +1,6 @@
 ---
 title: Inventory
+description: "See the items you or another member own in your server's point systems."
 ---
 # Inventory
 

@@ -1,5 +1,6 @@
 ---
 title: Roblox-get-info
+description: "Look up any Roblox account by username, ID or profile link with /roblox get_info and see its profile details."
 ---
 # Roblox get_info
 

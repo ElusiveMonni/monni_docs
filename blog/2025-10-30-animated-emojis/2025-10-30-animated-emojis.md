@@ -1,6 +1,7 @@
 ---
 slug: animated-emojis
 title: Discord | Animated Emojis
+description: "How to upload animated emojis to your Discord server, what size works best, and how to use animated emojis without Nitro."
 authors:
   - rockoyhead
 tags:

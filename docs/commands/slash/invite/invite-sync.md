@@ -1,6 +1,7 @@
 ---
 title: Invite Sync
-slug: commands/slash/invite/invite-sync
+description: "Fix invite tracking by syncing Monni with your server's current invites using /invite sync."
+slug: /commands/slash/invite/invite-sync
 ---
 # Invite Sync
 

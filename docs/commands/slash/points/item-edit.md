@@ -1,5 +1,6 @@
 ---
 title: Item Edit
+description: "Give items to a member, or take them away, without them having to buy the items in a shop."
 ---
 # Item Edit
 

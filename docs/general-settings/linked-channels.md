@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Linked Channels
+description: "Use threads, forum posts and channels from other servers as destinations for logs and messages with linked channels."
 ---
 Linked channels lets you connect special channels like threads or forums to features where it's supported. You are limited to **20** linked channels, or **100** with premium.
 
@@ -15,9 +16,6 @@ In any channel select with support for linked channels, you select `Channel not 
 ## Linking Channels In Other Servers
 Linked channels support sending messages to other Discord servers that have granted the `write_channels` [cross guild permission](/cross-guild/).
 
-:::info
-
-:::
 
 ## Managing Linked Channels
 Currently linked channels can be deleted and found in the **Settings** section of the dashboard. Removing a linked channel that's still in use may reset the affected feature to its default channel or disable it until a new channel is provided.

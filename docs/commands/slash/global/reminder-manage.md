@@ -1,5 +1,6 @@
 ---
 title: Reminder Manage
+description: "See, edit and delete your active reminders with the /reminder manage command."
 ---
 # Reminder
 

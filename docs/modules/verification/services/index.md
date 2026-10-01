@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Services
+description: "The accounts members can verify with in Monni, and the settings each platform has."
 ---
 Current platforms which can be used for verification 
 

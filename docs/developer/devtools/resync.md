@@ -1,5 +1,6 @@
 ---
 title: Resync
+description: "Make Monni fetch your server's command settings again when changes made in Discord aren't showing up."
 sidebar_position: 4
 ---
 ##### Syncing commands that may not be up-to-date

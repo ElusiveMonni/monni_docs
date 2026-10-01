@@ -1,6 +1,7 @@
 ---
 slug: stopping-bots
 title: Stopping discord spam bots
+description: "How hacked accounts and scam bots spread through Discord servers, and how to stop them with honeypot channels and Monni's Anti Bot module."
 authors:
   - iraas
 tags:

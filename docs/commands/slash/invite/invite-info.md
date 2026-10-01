@@ -1,6 +1,7 @@
 ---
 title: Invite Info
-slug: commands/slash/invite/invite-info
+description: "See information about your server's invites, like how many times each one has been used, with the /invite info command."
+slug: /commands/slash/invite/invite-info
 ---
 # Invite Info
 

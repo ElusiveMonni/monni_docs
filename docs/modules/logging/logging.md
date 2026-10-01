@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Logging
+description: "Log over 70 Discord events with Monni, from deleted messages to role changes, and choose where and when each one is sent."
 ---
 ###### Module for overseeing everything happening in your server
 ***
@@ -23,9 +24,13 @@ Default channel lets you configure where logs are sent unless otherwise configur
 - Attributed only | Only send the log message if the author is known.
 - Off | Never send the log message.
 
+![Default logging settings with the policy set to Always and the default channel set to #mod-log](assets/logging-defaults.webp)
+
 ### Log Events
 ***
 Logs are broken into log events. Each event is one specific log, like `message deleted`. Log events are further broken down into relevant categories. Categories let you configure where the log events under them should be sent and when they should be sent. Each log event can also overwrite category settings to allow a specific log to use its own settings.
+
+![The Log types list in the Monni dashboard, with categories like Messages, Members, Moderation and Roles](assets/logging-types.webp)
 
 :::info
 Logging supports [linked channels](/general-settings/linked-channels), which let you set the channel to another Discord server or a special channel like a thread.

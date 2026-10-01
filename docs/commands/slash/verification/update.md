@@ -1,5 +1,6 @@
 ---
 title: Update
+description: "Update a member's nickname to match your verification nickname settings, with /update or by right clicking them."
 ---
 # Update Command
 
@@ -8,6 +9,8 @@ A command for updating the nickname of a server member. The nickname is based on
 :::slash
 **Update** is a [slash command](/commands/info/slash/)!
 :::
+
+You can also right click a member and choose **Apps** then **Update**.
 
 ---
 ## Arguments
@@ -20,4 +23,4 @@ A command for updating the nickname of a server member. The nickname is based on
 Ensure Monni has following permissions.  
 `Manage Nicknames`
 
-> Make sure Monni’s role is [above](/guides/monni-role-position) the roles of the members you want him to change the nicknames of.
+> Make sure Monni’s role is [above](/guides/monni-role-position) the roles of the members whose nicknames you want it to change.

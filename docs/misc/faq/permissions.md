@@ -1,5 +1,6 @@
 ---
 title: Permissions
+description: "Every Discord permission Monni asks for, what it is used for and what stops working if you leave it out."
 sidebar_position: 3
 ---
 Permissions and why we need them
@@ -9,7 +10,7 @@ Permissions and why we need them
 Monni is an extensive discord bot with a lot of features. With these features comes the need for multiple different permissions. After reading this article you will have a better understanding of what permissions we request and what they are used for.
 
 :::warning
-We dont regularly update this page. If you have questions about permissions please join our [support server](https://monni.fyi/support/) and ask.
+We don't regularly update this page. If you have questions about permissions please join our [support server](https://monni.fyi/support/) and ask.
 :::
 
 ### Terminology
@@ -17,7 +18,7 @@ We dont regularly update this page. If you have questions about permissions plea
 
 - `actions`: Anything the user can make Monni do with features such as mass actions or role actions
 - `...`: Future features
-- `Moderation`: Moderation-related planned features.
+- `moderation`: The Moderation, Auto Mod and Anti Bot modules.
 
 #### Importance
 ---
@@ -36,8 +37,9 @@ Importance is an indicator of how important permissions are for the integrity of
 |---|---|---|---|
 |Manage server|Management and editing of server|actions|Essential|
 |Manage roles|Management and editing of roles|Verification, actions|Essential|
-|Kick members|Kicking members|actions|Important|
-|Ban members|Kicking members|actions|Important|
+|Kick members|Kicking members|moderation, actions|Important|
+|Ban members|Banning members|moderation, actions|Important|
+|Moderate members|Timing members out|moderation, actions|Important|
 |Create invite|Creating invites|invite create command|Important|
 |Manage nicknames|Changing nicknames|Verification, actions|Essential|
 |Change nicknames|Changing bots own nickname|…|Optional|

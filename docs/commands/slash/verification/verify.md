@@ -1,5 +1,6 @@
 ---
 title: Verify
+description: "Get a link to verify your Roblox or Minecraft account and receive the server's verified roles with /verify."
 ---
 # Verify Command
 
@@ -16,4 +17,4 @@ This command takes no arguments.
 
 ## 🔒 Required permissions
 
-No permmissions required.
+No permissions required.

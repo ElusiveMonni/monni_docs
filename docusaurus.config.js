@@ -22,11 +22,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ElusiveMonni',
+  projectName: 'monni_docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   // Force a one-time reload when a lazily-loaded chunk 404s after a redeploy
   // swaps out the content-hashed files a stale tab still references.
@@ -62,7 +61,7 @@ const config = {
         blog: {
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Monni technologies Oy.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Monni Technologies Oy`,
             createFeedItems: async (params) => {
               const {blogPosts, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({
@@ -100,7 +99,7 @@ const config = {
         title: 'Monni docs',
         logo: {
           alt: 'Monni logo',
-          src: 'img/logo.png',
+          src: 'img/logo.webp',
         },
         items: [
           {to: '/modules', label: 'Modules', position: 'left'},
@@ -168,7 +167,7 @@ const config = {
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} Monni technologies ltd`,
+        copyright: `Copyright © ${new Date().getFullYear()} Monni Technologies Oy`,
       },
       prism: {
         theme: prismThemes.github,
@@ -199,6 +198,9 @@ const config = {
     }),
     markdown: {
       mermaid: true,
+      hooks: {
+        onBrokenMarkdownLinks: 'warn',
+      },
     },
     themes: ['@docusaurus/theme-mermaid', "docusaurus-theme-search-typesense", "docusaurus-theme-openapi-docs"],
     plugins: [
@@ -207,7 +209,7 @@ const config = {
         {
                     feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Monni technologies Oy.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Monni Technologies Oy`,
             createFeedItems: async (params) => {
               const {blogPosts, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({

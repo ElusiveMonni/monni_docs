@@ -1,6 +1,7 @@
 ---
 slug: logging-rework
 title: Logging Rework
+description: "Monni's logging rework: choose when logs are sent, override settings per event, send logs to threads and hide message content."
 authors:
   - iraas
 tags:
@@ -9,6 +10,8 @@ tags:
 
 Logging rework is smaller in scale than the other reworks we have done. It isn't glamorous, but
 improves the stability of logs and brings a few features.
+
+<!-- truncate -->
 
 
 

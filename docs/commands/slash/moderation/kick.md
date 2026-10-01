@@ -1,38 +1,26 @@
 ---
 title: Kick
+description: "Kick a member from your server with /mod kick. They can rejoin with a new invite. The kick is saved as a case."
 ---
 # Mod | Kick Command
 
-The Kick command allows you to KICK a member from your server.
+The Kick command allows you to kick a member from your server. Kicked members can rejoin with a new invite.
 
 ---
 ## Arguments
 
-- **1 Member:**
-    The member you would like to kick.
+- **1 Member**
+    The member you want to kick.
 
-- **2 Message:**
-    When you use a command, a message will be sent to the affected user. You can choose the depth of information you’d like to send to them.
+- **2 Reason**
+    The reason for the kick. If left empty, the default reason from the dashboard is used. You can also type a **[reason alias](/modules/moderation#reason-aliases)**.
 
-    *Message Details*
 
-    ##### No Messages:  
-    No message will be sent to the affected user!
-
-    ##### Server and Action:  
-    The action committed and the server it was committed in will be sent to the user.
-
-    ##### Server, Action, and Reason:  
-    The action committed, the server it was committed, and the reason provided by the command executor will be sent to the user.
-
-    ##### Server, Action, Reason and Moderator:  
-    The action committed, the server it was committed, the reason provided by the command Moderator, and the Moderator username will be sent to the user.
-
+Default reasons, durations and other settings for this command can be changed in the **[Moderation Module](/modules/moderation#command-settings)**.
 
 ---
-
 ## REQUIRE 2FA
 
-If activated, your Moderators will need to use Two Factor Authentication every hour to use the command.
+If activated, your Moderators will need to use Two Factor Authentication every 2 hours to use the command.
 
 Not recommended for smaller servers. But very helpful for large servers that are vulnerable to Moderator accounts being hacked.

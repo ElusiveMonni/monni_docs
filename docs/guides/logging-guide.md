@@ -1,5 +1,6 @@
 ---
 title: Building your Logging System
+description: "Set up Monni logging so deleted messages, role changes, joins and moderation actions are posted in the channels you choose."
 sidebar_position: 3
 ---
 
@@ -20,7 +21,7 @@ With Logging, you can store things like **Deleted Messages** and **Role Changes*
 You can find the Logging Panel at the dashboard, at **[https://monni.fyi/dashboard](https://monni.fyi/dashboard)**  
 It can be found in the **sidebar on the left** under **modules**.
 
-![building-your-logging-system-guide](images/logging-guide/logging-dashboard.png)
+![Logging settings in the Monni dashboard with the log channel picker](images/logging-guide/logging-dashboard.png)
 ***
 ### How to use Logging
 ---

@@ -1,5 +1,6 @@
 ---
 title: Timestamp
+description: "Turn a time like 5 days or 4 weeks into a Discord timestamp that shows in everyone's own time zone."
 ---
 # Timestamp
 

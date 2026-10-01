@@ -1,5 +1,6 @@
 ---
 title: Tag Create
+description: "Save a piece of text as a tag with /tag create, so you can post it again quickly with /tag get."
 ---
 # Tag Create
 

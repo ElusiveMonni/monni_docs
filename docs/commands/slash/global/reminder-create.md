@@ -1,5 +1,6 @@
 ---
 title: Reminder Create
+description: "Set a reminder with /reminder create and Monni will message you after the time you choose."
 ---
 # Reminder Create
 

@@ -1,5 +1,6 @@
 ---
 title: Tag Manage
+description: "Edit or delete the tags you have saved with the /tag manage command. Leave the tag empty to choose one from a list."
 ---
 # Tag Manage
 

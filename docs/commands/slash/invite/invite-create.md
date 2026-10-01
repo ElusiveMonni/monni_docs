@@ -1,6 +1,7 @@
 ---
 title: Invite Create
-slug: commands/slash/invite/invite-create
+description: "Create a server invite with /invite create and choose how long it lasts, how many times it can be used and the reason."
+slug: /commands/slash/invite/invite-create
 ---
 # Invite Create
 

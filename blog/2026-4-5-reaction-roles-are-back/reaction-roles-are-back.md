@@ -1,6 +1,7 @@
 ---
 slug: reaction-roles-are-back
 title: Discord Reaction Roles Are Back Better, Faster, And Shinier!
+description: "Reaction roles are back in Monni as buttons, with modes for unique or limited roles, role whitelists and a full message builder."
 authors:
   - iraas
 tags:
@@ -9,7 +10,7 @@ tags:
 
 **Reaction roles** (or **Reaction Buttons**, to be exact) are officially back! While they were a staple of our old website we weren't able to include them in the rework of website. We've have now brought them back shinier than ever before with more control and customization.
 
-![roles-section.png](images/roles-section.png)
+![Reaction role editor in the Monni dashboard with two buttons, each giving a different role](images/roles-section.png)
 ## Why reaction buttons
 Most Discord bots support "classic" reaction roles (using emoji reactions), but they often feel clunky, old and are prone to failure. By shifting to **button based roles** we opened the door for greater creative control, reliability and visually appealing server setups.
 
@@ -50,7 +51,7 @@ With the introduction of **Discord ComponentsV2**, our editor is more powerful t
 - **Total Creativity:** Combine embeds, normal text, and buttons seamlessly.
 - **Live Preview:** See exactly what your buttons will look like _before_ you hit send.
 
-![preview.png](images/preview.png)
+![Message tab of the reaction role editor with a Components V2 message and its live preview](images/preview.png)
 
 ## Ready to Level Up Your Discord server?
 
