@@ -1,48 +1,72 @@
 ---
 sidebar_position: 5
 title: Roles
+description: "Give members roles automatically with Monni: join roles, sticky roles, chain roles, reaction role buttons and cross server role sync."
 ---
 ###### Module for managing member roles
 ***
-The roles module lets you manipulate roles in special ways. See below for details on all of the tools we offer!
-### Role Tools
----
-1. **Chain Roles**
-- Chain Roles are roles which are assigned to members once they are given another role
-	- When editing, the `initial role` is the role a member needs to be given to receive the `chained role`
-	- If *directional chaining* is checked, chaining happens both ways rather than one way
-		- Losing the `initial role` will always remove the `chained role`, while losing the `chained role` will only remove the `initial role` with this checked
-2. **Join Roles**
-- Join Roles are automatically assigned to members when they join a server
-- Multiple can be selected at the same time from the dropdown menu
-3. **Sticky Roles**
-- Sticky Roles are returned to members if they rejoin after leaving with them
-- Multiple can be selected at the same time from the dropdown menu
+The Roles module gives members roles automatically, so you don't have to do it by hand. It has five tools: join roles, sticky roles, chain roles, reaction roles and cross-guild role sync.
+
+![The Roles page in the Monni dashboard with chain roles, reaction roles, join roles, sticky roles and cross-guild role sync](assets/roles-overview.webp)
+
+:::info
+Monni can only give and take roles that are below its own role. Read [Monni Role Position](/guides/monni-role-position) if roles aren't being given.
+:::
+
+### Join Roles
+***
+Join roles are given to every member when they join your server. You can pick as many as you like.
+
+### Sticky Roles
+***
+Sticky roles are given back to members who leave and rejoin, if they had the role when they left. This stops members from losing a role, or escaping a role like **Muted**, by leaving and joining again.
+
+### Chain Roles
+***
+Chain roles give a member a second role when they get the first one.
+
+- **Initial role** | The role that starts the chain.
+- **Chained role** | The role given when a member gets the initial role. Losing the initial role also removes the chained role.
+- **Directional chaining** | When turned on, the chain works both ways. Getting either role gives both, and losing either role removes both.
+
+![Editing a chain role that gives the Member role to anyone who gets the Verified role](assets/roles-chain.webp)
 
 ### Reaction Roles
----
-Unlike the other tools, this one cannot be explained in a couple bullet points without leaving out important information.
+***
+Reaction roles post a message with buttons. Members press a button to give themselves a role, or press it again to remove it. Each set of buttons is set up in its own editor.
 
-Reaction roles sends a message with buttons a member can press to add roles to themselves.
-- Due to embed restrictions within Discord:
-	- Only 5 roles can be added to a single message
-	- Buttons can be one of four colors: Blue, ~~gray~~ grey, green, or red
-- Buttons can also include an emoji, text, or both to distinguish them
-- The rest of the embed can be edited within the "Message" menu, which allows for further explanation of what role each button gives, tailored to any use case
+![Reaction role editor with a set called Team Roles, in Unique mode, with buttons for the Red, Blue and Green teams](assets/roles-reaction-editor.webp)
 
-Members with certain roles can be whitelisted or blacklisted from using the embed to edit their roles:
-- Members with a `Whitelist role` will have the buttons add or removed roles
-	- Adding no roles to the whitelist defaults to everyone having access
-- Members with a `Blacklist role` will be able to press buttons on the embed, but Monni will not edit their roles when they do.
+- **Name** | Only shown in the dashboard, to tell your sets apart.
+- **Buttons** | Up to 5 buttons per message. Each button has a label, an optional emoji, a color, and one or more roles it gives.
+- **Whitelist roles** | Only members with one of these roles can use the buttons. Leave it empty to let everyone use them.
+- **Blacklist roles** | Members with one of these roles can't use the buttons.
 
-The `Mode` of the reaction role determines how Monni handles when members press buttons.
-- On `Normal`, buttons will either add their role when pressed, or remove it if the member already has it
-- On `Unique`, only one role can be applied at a time
-	- If a member has other roles in the set, they will be removed when they add another
-- On `Give only`, members receive a role when they press the button
-	- Pressing the buttons will do nothing if the member already has the role
-- On `Remove only`, members lose a role when they press the button
-	- Pressing the buttons will do nothing if the member does not have the role
-- On `Limit`, members can only gain a specified number of roles from the set of five
-	- Pressing the button of a role a member already has will remove it
-	- Pressing the button of a role a member does not have while at or above the limit will remove it
+#### Modes
+***
+The mode decides what happens when a member presses a button.
+
+- **Normal** | Gives the button's roles, or removes them if the member already has them.
+- **Unique** | A member can only have one role from the set. Picking a new one removes the old one.
+- **Give only** | Buttons only give roles. Pressing a button for a role you already have does nothing.
+- **Remove only** | Buttons only remove roles. Pressing a button for a role you don't have does nothing.
+- **Limit** | A member can have up to a set number of roles from the set. Pressing a button for a role they already have removes it. If they are at the limit, Monni tells them to remove one first.
+
+#### The Message
+***
+The **Message** tab lets you write the message the buttons are posted under, using the [Message Builder](/misc/tools/message-builder). You can use a plain message, embeds or Components V2, and see a live preview while you write.
+
+![Message tab of the reaction role editor with the message text on the left and a live preview on the right](assets/roles-reaction-message.webp)
+
+When you're done, press **Send** and pick a channel. To change a message you already sent, paste its message link under **Update existing message** and Monni edits it instead of posting a new one.
+
+### Cross-guild Role Sync
+***
+Cross-guild role sync gives members a role in your server when they have a role in a server you are connected to. For example, members with **Staff** in your main server can get **Staff** in your second server automatically.
+
+You need a [Cross Guild](/cross-guild/) connection with the `read_roles` permission first. This is a premium feature.
+
+### Additional Information
+***
+
+- **A step by step guide for reaction roles can be found [*here*](/guides/reaction-roles).**
