@@ -2,6 +2,7 @@
 slug: /
 sidebar_position: 1
 title: Introduction
+description: "Monni is a free Discord bot for moderation, logging, verification, points and automations. Start here to find what you need."
 ---
 # Welcome to Monni docs!
 ---

@@ -1,6 +1,7 @@
 ---
 slug: verification-rework
 title: Verification Rework
+description: "Monni's verification rework: Roblox and Minecraft together, captcha, passports between servers, and banning linked accounts."
 authors:
   - iraas
 tags:

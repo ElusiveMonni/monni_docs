@@ -1,6 +1,7 @@
 ---
 slug: monni-boosts
 title: Using Monni Boosts
+description: "Give members extra points for boosting your server or having certain roles, using point boosts in Monni's Points module."
 authors:
   - rockoyhead
 tags:
@@ -17,7 +18,7 @@ Now, click on the points module. 
 You’ll now be able to see the “boosts section” on the top navbar. Give that a click. 
 
 To create a boost, you’ll want to click the “add boosts” button. 
-   ![emoji-id](images/add-boosts.png)
+   ![Point boosts page in the Monni dashboard with the Add boosts button highlighted](images/add-boosts.png)
 We’re now granted with a menu for editing our boost. There are three sections. 
 
 <!-- truncate -->

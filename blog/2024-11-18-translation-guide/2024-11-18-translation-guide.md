@@ -1,6 +1,7 @@
 ---
 slug: translation-guide
 title: Adding New Languages To Monni
+description: "Help translate Monni into your language. How to sign up on our Weblate, find the Monni bot project and add a new language."
 authors:
   - inkdog
 tags:

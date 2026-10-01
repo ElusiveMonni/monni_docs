@@ -1,6 +1,7 @@
 ---
 slug: point-updates
 title: Point Rework & New Website
+description: "The biggest Monni update so far: a rebuilt points system with shops, items and milestones, and a brand new dashboard website."
 authors:
   - iraas
 tags:

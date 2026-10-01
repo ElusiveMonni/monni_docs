@@ -1,6 +1,7 @@
 ---
 slug: discord-hierarchy
 title: Discord hierarchy explained
+description: "How Discord role hierarchy and channel permission overwrites decide who can do what in your server, explained with examples."
 authors:
   - iraas
 tags:
@@ -22,11 +23,11 @@ Before we look at how the role hierarchy works in detail, let's go over a few co
 ### Colour only roles
 Many guilds have roles only for the purpose of providing a certain colour of a member's username. This is fine, but due to the nature of the inheritance of permissions it can have unwanted consequences. Let's look at the following example of a role hierarchy.
 
-![role_hierarchy_bad.png](images/role_hierarchy_bad.png)
+![Role list with the color roles Purple and Blue placed above the Admin and Staff roles](images/role_hierarchy_bad.png)
 
 The issue isn't obvious, but the inheritance of permissions and how the highest person is determined causes issues here. Let's assume a person called **smith** has the `junior staff` role and wants a purple name, so they are given the `Purple` role. The purple role inherits all the permissions of junior staff, in this case time out and kick. **Smith** now has the ability to kick or timeout any admin or staff who lack the purple role. This is due to the purple role being higher in the hierarchy than staff or admin, and inheriting the permissions of junior staff. One way to fix this is to sacrifice the role colours of admin, staff and junior staff.
 
-![role_hierarchy_good.png](images/role_hierarchy_good.png)
+![Role list with the color roles Purple and Blue moved below the staff roles](images/role_hierarchy_good.png)
 Now, even if **Smith** has the purple role, he can't kick people above him in the hierarchy. The only issue is that the colour of the staff role was lost. This works due to the colour logic being based on the highest role of a colour.
 
 ## Role permissions
@@ -56,7 +57,7 @@ Role colour and icon are determined from the highest roles which have these.
 ## Channel and category permissions
 Channels and categories can have their own permissions. These overwrite the permissions of roles. Let's start with what different permission options mean.
 
-![icons.png](images/icons.png)
+![The three channel permission states in Discord: denied, not set and allowed](images/icons.png)
 
 `X` Means that permission is disabled from a role/user
 

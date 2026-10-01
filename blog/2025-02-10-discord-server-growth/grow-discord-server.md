@@ -1,6 +1,7 @@
 ---
 slug: growing-discord-server
 title: Grow your Discord Server!
+description: "How to grow a Discord server: where to advertise and how to write the ad, partnering with other servers, social media and referral rewards."
 authors:
   - rockoyhead
 tags:
@@ -73,7 +74,7 @@ It’s annoying, but people won’t read text walls. Let’s compare two example
 This is good. Easy to skim and pick up the value.
 You could benefit from larger text too.
 
-![list.png](images/list.png)
+![Example server listing for Monni, split into short sections about points and logging](images/list.png)
 
   
   
@@ -90,7 +91,7 @@ This is bad. It’s hard to read and a text wall. Avoid this!
 
 Though despite the format, they are on point with the “be specific” part.
 
-![wall.png](images/wall.png)
+![A long bot description written as one block of text](images/wall.png)
 
 #### Add basic SEO
 
@@ -166,4 +167,4 @@ With this strategy if done incorrectly you might get some backlash. People can g
 That's all, I hope this guide helped! If you have any ideas you'd think would help other people, feel free to contact me directly on Discord (My username is Rockoyhead) from the [Monni Support server](https://discord.gg/E8nYdQfqA3)
 
 If it's useful I'll add it. Good luck!
-![happy-monni.png](images/happy-monni.png)
+![Monni replying with a smiley face after someone used /pet](images/happy-monni.png)
