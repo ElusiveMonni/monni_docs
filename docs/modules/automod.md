@@ -106,7 +106,7 @@ Each check has its own **Default settings**. The default scope always applies on
 ***
 Presets are a quick way to get started. A preset adds rules you can then edit like any other. It doesn't remove or change rules you already have.
 
-![The Apply a preset window with Light, Standard and Strict presets](assets/automod-presets.png)
+<img src={require('./assets/automod-presets.png').default} alt="The Apply a preset window with Light, Standard and Strict presets" width="400" />
 
 - **Light** | Deletes the obvious spam and gives no further punishment.
 - **Standard** | Deletes and warns. A good starting point for most servers.
@@ -114,7 +114,7 @@ Presets are a quick way to get started. A preset adds rules you can then edit li
 
 Each check also has its own **Preset** button, which lets you pick how sensitive the rule should be and how it should punish.
 
-![The per rule preset window with options to choose sensitivity and punishments](assets/automod-per-rule-preset.png)
+<img src={require('./assets/automod-per-rule-preset.png').default} alt="The per rule preset window with options to choose sensitivity and punishments" width="400" />
 
 ### Additional Information
 ***
