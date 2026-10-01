@@ -6,6 +6,9 @@ description: "Run an automation when a member finishes verifying, for example to
 
 The member verified trigger runs when a member finishes verification with the [Verification module](/modules/verification). It runs once, when they become verified, even if they link more than one account.
 
+![Member completes verification trigger, which has no settings](assets/trigger-member_verified.webp)
+
+
 ## Options
 This trigger has no options.
 

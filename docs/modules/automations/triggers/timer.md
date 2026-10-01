@@ -3,6 +3,9 @@ description: "Run an automation over and over at a fixed interval, like posting 
 ---
 # Timer
 The Timer trigger lets you setup an automatic timer which runs the actions every set amount of configured minutes.
+
+![Timer trigger set to run every 60 minutes with no random delay](assets/trigger-timer.webp)
+
 ## Options
 ### Interval (Required)
 How many minutes there are between executions. Without premium, the minimum value is **60** minutes. With premium it is **5** minutes.
