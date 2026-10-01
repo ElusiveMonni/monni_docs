@@ -60,11 +60,11 @@ const sidebars = {
               },
               items: [
                 'commands/slash/misc/roblox-get-info',
+                'commands/slash/misc/roblox-reverse-lookup',
                 'commands/slash/misc/ping',
                 'commands/slash/misc/pet',
                 'commands/slash/misc/invite-monni',
                 'commands/slash/misc/help',
-                'commands/slash/misc/heart-beat',
                 'commands/slash/misc/discord-get-info',
                 'commands/slash/misc/dashboard',
               ],
@@ -183,6 +183,7 @@ const sidebars = {
               collapsed: true,
               items: [
                 'commands/prefix/general/pet-info',
+                'commands/prefix/general/tic-tac-toe',
               ],
             },
 
@@ -195,9 +196,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                'commands/prefix/guild/forum-posts',
-                'commands/prefix/guild/forum-posts-sync',
-                'commands/prefix/guild/forum-posts-leaderboard',
+                'commands/prefix/guild/link',
               ],
             },
 
@@ -278,6 +277,9 @@ const sidebars = {
               items: [
                 'modules/automations/triggers/cron',
                 'modules/automations/triggers/manual',
+                'modules/automations/triggers/member_joined',
+                'modules/automations/triggers/member_left',
+                'modules/automations/triggers/member_verified',
                 'modules/automations/triggers/message_sent',
                 'modules/automations/triggers/timer',
               ]
