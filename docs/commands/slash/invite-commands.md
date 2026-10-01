@@ -1,6 +1,6 @@
 ---
 title: Invite Commands
-slug: commands/slash/invite/invite-commands
+slug: /commands/slash/invite/invite-commands
 ---
 A List of all Monni **Invite related** commands.
 

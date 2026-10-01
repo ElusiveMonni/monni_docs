@@ -1,6 +1,6 @@
 ---
 title: Invite Delete
-slug: commands/slash/invite/invite-delete
+slug: /commands/slash/invite/invite-delete
 ---
 # Invite Delete
 

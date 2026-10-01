@@ -1,6 +1,6 @@
 ---
 title: Invite Info
-slug: commands/slash/invite/invite-info
+slug: /commands/slash/invite/invite-info
 ---
 # Invite Info
 

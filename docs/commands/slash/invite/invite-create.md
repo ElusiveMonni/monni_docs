@@ -1,6 +1,6 @@
 ---
 title: Invite Create
-slug: commands/slash/invite/invite-create
+slug: /commands/slash/invite/invite-create
 ---
 # Invite Create
 

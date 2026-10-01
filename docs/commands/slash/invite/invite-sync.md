@@ -1,6 +1,6 @@
 ---
 title: Invite Sync
-slug: commands/slash/invite/invite-sync
+slug: /commands/slash/invite/invite-sync
 ---
 # Invite Sync
 
