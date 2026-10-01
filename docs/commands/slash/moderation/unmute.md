@@ -1,18 +1,18 @@
 ---
-title: Remove Timeout
+title: Unmute
 ---
-# Mod | Remove Timeout Command
+# Mod | Unmute Command
 
-The Remove Timeout command allows you to end a member's timeout early. This includes timeouts that Monni is extending past 28 days.
+The Unmute command allows you to remove a mute from a member before it ends. If the member was hard muted, their roles are given back.
 
 ---
 ## Arguments
 
 - **1 Member**
-    The member whose timeout you want to remove.
+    The member you want to unmute.
 
 - **2 Reason**
-    The reason for the removal. If left empty, the default reason from the dashboard is used. You can also type a **[reason alias](/modules/moderation#reason-aliases)**.
+    The reason for the unmute. If left empty, the default reason from the dashboard is used. You can also type a **[reason alias](/modules/moderation#reason-aliases)**.
 
 
 Default reasons, durations and other settings for this command can be changed in the **[Moderation Module](/modules/moderation#command-settings)**.
