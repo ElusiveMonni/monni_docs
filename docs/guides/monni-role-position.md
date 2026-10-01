@@ -1,5 +1,6 @@
 ---
 title: Monni Role Position
+description: "Why Monni's role has to be above the roles it gives or takes, and how to move it up in your server settings."
 sidebar_position: 6
 ---
 ###### Guide for the importance of role hierarchies!
@@ -17,13 +18,13 @@ Owner is always on top of the hierarchy, and cannot be changed.
 ---
 Open Discord's server settings. Then select "Roles".
 
-![server-settings](images/monni-role-position/monni-role-position1.png)
-![roles-settings](images/monni-role-position/monni-role-position2.png)
+![Server menu in Discord with Server Settings selected](images/monni-role-position/monni-role-position1.png)
+![Discord server settings sidebar with Roles highlighted](images/monni-role-position/monni-role-position2.png)
 
 
 Once the "Roles" section is open drag the "Monni" role above the other roles.
 
-![drag](images/monni-role-position/monni-role-position3.gif)
+![Dragging the Monni role in the role list to move it higher](images/monni-role-position/monni-role-position3.gif)
 
 ### Why is the role position important?
 ---

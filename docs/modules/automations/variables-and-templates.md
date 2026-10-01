@@ -1,3 +1,6 @@
+---
+description: "Use variables like {{member.name}} in Monni messages and actions, and add logic with Liquid templates."
+---
 # Variables & templates
 The action system and message systems within Monni are tightly coupled with a template library called [liquidjs](https://liquidjs.com/index.html). To fully understand how the system works, You'd be doing yourself a favour to read the below terms.
 
@@ -134,7 +137,7 @@ You can find a full list in [liquidjs docs](https://liquidjs.com/filters/overvie
 ## Liquidjs support
 Most text fields in Monni are treated as templates, hence supporting liquidjs. A good rule of thumb is that if the context of a selector opens below the text box it supports liquidjs.
 
-![variable-picker.png](assets/variable-picker.png)
+![Variable picker listing the action author, channel, message and server variables you can use](assets/variable-picker.png)
 
 
 
