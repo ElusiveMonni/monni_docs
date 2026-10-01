@@ -18,13 +18,13 @@ As a side note, It's now designed in a manner which allows us to build on additi
 ![more-complex-example.png](images/more-complex-example.png)
 
 ## New message builder
-As mentioned earlier, we've moved away from the old flawed editor to a new one which supports components V2. The biggest addition is in-editor support for buttons. This is most seen in commands. Now, every command uses our new editor under the hood, and some of the command logic can be edited if you want to. We also moved away from pre-existing styles in favour of one default style, switching to appliable templates for alternative styles. This reduces our upkeep work considerably and makes it possible to provide more existing templates. Commands now use a system we named slots. Each part of the command has its own "slot". A concrete example of this is the leaderboard, which has a slot for the leaderboard and a slot for when you try to access a page which doesn't exist. This lets you edit almost any part of the command. Super versatile!
+As mentioned earlier, we've moved away from the old flawed editor to a new one which supports components V2. The biggest addition is in-editor support for buttons. This is most seen in commands. Now, every command uses our new editor under the hood, and some of the command logic can be edited if you want to. We also moved away from pre-existing styles in favour of one default style, switching to applicable templates for alternative styles. This reduces our upkeep work considerably and makes it possible to provide more existing templates. Commands now use a system we named slots. Each part of the command has its own "slot". A concrete example of this is the leaderboard, which has a slot for the leaderboard and a slot for when you try to access a page which doesn't exist. This lets you edit almost any part of the command. Super versatile!
 
 
 ![editor-example.png](images/editor-example.png)
 
 ## Role rework
-This was the initial goal of the update and from there the scope creep came in. Initially we created the message builder for reaction roles. Beyond reaction roles we added cross guild role syncing and UI improvements. Cross guild roles lets you sync roles through multiple servers. So when a member gets a role in a Discord server A, the corresponding role is given in discord server B. We thought this'd be pretty damn nice for affiliate servers and clanning peeps.
+This was the initial goal of the update and from there the scope creep came in. Initially we created the message builder for reaction roles. Beyond reaction roles we added cross guild role syncing and UI improvements. Cross guild roles lets you sync roles through multiple servers. So when a member gets a role in a Discord server A, the corresponding role is given in discord server B. We thought this'd be pretty damn nice for affiliate servers and clan peeps.
 
 ![role-module.png](images/role-module.png)
 
