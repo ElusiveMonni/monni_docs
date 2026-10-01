@@ -1,6 +1,7 @@
 ---
 slug: slash-commands-permissions
 title: Changing slash command permissions
+description: "Control who can use a bot's slash commands and in which channels, using the Integrations menu in your Discord server settings."
 authors:
   - iraas
 tags:
