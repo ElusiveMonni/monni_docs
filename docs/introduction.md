@@ -6,20 +6,20 @@ description: "Monni is a free Discord bot for moderation, logging, verification,
 ---
 # Welcome to Monni docs!
 ---
-**Monni is a highly configurable security bot,** with **Economy**, **Moderation,** **Logging**, and much more! We’ve built these docs to cover almost everything Monni can do, so you’ll never get stuck.
+**Monni is one bot for running your whole Discord server.** Keep it safe with **Moderation**, **Auto Mod** and **Anti Bot**. Keep members active with **Points**, shops and rewards. Build your own commands and timed actions with **Automations**, and keep a record of everything with **Logging**. Everything is set up from one dashboard, and most of it is free.
 
-We highly encourage you to join our [Support Server](https://discord.gg/E8nYdQfqA3)
+These docs cover what each part does and how to set it up. If you get stuck, ask us in our [Support Server](https://discord.gg/E8nYdQfqA3).
 ***
 _**Looking for commands?**_ click [**Here**](/commands)!
 ***
 ***Need more help with Monni? Check out our guides & tutorials*** [**Here**](/guides)!
 :::info
-The tutorials include a Roblox **Verification guide,** a **Mass actions guide,** and a tutorial on configuring our **Points and Rewards systems.**
+The guides include setting up **Verification**, building an economy with **Points and Rewards**, and running actions on many members at once with [**Mass actions**](/modules/automations/mass-actions) in Automations.
 :::
 ***
 ### Links
 ---
-- [**Invite the bot**](https://discord.com/oauth2/authorize?client_id=911945727402471455&permissions=1633094518871&scope=bot)
+- [**Invite the bot**](https://monni.fyi/invite)
 - [**Support server**](https://discord.gg/E8nYdQfqA3) | For more help
 - [**Main website**](https://monni.fyi)
 - [**Privacy Policy**](https://monni.fyi/privacy/) & [**Terms Of Service**](https://monni.fyi/terms_of_service/)
