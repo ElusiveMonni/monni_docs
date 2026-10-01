@@ -1,6 +1,7 @@
 ---
 slug: discord-markdown
 title: Discord Markdown
+description: "Every Discord markdown format in one place: bold, italics, underline, spoilers, headers, lists, quotes, code blocks and timestamps, with examples."
 authors:
   - iraas
   - aszduh
