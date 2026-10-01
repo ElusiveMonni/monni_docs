@@ -13,7 +13,7 @@ Shops are the way members use points to purchase certain actions or [items](/mod
 ---
 Shops can be created by pressing "Add shops" in the `Shops` section of the `Points` module. Then you choose a name, which will be displayed in the message when accessed through the shop [command](/modules/points/commands), and then choose products for the shop to display.
 
-![Editing a shop called Main Shop that sells a VIP Role and a Double Coins Potion](../assets/points-shops.webp)
+<img src={require('../assets/points-shops.webp').default} alt="Editing a shop called Main Shop that sells a VIP Role and a Double Coins Potion" width="600" />
 
 ### Customization
 ---

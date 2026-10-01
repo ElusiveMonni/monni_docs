@@ -29,13 +29,13 @@ Chain roles give a member a second role when they get the first one.
 - **Chained role** | The role given when a member gets the initial role. Losing the initial role also removes the chained role.
 - **Directional chaining** | When turned on, the chain works both ways. Getting either role gives both, and losing either role removes both.
 
-![Editing a chain role that gives the Member role to anyone who gets the Verified role](assets/roles-chain.webp)
+<img src={require('./assets/roles-chain.webp').default} alt="Editing a chain role that gives the Member role to anyone who gets the Verified role" width="400" />
 
 ### Reaction Roles
 ***
 Reaction roles post a message with buttons. Members press a button to give themselves a role, or press it again to remove it. Each set of buttons is set up in its own editor.
 
-![Reaction role editor with a set called Team Roles, in Unique mode, with buttons for the Red, Blue and Green teams](assets/roles-reaction-editor.webp)
+<img src={require('./assets/roles-reaction-editor.webp').default} alt="Reaction role editor with a set called Team Roles, in Unique mode, with buttons for the Red, Blue and Green teams" width="700" />
 
 - **Name** | Only shown in the dashboard, to tell your sets apart.
 - **Buttons** | Up to 5 buttons per message. Each button has a label, an optional emoji, a color, and one or more roles it gives.
@@ -56,7 +56,7 @@ The mode decides what happens when a member presses a button.
 ***
 The **Message** tab lets you write the message the buttons are posted under, using the [Message Builder](/misc/tools/message-builder). You can use a plain message, embeds or Components V2, and see a live preview while you write.
 
-![Message tab of the reaction role editor with the message text on the left and a live preview on the right](assets/roles-reaction-message.webp)
+<img src={require('./assets/roles-reaction-message.webp').default} alt="Message tab of the reaction role editor with the message text on the left and a live preview on the right" width="700" />
 
 When you're done, press **Send** and pick a channel. To change a message you already sent, paste its message link under **Update existing message** and Monni edits it instead of posting a new one.
 

@@ -13,6 +13,8 @@ Milestones are ways to reward members for reaching a certain amount of points in
 ---
 Milestones can be created in the `Milestones` section of the `Points` module by pressing "Add milestones". Each milestone has a name to differentiate milestones in the dashboard, a system, a requirement, and both forward and reverse actions.
 
+<img src={require('../assets/points-milestones.webp').default} alt="A milestone called Regular that gives the Helper role at 1000 coins, with optional reverse actions" width="550" />
+
 - **System** - Each milestone can only have one system, when a member's balance for the system updates, it will check whether or not the member has fulfilled the milestone.
 - **Requirement** - The value of the balance required to trigger the milestone.
 - **Actions and Reverse Actions** - What occurs when the milestone is triggered. When the balance goes below the required value for the milestone, the reverse actions specified will occur.

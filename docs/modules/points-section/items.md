@@ -13,6 +13,8 @@ Items exist in a member's [inventory](/commands/slash/points/inventory) and can 
 ---
 Items can be created by going to the `Points` module on the dashboard and selecting the `items` section on the top bar. Next, press "Add items" and add a name, an optional image or description, a type, and actions (multiple can be selected).
 
+<img src={require('../assets/points-items.webp').default} alt="A consumable item called Double Coins Potion that gives 200 coins when it is used" width="550" />
+
 Items can display an image when selected in an inventory by pasting a URL into the box below "Item image".
 
 Currently there is only one type, `consumable`, which means it can be used by selecting it within an inventory command in the server.

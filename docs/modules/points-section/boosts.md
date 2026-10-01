@@ -13,6 +13,8 @@ Boosts are ways to give members bonus points based on whether they fulfill certa
 ---
 A boost can be created by going to the dashboard, going to the `Boosts` section of the `Points` Module, and then pressing "Add boosts".
 
+<img src={require('../assets/points-boosts.webp').default} alt="A boost that doubles the coins members earn while they have the Server Booster role" width="400" />
+
 Each boost has a multiplier or flat increase, systems, and a criterion associated with it:
 
 1. Multipliers can range from .01 to 10, and are incremented by .01

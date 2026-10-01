@@ -13,7 +13,7 @@ Commands are how members interact with the [point systems](/modules/points/syste
 ---
 Commands can be created by going to the dashboard, opening the `Points` module, and going to the `Commands` section, then finally pressing "Add commands".
 
-![Settings for a leaderboard command: its name, who can use it, the command type and the point system it shows](../assets/points-commands.webp)
+<img src={require('../assets/points-commands.webp').default} alt="Settings for a leaderboard command: its name, who can use it, the command type and the point system it shows" width="600" />
 
 Each command has a name, which will be what is typed in Discord to use the command. A command with the name `coins-balance` will be accessed in Discord as `/coins-balance`. Commands can only have names containing lowercase letters, numbers, and hyphens `-`.
 
