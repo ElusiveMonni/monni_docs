@@ -10,6 +10,8 @@ tags:
 Logging rework is smaller in scale than the other reworks we have done. It isn't glamorous, but
 improves the stability of logs and brings a few features.
 
+<!-- truncate -->
+
 
 
 ## Log Policy

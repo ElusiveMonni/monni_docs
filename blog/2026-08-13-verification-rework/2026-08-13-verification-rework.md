@@ -10,6 +10,8 @@ tags:
 
 Verification is our oldest module. Monni was initially built as a custom verification bot for a Roblox game faction, and it slowly evolved from there into the multipurpose bot it is today. Verification overall has been a smaller focus in the recent years and has been neglected in terms of features. Well that's not the case anymore, verification now finally supports other platforms than Roblox amongs them Minecraft.
 
+<!-- truncate -->
+
 
 ## Multi Platform Verification
 As we now have more than one platform to use for verification, we added support to configure which platforms are optional and which are mandatory. You can configure any combination of optional and mandatory platforms. For example you can do the following
