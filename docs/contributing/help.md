@@ -1,5 +1,6 @@
 ---
 title: How you can help us
+description: "Ways to support Monni: tell friends about it, buy premium, help translate it into your language, or report bugs you find."
 sidebar_position: 1
 slug: /contributing/help
 ---
@@ -12,15 +13,14 @@ You can aid us massively by engaging with our listed methods. We seriously appre
 ## Referring us to friends
 You can really help by recommending Monni to friends. The main form of growth for Discord Bots is what we call referrals. All good gossip about Monni is **highly** appreciated.
 ## Purchases
-[User Premium](https://monni.fyi/premium/user/) is now available! You'll also gain a Supporter role in our support server.
-*Check the link out for information.*
+[Premium](/blog/premium-plans) can be bought for your server from the [dashboard](https://monni.fyi/dashboard). You'll also gain a Supporter role in our support server.
 
 ## Translations for Monni
 If you're fluent in a language we haven't added yet, we'd love you to add a translation for Monni.
 [Click here to learn how translate for us.](/blog/translation-guide)
 
 
-You can contact us from our [Support Server](https://discord.gg/QDKcs3sFpw)
+You can contact us from our [Support Server](https://discord.gg/E8nYdQfqA3)
 You can view our current translations [here.](https://weblate.monni.fyi/projects/monni/monni-bot/)
 
 *We give out the "Translator" role to translators.*
@@ -32,12 +32,12 @@ The general practices which allows us to keep Monni at tip top shape and improve
 ## Report the bugs!
 Found a bug? Kill it by reporting to us directly. We pride ourselves on resolving these issues promptly, don't hesitate to bring them to our attention. It's a great help.
 
-You can report a bug in our [Support Server](https://discord.gg/QDKcs3sFpw)
+You can report a bug in our [Support Server](https://discord.gg/E8nYdQfqA3)
 
 ## Feature idea? Share it!
 We appreciate input from all who use Monni. If you've got an idea for a potential feature, or an addition to an existing one, share it with us.
 
-You can do this once again, in our [Support Server](https://discord.gg/QDKcs3sFpw)
+You can do this once again, in our [Support Server](https://discord.gg/E8nYdQfqA3)
 
 
 
