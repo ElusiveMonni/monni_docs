@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Points
+description: "Build a server economy with Monni: point systems, ways to earn points, shops, items, milestones, boosts and commands."
 slug: /modules/points
 ---
 ###### Module for building a server economy
@@ -28,12 +29,13 @@ You can create a new point system by doing the following:
 ### Economy System Configuration
 ---
 
-You can change a lot with your point systems, which are separated into 6 sections. 
+You can change a lot with your point systems, which are separated into 7 sections. 
 Click on an orange name below for information and finer details:
 
 1. [**Systems**](points/systems) - The main systems where points are stored to be used in the rest of the module.
 2. [**Commands**](points/commands) - Create commands for you and your members to manage their points and items, and to purchase things with their points.
-3. [**Shops**](points/shops) - Create items that can be purchased using points using the shop command.
+3. [**Shops**](points/shops) - Create shops where members spend their points on items and rewards.
 4. [**Milestones**](points/milestones) - Create milestones, which perform actions when a member reaches a certain amount of points.
 5. [**Sources**](points/sources) - Create ways for members to gain points for specific systems.
 6. [**Items**](points/items) - Create items which can be purchased in shops and perform actions when owned or used.
+7. [**Boosts**](points/boosts) - Give members extra points from every source while they meet a condition, like boosting your server.
