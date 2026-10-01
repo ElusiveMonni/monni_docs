@@ -19,7 +19,7 @@ Discord has a built in **markdown engine**. Features of this engine range from t
 | <u>Underline</u> | \_\_Underline\_\_ |
 | ~~Strikethrough~~ | \~\~Strikethrough\~\~ |
 
-Different text **formattings** can be **combined**. For example you can combine <u>*underline and italics*</u> with  
+Different text **formatting styles** can be **combined**. For example you can combine <u>*underline and italics*</u> with  
 `*__underline and italics__*`.
 
 ![text-format](images/text-format-example.png)
@@ -191,6 +191,6 @@ Discord documentation section outlining mentions
 
 - [https://discord.com/developers/docs/reference#message-formatting-formats](https://discord.com/developers/docs/reference#message-formatting-formats)
 
-Third party library discord uses for syntax highligting
+Third party library discord uses for syntax highlighting
 
 - [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)
