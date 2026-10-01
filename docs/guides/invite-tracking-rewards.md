@@ -40,4 +40,4 @@ A good way to check whether a point system works is to test the balance after it
 
 ![invite-tracking-rewards4](images/invite-tracking-rewards/invite-tracking-rewards4.png)
 
-If there's any issues or you have questions that go further in depth than this guide, check out our [community server](https://discord.gg/kEKuDRE3Jv) where staff can help answer any questions.
+If there's any issues or you have questions that go further in depth than this guide, check out our [community server](https://discord.gg/E8nYdQfqA3) where staff can help answer any questions.
