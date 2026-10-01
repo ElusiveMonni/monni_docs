@@ -163,7 +163,7 @@ You can give them an advertising template or a general script, and send them to 
 With this strategy if done incorrectly you might get some backlash. People can get bothered if they see the same message twice, or if they get a whiff of a salesman. Though rejections suck, they are a natural part of a growth process, so don’t let that stop you! Recruiting is SUPER effective. I’ve personally gained hundreds of members using this on just the small scale (:
 
 ### Closure
-That's all, I hope this guide helped! If you have any ideas you'd think would help other people, feel free to contact me directly on Discord (My username is Rockoyhead) from the [Monni Support server](https://discord.gg/QDKcs3sFpw)
+That's all, I hope this guide helped! If you have any ideas you'd think would help other people, feel free to contact me directly on Discord (My username is Rockoyhead) from the [Monni Support server](https://discord.gg/E8nYdQfqA3)
 
 If it's useful I'll add it. Good luck!
 ![happy-monni.png](images/happy-monni.png)
