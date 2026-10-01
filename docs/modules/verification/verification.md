@@ -1,12 +1,15 @@
 ---
 sidebar_position: 1
 title: Verification
+description: "Make members verify a Roblox or Minecraft account before they get access, with verified roles, nicknames and ban sharing."
 ---
 ###### Module for handling verification tools
 ***
 The Verification module offers the ability to give and take roles on join and verify, allowing for the creation of Verification Security Walls.
 
 Verification can be done through either the **/verify command** (which can be used in your Discord server), or by using a **verification embed** or DM.
+
+<img src={require('./assets/verify-page.webp').default} alt="The verify page a member sees, with a finished captcha step, a required Roblox link and an optional Minecraft link" width="450" />
 
 :::info
 Verification Embeds can be sent to any channel by accessing the verification module's settings in the **dashboard** (**[https://monni.fyi/dashboard/](https://monni.fyi/dashboard/)**) and are visible to everyone.
@@ -80,13 +83,13 @@ The role is granted right after verifying with the platform, even if the full ve
 ***
 Ensures only one external account can be used by one member.
 
-#### Allow Already Linked Accounts
+#### Nickname
 ***
-Lets members verify without needing to reauthenticate.
+A nickname template used only for members who verify with this platform. Leave it empty to use the server wide [verification nickname](#verification-nickname).
 
-:::warning
-This option may be removed in the future.
-:::
+#### Minimum Account Age
+***
+Refuses accounts newer than this many days, to keep fresh alt accounts out. Set it to 0 to turn the check off. This is only available for platforms that share an account creation date, like Roblox.
 
 ### Verification Nickname
 ***
