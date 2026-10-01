@@ -1,18 +1,31 @@
 ---
-title: Discord-get-info
+title: Discord whois
+description: "Look up a member with /discord whois: when their account was made, when they joined, their roles, Monni badges and invite used."
 ---
-# Discord get_info
+# Discord whois
 
-The Discord get_info command displays information about chosen discord accounts including Monni specific information such as badges and invite’s used.
+Shows information about a Discord account. For members of your server it also shows Monni specific details, like their badges and which invite they used to join.
 
 :::slash
-**Dashboard** is a [slash command](/commands/info/slash/)!
+**Discord whois** is a [slash command](/commands/info/slash/)!
 :::
 
 ## Arguments
 
-- 1 **member:**  
-    A member of your server. Supports name or id. Defaults to the person who ran the command.
+- 1 **Member**  
+    The member or user to look up. Takes a name or an ID.
+
+- 2 **Hidden** (optional)  
+    Whether only you can see the reply.
+
+## What it shows
+
+- When the account was created, and when they joined your server
+- Their roles and permissions in your server
+- Their Monni badges
+- The invite they used to join and who created it
+- Whether they boost your server, and since when
+- Their user ID and whether the account is a bot
 
 ## 🔒 Required permissions
 
