@@ -1,3 +1,6 @@
+---
+description: "Run an automation whenever someone sends a message, or only for messages in one channel or starting with a command."
+---
 # Message sent
 The message sent trigger runs any time a person sends a message.
 ## Options

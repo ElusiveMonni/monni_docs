@@ -1,5 +1,6 @@
 ---
 title: History
+description: "See the moderation history of a member or your whole server with /mod history, and edit or remove cases from it."
 ---
 # Mod | History
 

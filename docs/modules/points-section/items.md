@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Items
+description: "Create items members can buy, receive and use. Items can give roles, points or run any action when used."
 slug: /modules/points/items
 ---
 

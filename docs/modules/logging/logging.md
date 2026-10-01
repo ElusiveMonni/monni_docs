@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Logging
+description: "Log over 70 Discord events with Monni, from deleted messages to role changes, and choose where and when each one is sent."
 ---
 ###### Module for overseeing everything happening in your server
 ***

@@ -1,3 +1,6 @@
+---
+description: "Run an automation over and over at a fixed interval, like posting a reminder every few hours."
+---
 # Timer
 The Timer trigger lets you setup an automatic timer which runs the actions every set amount of configured minutes.
 ## Options

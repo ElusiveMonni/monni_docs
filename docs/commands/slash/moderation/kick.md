@@ -1,5 +1,6 @@
 ---
 title: Kick
+description: "Kick a member from your server with /mod kick. They can rejoin with a new invite. The kick is saved as a case."
 ---
 # Mod | Kick Command
 

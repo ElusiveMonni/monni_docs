@@ -1,5 +1,6 @@
 ---
 title: Point Module Commands
+description: "The commands members use with Monni's points: balance, leaderboard, send, shop, inventory and more. Each server can rename them."
 ---
 A list of all the Monni **[Points module](/modules/points)** commands.
 

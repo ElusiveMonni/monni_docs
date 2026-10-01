@@ -1,3 +1,6 @@
+---
+description: "Extra template tags and filters Monni adds to Liquid, like picking a random item from a list."
+---
 # Custom tags & filters
 Our integration of liquidjs provides custom features for convenience like a random filter.
 

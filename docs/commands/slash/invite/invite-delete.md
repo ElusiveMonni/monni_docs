@@ -1,5 +1,6 @@
 ---
 title: Invite Delete
+description: "Delete one of your server's invites with the /invite delete command, so it can no longer be used to join."
 slug: /commands/slash/invite/invite-delete
 ---
 # Invite Delete

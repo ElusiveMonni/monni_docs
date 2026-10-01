@@ -1,5 +1,6 @@
 ---
 title: Remove Timeout
+description: "End a member's timeout early with /mod remove_timeout, including timeouts Monni keeps going past 28 days."
 ---
 # Mod | Remove Timeout Command
 

@@ -1,5 +1,6 @@
 ---
 title: Send
+description: "Let members send points to each other, like paying a friend or trading."
 ---
 # Send
 

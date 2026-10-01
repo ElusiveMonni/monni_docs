@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Shops
+description: "Create shops where members spend points on items, roles and other rewards, with prices and requirements you set."
 slug: /modules/points/shops
 ---
 

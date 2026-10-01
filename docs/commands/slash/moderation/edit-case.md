@@ -1,5 +1,6 @@
 ---
 title: Edit Case
+description: "Change the reason or duration of a moderation case with /mod edit_case, and choose whether to tell the member."
 ---
 # Mod | Edit Case
 

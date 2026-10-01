@@ -1,5 +1,6 @@
 ---
 title: Invite Commands
+description: "Slash commands for managing your server's invites with Monni: create, delete, look up and sync invites."
 slug: /commands/slash/invite/invite-commands
 ---
 A List of all Monni **Invite related** commands.

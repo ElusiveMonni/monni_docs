@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 title: Anti Bot
+description: "Stop spam bots and hacked accounts that post across your channels. Monni warns first, times out, then kicks, and reports every case."
 ---
 ###### Module for preventing bot spamming and raiding
 ***

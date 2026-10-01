@@ -1,5 +1,6 @@
 ---
 title: Setting up Verification
+description: "Set up verification with Monni so new members link a Roblox or Minecraft account before they can see your server."
 sidebar_position: 2
 ---
 
@@ -21,7 +22,7 @@ This step by step guide will allow you to quickly set up secure and efficient ve
 2. Login with your discord account and head over to the dashboard to select the server you want to add verification to!
 3. Once you have selected a server, you will see the “Verification” panel.
 
-![setting-up-verification-guide](images/verification-guide/verification-panel.png)
+![Verification settings in the Monni dashboard with the verified role, unverified role and nickname template](images/verification-guide/verification-panel.png)
 4. Enable Roblox verification
 
 :::note

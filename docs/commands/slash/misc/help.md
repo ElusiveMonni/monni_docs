@@ -1,5 +1,6 @@
 ---
 title: Help
+description: "Get links to the Monni dashboard, these docs and our support server with the /help command."
 ---
 # Help Command
 
@@ -13,6 +14,6 @@ A command which displays helpful links, such as ones that support your server an
 
 This command takes no arguments.
 
-## 🔒 Required permissios
+## 🔒 Required permissions
 
 No permissions required.

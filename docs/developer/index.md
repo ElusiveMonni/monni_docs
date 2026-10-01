@@ -1,5 +1,6 @@
 ---
 title: Developer
+description: "Connect your own apps and websites to Monni with our public API and DevTools."
 sidebar_position: 4
 ---
 # Developer

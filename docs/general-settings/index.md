@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: General Settings
+description: "Server wide Monni settings that don't belong to one module, like the bot's language and linked channels."
 ---
 General settings lets you configure bot's settings which don't belong to any module or home page section.
 

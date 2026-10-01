@@ -1,5 +1,6 @@
 ---
 title: Syncing Names with Verification
+description: "Set members' nicknames to their Roblox or Minecraft name automatically when they verify with Monni."
 sidebar_position: 7
 ---
 
@@ -25,16 +26,16 @@ Some examples of correct and incorrect variables are:
 1. `roblox.name` - This is incorrect, and will nickname everyone "roblox.name" when they verify.
 
 
-![nick-example1](images/sync-names-verification/nick-example1.png)
+![Monni's nickname set to the literal text roblox.name because the template had no curly brackets](images/sync-names-verification/nick-example1.png)
 
 1. `{{roblox.name}}` - This is correct, and will nickname everyone their unique username when they verify.
 
 
-![nick-example2](images/sync-names-verification/nick-example2.png)
+![Monni's nickname set to its username after using roblox.name inside double curly brackets as the template](images/sync-names-verification/nick-example2.png)
 
 1. `{{member.display_name}} [{{roblox.name}}]` - This is correct, and will nickname everyone first with their username, then their Roblox name afterwards within brackets.
 
-![nick-example3](images/sync-names-verification/nick-example3.png)
+![Nickname showing the display name followed by the Roblox name in square brackets](images/sync-names-verification/nick-example3.png)
 
 
 ### Common variables

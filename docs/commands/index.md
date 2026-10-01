@@ -1,6 +1,7 @@
 ---
 slug: /commands
 title: Monni commands
+description: "Every Monni command, sorted by type. Find slash commands, prefix commands and right click commands, with their arguments."
 tags:
   - commands
 sidebar_position: 1

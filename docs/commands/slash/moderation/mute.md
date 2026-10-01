@@ -1,5 +1,6 @@
 ---
 title: Mute
+description: "Mute a member with /mod mute using a Discord timeout, a mute role or a hard mute that takes their roles away."
 ---
 # Mod | Mute Command
 

@@ -1,5 +1,6 @@
 ---
 title: Shop
+description: "Open one of your server's shops and buy items, roles or rewards with points."
 ---
 # Shop
 

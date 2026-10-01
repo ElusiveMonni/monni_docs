@@ -1,5 +1,6 @@
 ---
 title: Pet
+description: "Pet Monni with the /pet command. It does nothing useful, and that is the point."
 ---
 # Pet Command
 

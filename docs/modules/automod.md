@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Auto Mod
+description: "Set up Discord auto moderation with Monni: spam, mention, link and word filters, each with its own actions and repeat punishments."
 ---
 ###### Module for anti-spam and chat filtering
 ***

@@ -1,5 +1,6 @@
 ---
 title: Setting up an Economy
+description: "Build a server economy with Monni: create a point system, let members earn points, and sell roles and items in a shop."
 sidebar_position: 3
 ---
 ##### Our guide on setting up an Economy with Monni!
@@ -17,16 +18,16 @@ Our point systems are essentially a currency. Each system is tied to its own cur
 
 As these are the basis for everything in our economy, you'll want to make one. You can do this by pressing "Add Systems". You can also change the style of the UI to your taste with the button next to it. In the example below we have OOF coins (A purchasing currency) and RANK rates (To keep track of when promotions happen) in one of my personal servers. Two useful ways to use points.
 
-![setting-up-economy-guide](images/economy-guide/create_system.png)
+![Point systems page in the Monni dashboard with the Add systems button highlighted](images/economy-guide/create_system.png)
 
 ## Creating Commands
 Commands directly tie in with your point systems, and there are a few different types, but first we'll want to create some. Head over to the Commands section and we'll have a look at what we can do with commands. 
 
-![setting-up-economy-guide](images/economy-guide/commands-select.png)
+![Points page with the Commands tab highlighted, listing two commands](images/economy-guide/commands-select.png)
 
 Now add a command the same way you added a system before. You'll see a menu pop up, and you can use the Toggle Mode to edit these without the popup if you want. Now we'll go over what the different settings do.
 
-![setting-up-economy-guide](images/economy-guide/command-popup.png)
+![Settings for a points command: its name, default permission, command type and point systems](images/economy-guide/command-popup.png)
 
 In our command we have the name, which shows up in Discord. We also have the permissions, where you can allow different people to use the command in your server. 
 
@@ -66,7 +67,7 @@ Items are a tradable asset which when obtained can trigger an action of your cho
 
 As for the "actions", these allow you to do things such as add/remove points, roles, or if you like  ban somebody, lol. These are generally self explanatory so you can mess around with them. Let's create our first Item by navigating to the "Items" section and creating an Item like we did a command. 
 
-![setting-up-economy-guide](images/economy-guide/create-item.png)
+![Points page with the Items tab highlighted, listing one item](images/economy-guide/create-item.png)
 
 Now lets make the item. Once you've made it, you'll be able to name it, add a description of what it is (Shows up in shops which we're covering next), and add an image to present it with.
 
@@ -74,7 +75,7 @@ The most important thing here is adding an action. You can try adding the "Give 
 
 Now, we'll want somewhere to buy or even just get items for free. So lets create our shop. Navigate to the shop tab (Shown below)
 
-![setting-up-economy-guide](images/economy-guide/create-shop.png)
+![Points page with the Shops tab highlighted, listing one shop](images/economy-guide/create-shop.png)
 
 Now create a shop, yep, same drill as the last things we created. Name it what you like. 
 Next, create your first shop item. (Not to be confused with items). you can name it and give it a description. Let's take a look at the categories in the shop item's settings.
@@ -92,7 +93,7 @@ Now that we've gone over the base structure for a point system, let's discuss mi
 ## What are milestones?
 Milestones are tools you can use to cause actions when a member reaches a certain amount of points. It comes with two different types of actions. Regular actions, which trigger when the member reaches the point amount, and reverse actions, which trigger when a member goes under the amount of points. You can access these from the milestones sections in the economy navbar. 
 
-![setting-up-economy-guide](images/economy-guide/create_milestone.png)
+![Points page with the Milestones tab highlighted](images/economy-guide/create_milestone.png)
 ## What are sources? 
 Sources allow your members to passively earn points. You can choose from a few options, such as messages sent or time spent in a VC. You can access it from the economy navbar, it's directly to the right of Milestones.
 
@@ -101,7 +102,7 @@ Now that you know how to create an economy with Monni, we'll cover a few basic t
 ## Regular Tradable Currency
 Usually used to keep track of services you offer for other currencies outside Monni. Though this is a great foundation system for anything. First we create a system:
 
-![setting-up-economy-guide](images/economy-guide/regular-currency.png)
+![Create a new system window with fields for the system name, alias and emoji](images/economy-guide/regular-currency.png)
 
 Now lets make our commands. Head over to the commands section. We're going to create three commands. Make sure to set all of them to use the system we made beforehand. 
 
@@ -111,7 +112,7 @@ Now lets make our commands. Head over to the commands section. We're going to cr
 
 Now name them and keep the permissions as administrator. You can customise the embed if you want.
 
-![setting-up-economy-guide](images/economy-guide/command-list.png)
+![Commands tab listing an edit, balance and history command](images/economy-guide/command-list.png)
 
 Now give your commands a try in your Discord server! You now have the foundation to build any system on. 
 ## Milestone Role Gain 
@@ -122,7 +123,7 @@ One useful type of system is to automatically give roles to people as they earn 
 **Next** head over to the Milestones section. We're going to create three milestones. 
 *Set your first to require 1 point, the second to require 2, and the third to require 3.* 
 
-![setting-up-economy-guide](images/economy-guide/earn-roles.png)
+![Milestones tab with three milestones that each need a different number of points](images/economy-guide/earn-roles.png)
 
 Now, inside your first item, create an action and select "Give role" and select one. Then, create a reverse action and select "Remove role" and select the same role. Repeat this for the other items and just change the role to the one you'd like. 
 
@@ -136,9 +137,9 @@ Let members buy roles from your store. Great way to let members earn cosmetic ro
 
 **Lastly** we set the action. Simply select the give role option and choose the role of your liking. 
 
-![setting-up-economy-guide](images/economy-guide/buy-roles.png)
+![Shop product editor for a product called Buy Red that costs points and gives a role](images/economy-guide/buy-roles.png)
 
 Now all you have to do is repeat this step for any roles you'd like to sell. 
 # Conclusion
 You have all the knowledge required to develop your own economy with Monni :). 
-Don't forget to join the [community server](https://discord.gg/kEKuDRE3Jv) for help with issues, and also as a place to hang out!
+Don't forget to join the [community server](https://discord.gg/E8nYdQfqA3) for help with issues, and also as a place to hang out!

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Milestones
+description: "Reward members automatically when they reach a number of points, for example by giving a role at 1000 points."
 slug: /modules/points/milestones
 ---
 

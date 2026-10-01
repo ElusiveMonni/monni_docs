@@ -1,5 +1,6 @@
 ---
 title: DevTools
+description: "DevTools are advanced Monni commands for settings that don't fit in the dashboard, like importing and exporting points."
 sidebar_position: 4
 ---
 ##### Advanced configuration tools useful for getting more out of Monni. Also includes useful tools for developers.

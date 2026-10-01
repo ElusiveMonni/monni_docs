@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Invite Tracking
+description: "See which invite every new member used to join your server, and who created it."
 ---
 Invite tracking is a sub-module of the logging module. It's enabled by default and cannot be disabled. You can choose to log the invite tracking information from the **Logging Module**. 
 

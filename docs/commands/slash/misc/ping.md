@@ -1,5 +1,6 @@
 ---
 title: Ping
+description: "Check whether Monni is responding and how fast with the /ping command."
 ---
 # Ping
 

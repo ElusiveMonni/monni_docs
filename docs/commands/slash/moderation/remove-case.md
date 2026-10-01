@@ -1,5 +1,6 @@
 ---
 title: Remove-case
+description: "Delete a moderation case by its ID with /mod remove_case, for example a warn given by mistake."
 ---
 # Mod | Remove Case
 

@@ -1,5 +1,6 @@
 ---
 title: Tag Get
+description: "Post one of your saved tags in chat with /tag get, or show it only to yourself."
 ---
 # Tag Get
 

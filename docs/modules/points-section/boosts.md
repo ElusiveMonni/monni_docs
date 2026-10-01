@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Boosts
+description: "Give members more points from every source while they meet a condition, like boosting your server or having a role."
 slug: /modules/points/boosts
 ---
 

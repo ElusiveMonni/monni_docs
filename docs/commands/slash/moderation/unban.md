@@ -1,5 +1,6 @@
 ---
 title: Unban
+description: "Unban someone with /mod unban so they can rejoin your server. Any timed unban that was scheduled is cancelled."
 ---
 # Mod | Unban Command
 

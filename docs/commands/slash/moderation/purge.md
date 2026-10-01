@@ -1,5 +1,6 @@
 ---
 title: Purge
+description: "Delete many messages at once with /mod purge, filtered by member, text, links, files or embeds."
 ---
 # Mod | Purge Command
 

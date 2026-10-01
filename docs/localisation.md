@@ -1,5 +1,6 @@
 ---
 title: Localisation
+description: "Change the language Monni uses in your server or just for yourself, and see which language wins when both are set."
 ---
 
 Monni provides you a way to change the language of the bot. On the guild level the language can be changed from your [dashboard](https://monni.fyi/dashboard/). Each user can also set their own preferred language at their [settings](https://monni.fyi/settings/localisation). 

@@ -1,5 +1,6 @@
 ---
 title: Ban
+description: "Ban a member with /mod ban, for a set time or until you unban them. You can ban people who aren't in your server by their ID."
 ---
 # Mod | Ban Command
 

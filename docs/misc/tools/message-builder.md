@@ -1,5 +1,6 @@
 ---
 title: Message Builder
+description: "Build Discord messages with embeds, buttons and components V2, preview them live and send them through a webhook."
 sidebar_position: 1
 ---
 Our message builder is an extensive way to make messages for Discord and preview them live. It supports the old embed style for messages and the fancy new components v2 style for messages. Beyond that, variables, webhooks and complex logic via [liquidjs](https://liquidjs.com/tutorials/intro-to-liquid.html) is supported.

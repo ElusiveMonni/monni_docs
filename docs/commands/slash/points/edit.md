@@ -1,5 +1,6 @@
 ---
 title: Edit
+description: "Add or remove points from a member by hand, for example to reward event winners or fix a mistake."
 ---
 # Edit
 

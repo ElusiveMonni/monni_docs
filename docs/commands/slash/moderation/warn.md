@@ -1,5 +1,6 @@
 ---
 title: Warn
+description: "Warn a member with /mod warn. Each warn can expire on its own, and the message it was about is saved in the case."
 ---
 # Mod | Warn Command
 

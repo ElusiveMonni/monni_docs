@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Moderation
+description: "Ban, kick, mute, time out and warn members with Monni. Every punishment is saved as a case you can search, edit and share."
 ---
 ###### Module for punishing rulebreakers
 ***

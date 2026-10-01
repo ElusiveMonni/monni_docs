@@ -1,5 +1,6 @@
 ---
 title: History
+description: "See a member's recent point changes in a point system: what they earned, spent and where it came from."
 ---
 # History
 

@@ -1,5 +1,6 @@
 ---
 title: Dashboard
+description: "Get a direct link to your server's Monni dashboard with the /dashboard command."
 ---
 # Dashboard
 

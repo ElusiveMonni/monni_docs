@@ -1,5 +1,6 @@
 ---
 title: Balance
+description: "Check how many points you or another member have in each of your server's point systems."
 ---
 # Balance
 

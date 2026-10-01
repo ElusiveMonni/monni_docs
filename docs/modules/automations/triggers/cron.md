@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Schedule trigger
+description: "Run an automation at set times, like every Monday at noon, using a schedule written in cron format."
 ---
 # Schedule trigger
 Schedule triggers let you use [cron language](https://crontab.guru/) to specify when a trigger should run. It's a versatile way to define when to run things like, "run this every monday at 12pm (`0 12 * * 1`)" or "run this every hour from 2pm to 5pm on monday to friday (`0 14-17 * * 1-5`)".

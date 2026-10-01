@@ -1,5 +1,6 @@
 ---
 title: Points
+description: "DevTools for the Points module: list point systems, export and import points, and clear them. Some of these delete data."
 sidebar_position: 4
 ---
 ##### DevTools involving Points Module related actions

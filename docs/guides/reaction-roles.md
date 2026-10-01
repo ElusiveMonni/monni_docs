@@ -1,5 +1,6 @@
 ---
 title: Setting up Reaction Roles
+description: "Make a message with buttons that give members roles when they click them, using Monni's reaction roles."
 sidebar_position: 8
 ---
 

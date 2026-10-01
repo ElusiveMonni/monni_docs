@@ -1,5 +1,6 @@
 ---
 title: Timestamp generator
+description: "Pick a date and time and get a Discord timestamp that shows in each reader's own time zone. Copy it with one click."
 sidebar_position: 3
 ---
 Our timestamp tool allows you to create Discord Timestamps with ease. You can use it by setting the time and then using the copy icon. When you paste the text into Discord you get the corresponding timestamp.

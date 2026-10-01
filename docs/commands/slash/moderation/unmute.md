@@ -1,5 +1,6 @@
 ---
 title: Unmute
+description: "Lift a mute early with /mod unmute. Members who were hard muted get their roles back."
 ---
 # Mod | Unmute Command
 

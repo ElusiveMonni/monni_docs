@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Commands
+description: "Set up the commands members use for points, like balance, shop and leaderboard. Rename them and choose who can use them."
 slug: /modules/points/commands
 ---
 

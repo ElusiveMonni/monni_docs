@@ -1,5 +1,6 @@
 ---
 title: Timeout
+description: "Time a member out with /mod timeout so they can't talk or react. Monni can keep a timeout going past Discord's 28 day limit."
 ---
 # Mod | Timeout Command
 

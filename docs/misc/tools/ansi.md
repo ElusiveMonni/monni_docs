@@ -1,5 +1,6 @@
 ---
 title: ANSI colored text generator
+description: "Make colored Discord text without memorising ANSI codes. Pick colors and styles, then copy the result into chat."
 sidebar_position: 2
 ---
 Our ANSI coloured text generator can be used to write and create the coloured format for Discord text. To get started:

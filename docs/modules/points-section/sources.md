@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Sources
+description: "Choose how members earn points: sending messages, spending time in voice channels or inviting people, each with its own amount."
 slug: /modules/points/sources
 ---
 

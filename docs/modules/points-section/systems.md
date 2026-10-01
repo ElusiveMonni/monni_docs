@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Systems
+description: "A point system is a separate balance, like coins or event points. Create one or several and set how each one works."
 slug: /modules/points/systems
 ---
 
