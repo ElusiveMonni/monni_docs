@@ -13,6 +13,8 @@ Shops are the way members use points to purchase certain actions or [items](/mod
 ---
 Shops can be created by pressing "Add shops" in the `Shops` section of the `Points` module. Then you choose a name, which will be displayed in the message when accessed through the shop [command](/modules/points/commands), and then choose products for the shop to display.
 
+![Editing a shop called Main Shop that sells a VIP Role and a Double Coins Potion](../assets/points-shops.webp)
+
 ### Customization
 ---
 Customization of a shop is mainly done by adding products. Each product has a name, and description, which appear in the message sent by Monni when using the shop command. Each item also has a price, can have a prerequisite, and performs an action.
