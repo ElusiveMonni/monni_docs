@@ -13,6 +13,8 @@ Point systems are where the points themselves are stored. Each system has a cust
 ---
 A system can be created by going to the dashboard, going to the `Systems` section of the `Points` Module, and then pressing "Add systems".
 
+![Editing a point system called Event Points, with its alias and trophy emoji](../assets/points-systems.webp)
+
 Each system has a name, alias, and emoji associated with it:
 
 1. The name of a system is what the system goes by inside the dashboard.
