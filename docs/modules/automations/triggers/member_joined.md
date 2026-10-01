@@ -6,9 +6,6 @@ description: "Run an automation when someone joins your server, for example to w
 
 The member joined trigger runs every time someone joins your server. Bots joining don't trigger it.
 
-![Member joins the server trigger, which has no settings](assets/trigger-member_joined.webp)
-
-
 ## Options
 This trigger has no options.
 

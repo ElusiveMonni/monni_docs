@@ -5,9 +5,6 @@ description: "Run an automation only when you press run in the dashboard or call
 
 Manual trigger is a trigger which only runs when you run it from the dashboard or the API. It can be useful for making manual one time actions like giving everyone in the server a role.
 
-![Manual trigger, which only runs when started from the dashboard](assets/trigger-manual.webp)
-
-
 :::info
 To learn more about running triggers via our API, visit our [API documentation](/developer/api/run-manual-trigger-v-1-automations-trigger-id-run-post).
 :::

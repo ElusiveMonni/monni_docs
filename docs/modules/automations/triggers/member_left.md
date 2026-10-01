@@ -6,9 +6,6 @@ description: "Run an automation when someone leaves your server, for example to 
 
 The member left trigger runs every time someone leaves your server, whether they left on their own or were kicked or banned. Bots leaving don't trigger it.
 
-![Member leaves the server trigger, which has no settings](assets/trigger-member_left.webp)
-
-
 ## Options
 This trigger has no options.
 
