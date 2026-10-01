@@ -7,12 +7,19 @@
  * the old filenames, so the next client-side navigation to a lazily-loaded route
  * fetches a chunk that no longer exists and throws a `ChunkLoadError`.
  *
- * There is nothing the stale tab can do except fetch the fresh build, so we force
- * a one-time reload when a chunk fails to load. A sessionStorage guard prevents a
+ * Chunk loads can also fail transiently on the current build (flaky mobile
+ * networks, or Safari cancelling a request mid-flight) even though the file
+ * still exists. Those are retried a couple of times before giving up, so they
+ * recover silently instead of reloading the page under the user.
+ *
+ * If the retries are exhausted, there is nothing the tab can do except fetch the
+ * fresh build, so we force a one-time reload. A sessionStorage guard prevents a
  * reload loop in the (unlikely) case the error persists after refreshing.
  */
 
 const RELOAD_GUARD_KEY = 'docusaurus-chunk-reload-attempt';
+const CHUNK_LOAD_RETRIES = 2;
+const CHUNK_LOAD_RETRY_DELAY_MS = 500;
 
 function isChunkLoadError(error) {
   if (!error) {
@@ -52,7 +59,34 @@ function reloadOnce() {
   window.location.reload();
 }
 
+// Every dynamic import() goes through webpack's `__webpack_require__.e`, which
+// clears a failed chunk's state so it can be requested again. Wrap it to retry
+// with a short backoff before letting the ChunkLoadError propagate.
+function retryChunkLoads() {
+  const loadChunk = __webpack_require__.e;
+  if (typeof loadChunk !== 'function') {
+    return;
+  }
+
+  __webpack_require__.e = function retryingLoadChunk(chunkId) {
+    const attempt = (retriesLeft) =>
+      loadChunk.call(this, chunkId).catch((error) => {
+        if (retriesLeft <= 0 || !isChunkLoadError(error)) {
+          throw error;
+        }
+        const delay =
+          CHUNK_LOAD_RETRY_DELAY_MS * (CHUNK_LOAD_RETRIES - retriesLeft + 1);
+        return new Promise((resolve) => setTimeout(resolve, delay)).then(() =>
+          attempt(retriesLeft - 1),
+        );
+      });
+    return attempt(CHUNK_LOAD_RETRIES);
+  };
+}
+
 if (typeof window !== 'undefined') {
+  retryChunkLoads();
+
   // A dynamic import() rejection surfaces as an unhandled promise rejection.
   window.addEventListener('unhandledrejection', (event) => {
     if (isChunkLoadError(event.reason)) {
