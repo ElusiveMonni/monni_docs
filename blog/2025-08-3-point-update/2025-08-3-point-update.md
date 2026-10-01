@@ -26,7 +26,7 @@ With the new commands there is no more command clutter from each point system. H
 - Added command name to command reverser which lets code try to find correct command even if its not registered.
 - Added multi action support - milestone reverse action
 - Dropped milestone reset 
-- Items now support actions trough consuming item 
+- Items now support actions through consuming item 
 - Created custom ipc system 
 - moved from jinja2 to liquid which is cheap to sandbox ## Website 
 - Moved website to sveltekit/svelte/fastapi stack 
