@@ -13,6 +13,8 @@ Commands are how members interact with the [point systems](/modules/points/syste
 ---
 Commands can be created by going to the dashboard, opening the `Points` module, and going to the `Commands` section, then finally pressing "Add commands".
 
+![Settings for a leaderboard command: its name, who can use it, the command type and the point system it shows](../assets/points-commands.webp)
+
 Each command has a name, which will be what is typed in Discord to use the command. A command with the name `coins-balance` will be accessed in Discord as `/coins-balance`. Commands can only have names containing lowercase letters, numbers, and hyphens `-`.
 
 The default permission decides what members can use a specific command. If `Everyone` is selected, then anyone in the server can see and use the command. If `Administrator` is selected, then anyone with a role with the administrator permission can see and use the command. Further customization cannot be done through the dashboard, but can be done through Discord using [this guide](/blog/slash-commands-permissions).
