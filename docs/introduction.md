@@ -7,7 +7,7 @@ title: Introduction
 ---
 **Monni is a highly configurable security bot,** with **Economy**, **Moderation,** **Logging**, and much more! We’ve built these docs to cover almost everything Monni can do, so you’ll never get stuck.
 
-We highly encourage you to join our [Support Server](https://discord.gg/QDKcs3sFpw)
+We highly encourage you to join our [Support Server](https://discord.gg/E8nYdQfqA3)
 ***
 _**Looking for commands?**_ click [**Here**](/commands)!
 ***
@@ -19,7 +19,7 @@ The tutorials include a Roblox **Verification guide,** a **Mass actions guide,**
 ### Links
 ---
 - [**Invite the bot**](https://discord.com/oauth2/authorize?client_id=911945727402471455&permissions=1633094518871&scope=bot)
-- [**Support server**](https://discord.gg/kEKuDRE3Jv) | For more help
+- [**Support server**](https://discord.gg/E8nYdQfqA3) | For more help
 - [**Main website**](https://monni.fyi)
 - [**Privacy Policy**](https://monni.fyi/privacy/) & [**Terms Of Service**](https://monni.fyi/terms_of_service/)
 ### Navigation
