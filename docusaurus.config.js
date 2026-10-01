@@ -26,7 +26,6 @@ const config = {
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   // Force a one-time reload when a lazily-loaded chunk 404s after a redeploy
   // swaps out the content-hashed files a stale tab still references.
@@ -199,6 +198,9 @@ const config = {
     }),
     markdown: {
       mermaid: true,
+      hooks: {
+        onBrokenMarkdownLinks: 'warn',
+      },
     },
     themes: ['@docusaurus/theme-mermaid', "docusaurus-theme-search-typesense", "docusaurus-theme-openapi-docs"],
     plugins: [
